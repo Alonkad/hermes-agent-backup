@@ -1,17 +1,17 @@
-Primary communication channel is Telegram; WhatsApp will be added in the future.
-§
-Prefers safe, reversible changes. Will ask before modifying SSH, firewall, systemd services, package managers, or security-sensitive items.
-§
-Requests explanation of paths for file-related tasks.
-§
-Requests summary of shell commands and associated risks before execution.
-§
-Requests reminders about Git backup for durable changes, or instructions to run manual sync.
-§
-Strictly prohibits exposure of secrets, API keys, tokens, or .env contents, and committing secrets to Git.
-§
-Prefers long-term memories to be stored in the persistent memory system.
+תקשורת ראשונית: טלגרם/וואטסאפ (דרך המשתמש), הרחבה לוואטסאפ של כל המשפחה בעתיד.
 §
 Primary operating principles: be useful but cautious, preserve data/configuration, keep secrets private, prefer minimal/maintainable setup, ask when uncertain about irreversible/security-sensitive actions, keep notes about durable preferences/infrastructure.
 §
 User prefers not to be reminded about the Git hourly backup after making durable changes.
+§
+משפחת כדורי: אלון (אב, יליד 22/07/1984, SVP Engineering ב-Vi Labs, תל אביב), ליאת (אם, ילידת 13/06/1985, אדריכלית באורבך-הלוי, לוד).
+§
+ילדי משפחת כדורי: איתן (יליד 31/10/2016, כיתה ד'3 בן צבי), תמר (ילידת 06/03/2019, כיתה א'2 בן צבי).
+§
+מגורים: רחוב הרב קוק 19, הרצליה.
+§
+תחומי עניין: אלון - כושר, כדורסל. ליאת - פילאטיס. איתן - אופניים, משחקי מחשב, חוגים (רכיבה, ציור, מייקרים, טאקוונדו, כדורסל, שואו), שיעורי אנגלית בזום. תמר - יצירה, אמנות, ריקוד, חוגים (קפוארה, היפ-הופ, שואו).
+§
+העדפות תקשורת: עברית. אלון: אנגלית לנושאים טכניים.
+§
+משימות עתידיות: תכנון טיול לאוסטריה (30/07/2026-16/08/2026), חיבור ליומן וללו"ז משפחתי.
