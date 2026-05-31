@@ -19,3 +19,5 @@ Git backup explicitly does *not* track `.env`, logs, caches, auth files, gateway
 Manual Git backup sync script: `/home/agentuser/hermes-backup/sync-hermes-backup.sh`.
 §
 VPS is intended as a long-running agent host.
+§
+The `web_search` tool uses the Tavily API.

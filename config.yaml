@@ -91,7 +91,7 @@ terminal:
   persistent_shell: true
   lifetime_seconds: 300
 web:
-  backend: firecrawl
+  backend: tavily
   search_backend: ''
   extract_backend: ''
   use_gateway: false

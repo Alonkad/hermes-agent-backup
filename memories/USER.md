@@ -13,3 +13,5 @@ Strictly prohibits exposure of secrets, API keys, tokens, or .env contents, and 
 Prefers long-term memories to be stored in the persistent memory system.
 §
 Primary operating principles: be useful but cautious, preserve data/configuration, keep secrets private, prefer minimal/maintainable setup, ask when uncertain about irreversible/security-sensitive actions, keep notes about durable preferences/infrastructure.
+§
+User prefers not to be reminded about the Git hourly backup after making durable changes.
