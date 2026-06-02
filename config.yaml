@@ -279,7 +279,10 @@ display:
   ephemeral_system_ttl: 0
   platforms:
     telegram:
+      streaming: true
       show_reasoning: true
+    discord:
+      streaming: false
   runtime_footer:
     enabled: false
     fields:
@@ -337,6 +340,11 @@ stt:
     model: whisper-1
   mistral:
     model: voxtral-mini-latest
+  elevenlabs:
+    model_id: scribe_v2
+    language_code: ''
+    tag_audio_events: false
+    diarize: false
 voice:
   record_key: ctrl+b
   max_recording_seconds: 120
@@ -514,6 +522,7 @@ skills:
   - touchdesigner-mcp
   - weights-and-biases
   - writing-plans
+  - xurl
   - yuanbao
 curator:
   enabled: true
@@ -521,6 +530,7 @@ curator:
   min_idle_hours: 2
   stale_after_days: 30
   archive_after_days: 90
+  prune_builtins: true
   backup:
     enabled: true
     keep: 5
@@ -627,6 +637,13 @@ gateway:
   media_delivery_allow_dirs: []
   trust_recent_files: true
   trust_recent_files_seconds: 600
+streaming:
+  enabled: false
+  transport: auto
+  edit_interval: 0.8
+  buffer_threshold: 24
+  cursor: " \u2589"
+  fresh_final_after_seconds: 60.0
 sessions:
   auto_prune: false
   retention_days: 90
@@ -666,8 +683,6 @@ session_reset:
   idle_minutes: 1440
   at_hour: 4
 group_sessions_per_user: true
-streaming:
-  enabled: false
 platform_toolsets:
   cli:
   - browser
