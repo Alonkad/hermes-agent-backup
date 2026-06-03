@@ -25,3 +25,5 @@ The `web_search` tool uses the Tavily API.
 משפחת כדורי מתגוררת בישראל. כל הפעולות והבקשות צריכות להתבצע לפי אזור הזמן של ישראל, אלא אם נאמר אחרת במפורש.
 §
 הדרך הנכונה לעבוד עם תזכורות ב-Hermes היא להשתמש במנגנון המובנה cronjob עם Gateway ל-WhatsApp, ללא צורך בסקריפטים חיצוניים.
+§
+The main family Google calendar is identified by calendar ID family08415384193829322896@group.calendar.google.com. Interactions with this calendar use direct API event listing and patching by calendar ID due to limitations in the calendar list API call. This calendar is the default family calendar for all related actions.
