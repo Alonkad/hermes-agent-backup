@@ -1,0 +1,9 @@
+- Hermes has a built-in cronjob system integrated with its Gateway.
+- This system supports scheduled message delivery directly to WhatsApp without external scripting.
+- Common pitfalls include environment path issues, authentication failures, using old CLI commands (e.g., 'hermes send_message' instead of 'hermes send'), and lack of session context.
+- Recommended method: use 'cronjob create' API with schedule, message, and delivery target pointing to WhatsApp user/channel.
+- Avoid shell script wrappers for sending reminders.
+- Logs are critical for troubleshooting and should be checked if messages don't send.
+- Always test commands interactively before scheduling.
+- The Gateway runs the cron subsystem in a background thread.
+- Times should be specified in local time zone as the system respects this setting.
