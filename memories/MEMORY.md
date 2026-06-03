@@ -21,3 +21,5 @@ Manual Git backup sync script: `/home/agentuser/hermes-backup/sync-hermes-backup
 VPS is intended as a long-running agent host.
 §
 The `web_search` tool uses the Tavily API.
+§
+משפחת כדורי מתגוררת בישראל. כל הפעולות והבקשות צריכות להתבצע לפי אזור הזמן של ישראל, אלא אם נאמר אחרת במפורש.
