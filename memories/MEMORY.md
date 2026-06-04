@@ -29,3 +29,5 @@ The `web_search` tool uses the Tavily API.
 The main family Google calendar is identified by calendar ID family08415384193829322896@group.calendar.google.com. Interactions with this calendar use direct API event listing and patching by calendar ID due to limitations in the calendar list API call. This calendar is the default family calendar for all related actions.
 §
 The correct and efficient way to access events from the shared Google calendar ('Kaduri Family') using Hermes is through the built-in Google Workspace skill integrated with Hermes Gateway, using precise API queries that respect timezone settings (Asia/Jerusalem) and full access permissions. This avoids issues with filtering or token scopes and ensures reliable event retrieval.
+§
+The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
