@@ -5,5 +5,6 @@
 - Avoid shell script wrappers for sending reminders.
 - Logs are critical for troubleshooting and should be checked if messages don't send.
 - Always test commands interactively before scheduling.
+- **Timezone & ISO 8601 Schedules:** When creating single-use reminders (`cronjob create` with action/schedule), specify the timestamp in RFC 3339/ISO 8601 format with the correct local timezone offset, e.g. `2026-06-05T09:05:00+03:00` for Israel daylight saving time. Out-of-band UTC datetime formatting can miss the target window by hours.
 - The Gateway runs the cron subsystem in a background thread.
 - Times should be specified in local time zone as the system respects this setting.

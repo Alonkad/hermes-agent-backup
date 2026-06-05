@@ -27,6 +27,7 @@ Hermes Agent uses an integrated cron subsystem capable of handling both one-shot
 
 - Misusing commands like `hermes send_message` instead of `hermes send` will cause failures.
 - Running reminders outside of Hermes Gateway context leads to delivery failures.
+- **Specifying timezone in cronjob schedules:** When calling `cronjob` (especially with the `create` action), always parse or specify the date/time using an explicit RFC 3339/ISO 8601 offset (e.g. `2026-06-05T09:05:00+03:00`). This ensures the cron engine maps the scheduled run precisely to local family time, avoiding offset drift or UTC-conversion errors.
 - Ensure PATH and environment context are appropriate if using any scripting.
 
 ## Workflow
