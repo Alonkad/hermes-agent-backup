@@ -433,13 +433,13 @@
     "created_at": "2026-06-03T19:00:32.487926+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-04T18:34:16.474269+00:00",
-    "last_used_at": "2026-06-06T17:20:02.236307+00:00",
-    "last_viewed_at": "2026-06-06T17:20:02.233316+00:00",
+    "last_used_at": "2026-06-10T08:43:18.835775+00:00",
+    "last_viewed_at": "2026-06-10T08:43:18.828111+00:00",
     "patch_count": 5,
     "pinned": false,
     "state": "active",
-    "use_count": 7,
-    "view_count": 7
+    "use_count": 8,
+    "view_count": 8
   },
   "heartmula": {
     "archived_at": null,
@@ -784,13 +784,13 @@
     "created_at": "2026-06-06T21:28:12.332648+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
+    "last_used_at": "2026-06-10T08:44:22.958392+00:00",
+    "last_viewed_at": "2026-06-10T08:44:22.949227+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 0,
-    "view_count": 0
+    "use_count": 1,
+    "view_count": 1
   },
   "opencode": {
     "archived_at": null,
@@ -926,14 +926,14 @@
     "archived_at": null,
     "created_at": "2026-06-03T17:43:45.279426+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-06-10T05:52:25.419975+00:00",
-    "last_used_at": "2026-06-10T06:22:45.320718+00:00",
-    "last_viewed_at": "2026-06-10T06:22:45.312532+00:00",
-    "patch_count": 6,
+    "last_patched_at": "2026-06-10T08:46:40.896880+00:00",
+    "last_used_at": "2026-06-10T08:46:37.250195+00:00",
+    "last_viewed_at": "2026-06-10T08:46:37.242736+00:00",
+    "patch_count": 7,
     "pinned": false,
     "state": "active",
-    "use_count": 9,
-    "view_count": 9
+    "use_count": 10,
+    "view_count": 10
   },
   "python-debugpy": {
     "archived_at": null,
