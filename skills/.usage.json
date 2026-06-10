@@ -181,6 +181,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "claude-code-workflows": {
+    "archived_at": null,
+    "created_at": "2026-06-10T06:23:00.535829+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-10T06:23:05.245195+00:00",
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "claude-design": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.014802+00:00",
@@ -914,13 +927,13 @@
     "created_at": "2026-06-03T17:43:45.279426+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-06-10T05:52:25.419975+00:00",
-    "last_used_at": "2026-06-10T05:51:21.185133+00:00",
-    "last_viewed_at": "2026-06-10T05:51:21.178290+00:00",
+    "last_used_at": "2026-06-10T06:22:45.320718+00:00",
+    "last_viewed_at": "2026-06-10T06:22:45.312532+00:00",
     "patch_count": 6,
     "pinned": false,
     "state": "active",
-    "use_count": 7,
-    "view_count": 7
+    "use_count": 9,
+    "view_count": 9
   },
   "python-debugpy": {
     "archived_at": null,
