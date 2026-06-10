@@ -69,5 +69,7 @@ Use the explicitly installed Tavily CLI (`tvly` command) to execute deep searche
 
 When forced to use full browser interactions:
 - **Avoid Consent dialog blocks:** Cookie banners often throw overlay dimensions that block standard clicks. If links fail to register, re-capture elements with SOM enabled (`computer_use` or `browser_snapshot`) to capture modified layouts.
+- **Handling Multi-Tab or Portal Redirects (The Empty/Unchanged Tab Trap):** When clicking links in a headless browser that open portals run on different subdomains (such as `biumath.michlol4.co.il`), the page context may divert to a different frame, new tab, or background window. 
+  - If a window/tab changes but the `browser_snapshot` shows identical content or fails to update, use the DOM console `browser_console(expression="...")` to look up available URLs `Array.from(document.querySelectorAll('a')).map(a => a.href)` and explicitly navigate `browser_navigate` directly to the portal web address. This bypasses state-handling failures in link targets.
 - **Detect dynamic content shifts:** Pages taking >3 seconds to fully run JavaScript can record incorrect element pointers. Always pause briefly (`wait` or `sleep`) before typing or clicking.
 - **Identify Bot-gate alerts:** If a page encounters CAPTCHAs, immediately alert the user or fallback to Tavily's pre-rendered APIs.
