@@ -16,26 +16,26 @@ Hermes Agent uses an integrated cron subsystem capable of handling both one-shot
 
 ## Best Practices
 
-- Use the native Hermes cronjob mechanism instead of external scripts for reminder delivery.
+- Use the native Hermes `cron` mechanism instead of external scripts for reminder delivery.
 - Deliver reminders directly via the Gateway to WhatsApp by specifying the `deliver` field with the WhatsApp target (e.g., `whatsapp:<user_id>`).
 - Define schedules using standard cron expressions, intervals, or ISO timestamps as supported.
-- Ensure the Hermes CLI cronjob commands use `hermes cronjob create` with accurate parameters.
+- Ensure the Hermes CLI cron commands use `hermes cron create` with accurate parameters.
 - Avoid shell wrappers like `echo` or `sleep` for reminder logic as they do not interface with Hermes Gateway.
-- Always test cronjob reminder commands interactively before scheduling.
+- Always test cron commands interactively before scheduling.
 
 ## Pitfalls
 
 - Misusing commands like `hermes send_message` instead of `hermes send` will cause failures.
 - Running reminders outside of Hermes Gateway context leads to delivery failures.
-- **Specifying timezone in cronjob schedules:** When calling `cronjob` (especially with the `create` action), always parse or specify the date/time using an explicit RFC 3339/ISO 8601 offset (e.g. `2026-06-05T09:05:00+03:00`). This ensures the cron engine maps the scheduled run precisely to local family time, avoiding offset drift or UTC-conversion errors.
+- **Specifying timezone in cron schedules:** When calling `cron` (especially with the `create` action), always parse or specify the date/time using an explicit RFC 3339/ISO 8601 offset (e.g. `2026-06-05T09:05:00+03:00`). This ensures the cron engine maps the scheduled run precisely to local family time, avoiding offset drift or UTC-conversion errors.
 - Ensure PATH and environment context are appropriate if using any scripting.
 
 ## Workflow
 
 1. Clear any existing cron jobs that might conflict.
-2. Use the Hermes cronjob tool to create reminders with accurate schedule and delivery target.
+2. Use the Hermes `cron` tool to create reminders with accurate schedule and delivery target.
 3. Monitor reminder status and logs for failures.
-4. Adjust schedules or messages as needed using `cronjob update` or `remove`.
+4. Adjust schedules or messages as needed using `hermes cron edit` or `remove`.
 
 ## Tips
 
