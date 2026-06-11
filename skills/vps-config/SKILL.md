@@ -61,5 +61,5 @@ Read the relevant docs before acting:
 - [Hermes Agent configuration and services](references/hermes.md)
 - [Dashboard, Caddy, DNS, TLS, and ports](references/dashboard-caddy-dns.md)
 - [Backups and persistence](references/backups.md)
-- [Operational commands](references/operations.md)
+- [Operational commands and diagnostics](references/operations.md)
 - [Change log](references/changelog.md)
