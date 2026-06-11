@@ -1,49 +1,6 @@
 {
   "jobs": [
     {
-      "id": "d294410cc7dd",
-      "name": "remind_eitan_class_white_shirt",
-      "prompt": "\u05d4\u05d9\u05d9 \u05d0\u05dc\u05d5\u05df, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05de\u05d4\u05db\u05d9\u05ea\u05d4 \u05e9\u05dc \u05d0\u05d9\u05ea\u05df:\n\u05de\u05d7\u05e8 \u05d1\u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9 \u05ea\u05d9\u05e2\u05e8\u05da \u05e4\u05e2\u05d9\u05dc\u05d5\u05ea \u05d1\u05db\u05d9\u05ea\u05d4 \u05e9\u05d4\u05d9\u05d0 \u05ea\u05e2\u05d1\u05d9\u05e8 \u05d9\u05e2\u05dc \u05d1\u05d9\u05e8\u05e7\u05e0\u05e4\u05dc\u05d3.\n\u05d0\u05d9\u05ea\u05df \u05e6\u05e8\u05d9\u05da \u05dc\u05d4\u05d1\u05d9\u05d0 \u05d7\u05d5\u05dc\u05e6\u05d4 \u05dc\u05d1\u05e0\u05d4 \u05d7\u05dc\u05e7\u05d4 \u05d7\u05e6\u05d9 \u05e9\u05e8\u05d5\u05d5\u05dc (\u05d0\u05e4\u05e9\u05e8 \u05de\u05e9\u05d5\u05de\u05e9\u05ea, \u05d0\u05d9\u05df \u05e6\u05d5\u05e8\u05da \u05dc\u05e7\u05e0\u05d5\u05ea \u05d7\u05d3\u05e9\u05d4).",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-11T18:30:00+03:00",
-        "display": "once at 2026-06-11 18:30"
-      },
-      "schedule_display": "once at 2026-06-11 18:30",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-10T06:19:56.605145+00:00",
-      "next_run_at": "2026-06-11T18:30:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "profile": null
-    },
-    {
       "id": "30906fde9e45",
       "name": "hermes_weekly_auto_update",
       "prompt": "Update Hermes Agent weekly and gracefully restart components.",
@@ -89,5 +46,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-06-11T07:19:49.234238+00:00"
+  "updated_at": "2026-06-11T15:31:06.702636+00:00"
 }
