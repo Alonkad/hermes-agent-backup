@@ -20,6 +20,7 @@ Hermes Agent uses an integrated cron subsystem capable of handling both one-shot
 - Set `deliver: "origin"` or omit the parameter entirely to automatically deliver back to the origin context (e.g. the active WhatsApp conversation thread/topic), preserving the precise channel and thread routing.
 - Deliver reminders to specific external targets by specifying the `deliver` field with a targets value (e.g., `whatsapp:<user_id>`).
 - Define schedules using standard cron expressions, intervals, or ISO timestamps as supported.
+- **Explicit Family Context in Multi-User Environments:** In shared family environments (like a family WhatsApp), always draft reminders with explicit context. Clearly state who the reminder is addressed to (e.g., 'היי ליאת') and which family member is the subject of the reminder (e.g., 'מסיבת הסיום של תמר'). Avoid generic pronouns ("you", "your") to prevent identity confusion.
 - Ensure the Hermes CLI cron commands use `hermes cron create` with accurate parameters.
 - Avoid shell wrappers like `echo` or `sleep` for reminder logic as they do not interface with Hermes Gateway.
 - Always test cron commands interactively before scheduling.
