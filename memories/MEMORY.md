@@ -1,22 +1,10 @@
-Hermes Agent runs as Linux user `agentuser`.
-§
-Hermes home/config/data directory: `/home/agentuser/.hermes`.
-§
-Code installed at: `/home/agentuser/.hermes/hermes-agent`.
-§
-Hermes Gateway runs continuously via systemd service `hermes-gateway.service`.
-§
-Hermes web dashboard runs via `hermes-dashboard.service` at `127.0.0.1:9119`, exposed at `https://62.238.18.137`.
-§
-Local Git backup repo: `/home/agentuser/hermes-backup`.
+Hermes Agent runs under user 'agentuser'. Active systemd services: hermes-gateway and hermes-dashboard (reverse proxied via Caddy on https://62.238.18.137, port 9119).
 §
 Git backup synced hourly by `hermes-git-backup.timer` to private GitHub repo `Alonkad/hermes-agent-backup`.
 §
 Git backup tracks `config.yaml`, `SOUL.md`, `cron/`, `memories/`, and `skills/`.
 §
 Git backup explicitly does *not* track `.env`, logs, caches, auth files, gateway lock/state files, or raw secrets.
-§
-Manual Git backup sync script: `/home/agentuser/hermes-backup/sync-hermes-backup.sh`.
 §
 VPS is intended as a long-running agent host.
 §
@@ -31,3 +19,7 @@ The main family Google calendar is identified by calendar ID family0841538419382
 The correct and efficient way to access events from the shared Google calendar ('Kaduri Family') using Hermes is through the built-in Google Workspace skill integrated with Hermes Gateway, using precise API queries that respect timezone settings (Asia/Jerusalem) and full access permissions. This avoids issues with filtering or token scopes and ensures reliable event retrieval.
 §
 The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
+§
+Interactive English practice sheet for Eitan is located at ~/.hermes/hermes-agent/hermes_cli/web_dist/assets/practice.html and live on https://62.238.18.137/assets/practice.html. Update this file on the VPS whenever Alon shares Niki's weekly English summaries.
+§
+User prefers to manually run the restart command (/restart or hermes gateway restart) if a change requires restarting the gateway, rather than the agent using raw kill commands.

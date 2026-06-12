@@ -31,3 +31,51 @@ This file documents common operational procedures and diagnostics for the Hermes
   grep -i "unpacked" /var/log/dpkg.log
   ```
 - If `openssl` or other dependency restarts services, a SIGTERM is sent to the Gateway. The Gateway gracefully shuts down (disconnecting Telegram and WhatsApp) and exits with code `1`, which is captured by systemd `'Restart=on-failure'` to safely bring the gateway back up in seconds.
+
+## Muting Verbose Intermediate Gateway Output and Tool Progress
+
+By default, messaging platforms like WhatsApp use intermediate default settings (Tier Medium) which results in active tool execution updates (e.g., "⏳ Calling web_search...") and intermediate thought comments being sent to the chat.
+
+To completely silence intermediate output so that only the final matted response is sent to WhatsApp, run:
+```bash
+hermes config set display.platforms.whatsapp.tool_progress false
+hermes config set display.platforms.whatsapp.interim_assistant_messages false
+hermes config set display.platforms.whatsapp.busy_ack_detail false
+```
+
+Telegram can be similarly configured if needed:
+```bash
+hermes config set display.platforms.telegram.tool_progress false
+hermes config set display.platforms.telegram.interim_assistant_messages false
+hermes config set display.platforms.telegram.busy_ack_detail false
+```
+
+## Proper Gateway Restart Strategy
+
+Always perform a graceful restart of the Gateway. **Never use raw kill commands.**
+
+1. **Inside Chat (Telegram/WhatsApp):**
+   Send the slash command:
+   ```
+   /restart
+   ```
+   The gateway process will gracefully clean up resources, disconnect clients, and restart of its own accord.
+
+2. **From Terminal (SSH/CLI):**
+   Run the official command:
+   ```bash
+   hermes gateway restart
+   ```
+   *Note:* Running `hermes gateway restart` from a terminal process *inside* the gateway is blocked by the CLI to prevent recursive restart loops. If you need to restart from within the gateway session, ask the user to type `/restart` in their chat.
+
+## Serving Custom Interactive Web Pages/HTML Files
+
+To serve custom web pages (e.g., interactive exercises, personal pages, or dashboards) to the family publicly over the internet without setting up raw Caddy routing or dealing with root permissions:
+
+1. **Upload Assets:** Save the HTML/JS/CSS assets to the static directory of the Hermes Dashboard:
+   `~/.hermes/hermes-agent/hermes_cli/web_dist/assets/` (e.g., `assets/practice.html`).
+2. **Access URL:** The assets are served statically at:
+   `https://<VPS_IP>/assets/<filename>`
+3. **Bypassing Basic Auth:** The VPS serves the dashboard on port 443 under Basic Auth. To allow family members/children to access the page without typing passwords, share the URL with embedded basic-auth credentials:
+   `https://hermes:EM2Czq5uh0yc8bPL8YxvA0dqggrgzZj4@62.238.18.137/assets/<filename>`
+

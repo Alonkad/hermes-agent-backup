@@ -3,6 +3,8 @@
 All notable changes to the VPS Configuration and Service states are documented here.
 
 ## [2026-06-12]
+- **Documented Gateway silencing configuration:** Added key-value templates under `config.yaml` to disable intermediate tool-calling spam and thoughts specifically for WhatsApp using `display.platforms.whatsapp.*` overrides.
+- **Documented Gateway restart workflow:** Highlighted the importance of using the official `/restart` chat command or `hermes gateway restart` CLI utility instead of brute-force `kill` signals.
 - **Documented Serving Patterns:** Populated `references/dashboard-caddy-dns.md` with complete documentation on how to serve static, fully interactive HTML files under the `/assets` build-mount of the FastAPI dashboard on port 9119. 
 - **Bypassed Basic Auth on Mobile:** Documented the URL-embedded basic authentication recipe using `@62.238.18.137` to allow friction-free access to interactive files on phones/tablets for the family without popup prompts.
 
