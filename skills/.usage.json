@@ -181,19 +181,6 @@
     "use_count": 0,
     "view_count": 0
   },
-  "claude-code-workflows": {
-    "archived_at": null,
-    "created_at": "2026-06-10T06:23:00.535829+00:00",
-    "created_by": "agent",
-    "last_patched_at": "2026-06-10T06:23:05.245195+00:00",
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 1,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
   "claude-design": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.014802+00:00",
@@ -236,19 +223,6 @@
   "comfyui": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.034400+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
-  "debugging-hermes-tui-commands": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.040763+00:00",
     "created_by": null,
     "last_patched_at": null,
     "last_used_at": null,
@@ -441,19 +415,6 @@
     "use_count": 10,
     "view_count": 10
   },
-  "heartmula": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.134020+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
   "hermes-agent": {
     "archived_at": null,
     "created_at": "2026-06-03T10:32:17.727676+00:00",
@@ -571,19 +532,6 @@
     "use_count": 0,
     "view_count": 0
   },
-  "kanban-codex-lane": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.197235+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
   "kanban-orchestrator": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.203144+00:00",
@@ -626,19 +574,6 @@
   "llama-cpp": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.222834+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
-  "llm-wiki": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.229069+00:00",
     "created_by": null,
     "last_patched_at": null,
     "last_used_at": null,
@@ -701,35 +636,9 @@
     "use_count": 0,
     "view_count": 0
   },
-  "nano-pdf": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.269347+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
   "native-mcp": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.275600+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
-  "node-inspect-debugger": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.287898+00:00",
     "created_by": null,
     "last_patched_at": null,
     "last_used_at": null,
@@ -934,19 +843,6 @@
     "state": "active",
     "use_count": 18,
     "view_count": 18
-  },
-  "python-debugpy": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.424556+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
   },
   "requesting-code-review": {
     "archived_at": null,
@@ -1198,19 +1094,6 @@
   "weights-and-biases": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.577141+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
-  "writing-plans": {
-    "archived_at": null,
-    "created_at": "2026-06-06T21:28:12.585912+00:00",
     "created_by": null,
     "last_patched_at": null,
     "last_used_at": null,

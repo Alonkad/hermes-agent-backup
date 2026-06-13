@@ -59,3 +59,8 @@ Use `patch` for focused note changes when the current content gives you stable c
 ## Wikilinks
 
 Obsidian links notes with `[[Note Name]]` syntax. When creating notes, use these to link related content.
+
+
+## Karpathy's LLM Wiki (Interlinked Markdown KB)
+
+To build and query an interlinked markdown knowledge base similar to Karpathy's LLM Wiki within your vault or note collection, see [references/llm-wiki.md](references/llm-wiki.md).

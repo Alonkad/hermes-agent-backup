@@ -285,3 +285,8 @@ Style can drift in extensions — restate genre/mood when extending.
 - Don't be precious about rules. If a line breaks meter but hits
   harder, keep it. The feeling is what matters. Craft serves art,
   not the other way around.
+
+
+## Open-Source Music Generation Workflow (HeartMuLa)
+
+For local/offline music generation from lyrics and tags using the Apache-2.0 HeartMuLa framework, see [references/heartmula.md](references/heartmula.md). It outlines code patching for torchtune Compatibility and Hugging Face checkpoint downloads.

@@ -365,3 +365,11 @@ From debugging sessions:
 - New bugs introduced: Near zero vs common
 
 **No shortcuts. No guessing. Systematic always wins.**
+
+
+## Language-Specific Debugger Guides
+
+For deeper, step-by-step guides on configuring and attaching interactive debuggers:
+- **Python**: See [references/python-debugpy.md](references/python-debugpy.md) for local pdb breakpoints, pytest post-mortems, and debugpy remote attaching.
+- **Node.js**: See [references/node-inspect-debugger.md](references/node-inspect-debugger.md) for node inspect, CDP scripting, React\Ink UI debugging, and vitest setups.
+- **Hermes TUI**: See [references/hermes-tui-commands.md](references/hermes-tui-commands.md) for debugging slash commands across Python, JSON-RPC, and TypeScript layers.

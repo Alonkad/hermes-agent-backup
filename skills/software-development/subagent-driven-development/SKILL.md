@@ -350,3 +350,8 @@ When the orchestration involves significant context usage, long review loops, or
 - **`references/gates-taxonomy.md`** — The four canonical gate types (Pre-flight, Revision, Escalation, Abort) with behavior, recovery, and examples. Load when designing or reviewing any workflow that has validation checkpoints — use the vocabulary explicitly so each gate has defined entry, failure behavior, and resumption rules.
 
 Both references adapted from gsd-build/get-shit-done (MIT © 2025 Lex Christopherson).
+
+
+## Plan Structure and Creation
+
+Before dispatching subagents, ensure your plan is detailed, bite-sized, and complete. See [references/writing-plans.md](references/writing-plans.md) for how to draft highly actionable implementation plans with exact paths, TDD steps, and verification checkpoints.

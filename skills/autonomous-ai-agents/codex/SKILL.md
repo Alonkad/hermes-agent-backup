@@ -147,3 +147,8 @@ terminal(command="gh pr comment 86 --body '<review>'", workdir="~/project")
 5. **Background for long tasks** — use `background=true` and monitor with `process` tool
 6. **Don't interfere** — monitor with `poll`/`log`, be patient with long-running tasks
 7. **Parallel is fine** — run multiple Codex processes at once for batch work
+
+
+## Integrating Codex with Kanban (Kanban Codex Lane)
+
+When running Codex inside a Hermes Kanban workflow, use an isolated branch and worktree to maintain task boundaries. See [references/kanban-codex-lane.md](references/kanban-codex-lane.md) for detailed guidelines, ownership rules, and prompt models, and check [templates/pmb-codex-lane-prompt.md](templates/pmb-codex-lane-prompt.md) for safety-sensitive templates.

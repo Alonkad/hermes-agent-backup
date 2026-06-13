@@ -278,3 +278,8 @@ tests exist, tests pass, no regressions.
 - **No test framework found** — skip regression check, reviewer verdict still runs
 - **Lint tools not installed** — skip that check silently, don't fail
 - **Auto-fix introduces new issues** — counts as a new failure, cycle continues
+
+
+## Parallel Code Review & Cleanup (Simplify Code)
+
+You can clean up your recent changes using three focused parallel review agents (Reuse, Quality, Efficiency). See [references/simplify-code.md](references/simplify-code.md) for the three-agent goals, merge logic, and execution steps.
