@@ -308,7 +308,49 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "7631479c8469",
+      "name": "\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d0\u05dc\u05d5\u05df: \u05dc\u05e7\u05d7\u05ea \u05de\u05d2\u05d1\u05ea.",
+      "prompt": "\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d0\u05dc\u05d5\u05df: \u05dc\u05e7\u05d7\u05ea \u05de\u05d2\u05d1\u05ea.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-06-17T13:30:00+03:00",
+        "display": "once at 2026-06-17 13:30"
+      },
+      "schedule_display": "once at 2026-06-17 13:30",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-17T06:39:51.075718+00:00",
+      "next_run_at": "2026-06-17T13:30:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "60000827396293@lid",
+        "chat_name": "Alon Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-06-16T18:16:47.986261+00:00"
+  "updated_at": "2026-06-17T06:39:51.077309+00:00"
 }
