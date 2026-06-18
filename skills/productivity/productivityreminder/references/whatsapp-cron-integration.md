@@ -6,5 +6,7 @@
 - Logs are critical for troubleshooting and should be checked if messages don't send.
 - Always test commands interactively before scheduling.
 - **Timezone & ISO 8601 Schedules:** When creating single-use reminders (`cron` with action/schedule), specify the timestamp in RFC 3339/ISO 8601 format with the correct local timezone offset, e.g. `2026-06-05T09:05:00+03:00` for Israel daylight saving time. Out-of-band UTC datetime formatting can miss the target window by hours.
+- **Bilingual & Exact Context Matching for Interactive Prompts:** Reminders are executed in a fresh session with no active conversation history. When drafting a reminder prompt to process or fetch things, write it as a self-contained goal. Keep search queries bilingual (e.g., using both Hebrew and English expressions for school subjects, classes, or files).
+- **Proactive Cron/Appointment Cleanup:** Always clean up stale or obsolete cron events/reminders concurrently with modifying calendar appointments. For school book return dates, exams, or similar scheduled events that change dates, ensure corresponding cron jobs under `cronjob` list are either removed or updated to match the new dates to avoid duplicate/erroneous reminders.
 - The Gateway runs the cron subsystem in a background thread.
 - Times should be specified in local time zone as the system respects this setting.
