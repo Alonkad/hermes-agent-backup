@@ -16,6 +16,7 @@ Google Calendar API expects datetime values in RFC 3339 format including timezon
 - Daylight saving changes must be taken into account for Israel time.
 - Command-line defaults: The `google_api.py` CLI default for `--calendar` is `primary`. Always override this explicitly when dealing with a user's shared calendar.
 - Listing events: Failing to specify the explicit calendar ID when querying events will return an empty list or show unrelated events from the agent's private primary calendar.
+- **Calendar Not Found (404 Error)**: When a user asks to add an event to "my calendar (not family)" and specifies their personal/work email (e.g. `liats@ah-arch.com`), if that calendar is not explicitly shared with the agent's Google account with write permissions, making an API call with their email as the calendar ID will fail with a `404 Not Found` HttpError. In such cases, if the calendar is not shared with the agent, the agent must create the event on its own primary calendar (`kaduri.agent@gmail.com`) which the user typically has read/write or subscription access to, rather than trying to write directly to the user's unshared private corporate/personal email calendar ID. Always list available calendars first or default to the agent's primary calendar (`kaduri.agent@gmail.com`) for non-family personal requests if the user's explicit email calendar ID returns a 404 error.
 
 ## Recommendations
 
