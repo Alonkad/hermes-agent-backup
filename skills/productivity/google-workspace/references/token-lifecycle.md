@@ -8,6 +8,16 @@ This document explains how OAuth2 tokens are managed in the Google Workspace ski
 - Hermes checks scopes at startup and warns if scopes are missing.
 - Revoked or disabled tokens require re-setup via OAuth flow.
 
+## Re-Authentication Flow (Token Revoked or Expired)
+
+If you see `RefreshError` or `--check` outputs `TOKEN_REVOKED`, you must guide the user through re-authentication immediately:
+1. Run `$GSETUP --auth-url` to generate a brand new interactive OAuth grant URL.
+2. Present the URL clearly as a clickable link and instruct the user to complete the consent screen.
+3. Advise them to grant all requested permissions.
+4. Have them copy and paste the redirect URL (typically halting at `http://localhost:1/?code=...`) or the code back to the chat.
+5. Capture and verify using `$GSETUP --auth-code "CODE_STRING"`.
+6. Run `$GSETUP --check` to verify the state shows `AUTHENTICATED`.
+
 # How This Affects Calendar Events
 
 - Incomplete scopes can lead to missing calendar events in query results.

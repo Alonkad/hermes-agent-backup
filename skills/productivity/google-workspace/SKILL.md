@@ -24,6 +24,7 @@ Gmail, Calendar, Drive, Contacts, Sheets, and Docs — through Hermes-managed OA
 ## References
 
 - `references/gmail-search-syntax.md` — Gmail search operators (is:unread, from:, newer_than:, etc.)
+- `references/sheets-api-best-practices.md` — Best practices for programmatic Google Sheets creation (locale handling, RTL, and dynamic default sheetId mapping).
 
 ## Scripts
 
@@ -116,15 +117,13 @@ explicit (for example `~/Downloads/hermes-google-client-secret.json`), then run
 
 ### Step 3: Get authorization URL
 
-Use the service set chosen in Step 1. Examples:
+Simply execute the command below to generate the URL (the script automatically requests all required scopes for Workspace):
 
 ```bash
-$GSETUP --auth-url --services email,calendar --format json
-$GSETUP --auth-url --services calendar,drive,sheets,docs --format json
-$GSETUP --auth-url --services all --format json
+$GSETUP --auth-url
 ```
 
-This returns JSON with an `auth_url` field and also saves the exact URL to
+This returns the direct OAuth authorization URL and also saves it to
 `~/.hermes/google_oauth_last_url.txt`.
 
 Agent rules for this step:
@@ -322,6 +321,7 @@ All commands return JSON. Parse with `jq` or read directly. Key fields:
 |---------|-----|
 | `NOT_AUTHENTICATED` | Run setup Steps 2-5 above |
 | `REFRESH_FAILED` | Token revoked or expired — redo Steps 3-5 |
+| `TOKEN_REVOKED` | Token revoked or expired — immediately guide the user through re-authorization (Steps 3-5) |
 | `HttpError 403: Insufficient Permission` | Missing API scope — `$GSETUP --revoke` then redo Steps 3-5 |
 | `AUTHENTICATED (partial)` or "Token missing scopes" | New write capabilities (Drive write/delete, Docs create/edit) require re-authorization. `$GSETUP --revoke` then redo Steps 3-5 to grant the upgraded scopes. |
 | `HttpError 403: Access Not Configured` | API not enabled — user needs to enable it in Google Cloud Console |
