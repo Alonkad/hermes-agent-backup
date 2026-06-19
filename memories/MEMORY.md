@@ -19,3 +19,5 @@ The user sends voice messages in Hebrew, so the speech-to-text (STT) configurati
 Interactive English practice sheet for Eitan is located at ~/.hermes/hermes-agent/hermes_cli/web_dist/assets/practice.html and live on https://62.238.18.137/assets/practice.html. Update this file on the VPS whenever Alon shares Niki's weekly English summaries.
 §
 User prefers to manually run the restart command (/restart or hermes gateway restart) if a change requires restarting the gateway, rather than the agent using raw kill commands.
+§
+User wants the agent to proactively identify actionable tasks/reminders when analyzing travel documents and automatically maintain a dedicated open tasks list.

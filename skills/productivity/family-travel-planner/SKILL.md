@@ -20,10 +20,12 @@ This skill provides structured workflows, conventions, and API references for or
   - *URL:* https://docs.google.com/spreadsheets/d/1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc/edit
   - *Primary Owner:* `alonkad@gmail.com` (Alon)
   - *Access:* Full editor permissions shared with Alon and accessible by Hermes.
+### 2. Shared Google My Maps ID
 - **Shared Google My Maps ID:** `1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks`
   - *URL:* https://www.google.com/maps/d/edit?mid=1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks
   - *Primary Owner:* `alonkad@gmail.com`
   - *Access:* Full editor permissions shared with `kaduri.agent@gmail.com` (Hermes).
+  - *Programmatic Sync Reference:* Since My Maps has no write API, we use a KML file hosted on Google Drive dynamically syncable in My Maps. For setup instructions and schemas, see `references/google-maps-kml-sync.md`.
 
 ## When to Use
 - When any family member (Alon, Liat, or in a group chat) asks to:
@@ -32,6 +34,26 @@ This skill provides structured workflows, conventions, and API references for or
   - Budget or track expenses related to the trip.
   - Calculate travel times or distances between locations.
   - Recommend activities based on geographical proximity on their map.
+
+## Shared Google My Maps and KML Sync Workflow
+- **Google My Maps Constraints:** Google My Maps lacks a writing/editing API. Google Maps Lists also lack programmatic APIs.
+- **KML Synchronization Solution:** We bypass this limitation by using Google My Maps' ability to import files directly from Google Drive.
+  - **Shared KML File ID:** `1dU6v0SUtgAor6y8zOcs2fOVY-TFKUlB5` (Name: `austria_2026.kml`).
+  - **Permissions:** Shared with `alonkad@gmail.com` as a writer.
+  - **My Maps Linkage:** The user imports this file from their Google Drive ("Shared with me" section) as a layer in Google My Maps. This creates a dynamically synced link layer.
+- **Automated Programmatic Updates:**
+  - When the user asks to add an attraction, hotel, or location to the map, use the script located inside this skill:
+    ```bash
+    python ~/.hermes/skills/productivity/family-travel-planner/scripts/update_kml.py \
+      --name "מלון - Ferienhaus Astrid" \
+      --description "<b>צ'ק אין:</b> 31/07/2026<br/><b>קוד הזמנה:</b> 5134615985" \
+      --lat 47.3469901 \
+      --lon 13.3946766 \
+      --style "hotelStyle"
+    ```
+  - This script downloads the existing KML from Drive, appends the new Placemark, and uploads it back to the same Google Drive File ID. Google My Maps automatically pulls and updates the layer periodically.
+
+---
 
 ## Layout of Spreadsheet Tabs
 
