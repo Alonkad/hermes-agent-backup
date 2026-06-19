@@ -1,10 +1,6 @@
 Hermes Agent runs under user 'agentuser'. Active systemd services: hermes-gateway and hermes-dashboard (reverse proxied via Caddy on https://62.238.18.137, port 9119).
 §
-Git backup synced hourly by `hermes-git-backup.timer` to private GitHub repo `Alonkad/hermes-agent-backup`.
-§
-Git backup tracks `config.yaml`, `SOUL.md`, `cron/`, `memories/`, and `skills/`.
-§
-Git backup explicitly does *not* track `.env`, logs, caches, auth files, gateway lock/state files, or raw secrets.
+Git hourly backup via systemd tracks config.yaml, SOUL.md, cron/, memories/, skills/ to private repo Alonkad/hermes-agent-backup; ignores env/logs/caches/secrets.
 §
 VPS is intended as a long-running agent host.
 §

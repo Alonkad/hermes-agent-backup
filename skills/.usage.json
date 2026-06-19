@@ -298,6 +298,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "family-travel-planner": {
+    "archived_at": null,
+    "created_at": "2026-06-19T16:17:02.342151+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-06-19T16:21:51.917708+00:00",
+    "last_used_at": "2026-06-19T16:17:02.352014+00:00",
+    "last_viewed_at": "2026-06-19T16:17:02.342254+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "findmy": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.080824+00:00",
@@ -407,13 +420,13 @@
     "created_at": "2026-06-03T19:00:32.487926+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-19T15:59:02.888161+00:00",
-    "last_used_at": "2026-06-19T15:58:42.577345+00:00",
-    "last_viewed_at": "2026-06-19T15:58:42.571535+00:00",
+    "last_used_at": "2026-06-19T16:18:48.342029+00:00",
+    "last_viewed_at": "2026-06-19T16:18:48.336302+00:00",
     "patch_count": 11,
     "pinned": false,
     "state": "active",
-    "use_count": 20,
-    "view_count": 20
+    "use_count": 22,
+    "view_count": 22
   },
   "hermes-agent": {
     "archived_at": null,
@@ -433,13 +446,13 @@
     "created_at": "2026-06-06T21:28:12.141479+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
+    "last_used_at": "2026-06-19T16:08:20.872105+00:00",
+    "last_viewed_at": "2026-06-19T16:08:20.864211+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 0,
-    "view_count": 0
+    "use_count": 1,
+    "view_count": 1
   },
   "hermes-s6-container-supervision": {
     "archived_at": null,
@@ -615,13 +628,13 @@
     "created_at": "2026-06-06T21:28:12.259084+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
+    "last_used_at": "2026-06-19T16:19:08.336432+00:00",
+    "last_viewed_at": "2026-06-19T16:19:08.329635+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 0,
-    "view_count": 0
+    "use_count": 1,
+    "view_count": 1
   },
   "minecraft-modpack-server": {
     "archived_at": null,
@@ -693,13 +706,13 @@
     "created_at": "2026-06-06T21:28:12.332648+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-06-10T08:44:22.958392+00:00",
-    "last_viewed_at": "2026-06-10T08:44:22.949227+00:00",
+    "last_used_at": "2026-06-19T16:18:57.809479+00:00",
+    "last_viewed_at": "2026-06-19T16:18:57.802362+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 1,
-    "view_count": 1
+    "use_count": 2,
+    "view_count": 2
   },
   "opencode": {
     "archived_at": null,
