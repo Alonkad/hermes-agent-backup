@@ -89,7 +89,51 @@ This skill provides structured workflows, conventions, and API references for or
 ## Technical Workflows for Hermes
 
 ### Updating the Spreadsheet
-To update/append spreadsheet rows, execute `google_api.py` from the shell wrapper or Python:
+To update/append spreadsheet rows, you can use the CLI or programmatic Python.
+
+#### ⚠️ CLI Pitfall with Emoji Sheet Names
+Because the sheet names in this workbook contain emojis (e.g. `🚗 השכרת רכב`, `💰 תקציב והוצאות`), calling `google_api.py` via shell/subprocess can fail with a `HttpError 400: Unable to parse range` due to shell quoting and character escaping bugs.
+
+**The Solution:** Use programmatic Python inside the active environment to load the credentials and call Google Sheets client directly.
+
+#### Programmatic Python Update (Recommended & Safest)
+Always use `execute_code` with the following template to perform reliable reads and writes:
+```python
+import sys
+import json
+
+# Add google-workspace scripts directory to path
+sys.path.insert(0, '/home/agentuser/.hermes/skills/productivity/google-workspace/scripts')
+from google_api import build_service
+
+service = build_service("sheets", "v4")
+spreadsheet_id = "1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc"
+
+# Example: To update H2:I2 in '🚗 השכרת רכב'
+range_name = "🚗 השכרת רכב!H2:I2"
+body = {"values": [["4,400.17 ₪", "שולם (ע\"י אלון)"]]}
+res = service.spreadsheets().values().update(
+    spreadsheetId=spreadsheet_id,
+    range=range_name,
+    valueInputOption="USER_ENTERED",
+    body=body
+).execute()
+print(json.dumps(res, indent=2))
+
+# Example: To append to '💰 תקציב והוצאות'
+range_name = "💰 תקציב והוצאות!A:H"
+body = {"values": [["השכרת רכב", "השכרת רכב Budget Germany", "4400.17", "ILS", "4400.17", "אלון", "שולם", ""]]}
+res = service.spreadsheets().values().append(
+    spreadsheetId=spreadsheet_id,
+    range=range_name,
+    valueInputOption="USER_ENTERED",
+    insertDataOption="INSERT_ROWS",
+    body=body
+).execute()
+```
+
+#### CLI Method (Alternative, Use Caution)
+If using the CLI, ensure single quotes around the sheet name and take care with shell command arguments:
 ```bash
 # E.g. To append a row to the Flight sheet:
 python ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py sheets append "1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc" "'✈️ טיסות'!A:K" --values '[["2026-07-30", "El Al", "LY361", "TLV", "VIE", "06:15", "09:45", "ABCDEF", "Confirmed", "450 USD", ""]]'
@@ -149,3 +193,49 @@ To determine geographic feasibility of daily schedules:
 - [ ] For every write command, verify the target Range matches the exact Tab name (e.g., `'📅 לו"ז יומי'!A:H`).
 - [ ] Ensure formatting details like Dates are written in standard formats (`YYYY-MM-DD`).
 - [ ] Confirm with the user before executing bulk edits or adding rows that might duplicate elements.
+
+---
+
+## ⚡ Execution Cost & Speed Optimizations (Avoid Redundant Reads)
+To avoid issuing multiple Google Sheets `get` commands or querying the entire document structure, use these exact column targets and cell mappings directly of the primary tabs:
+
+### 1. Tab `💰 תקציב והוצאות` (Budget & Expenses)
+*   **A/B/C/D/E/F/G/H Column Map:**
+    *   **A:** `קטגוריה` (Category - common values: `טיסות`, `לינה`, `השכרת רכב`, `אטרקציות וכטיסים`, `דלק ונסיעות`, `אוכל`)
+    *   **B:** `פירוט/פריט` (Item description)
+    *   **C:** `סכום (במטבע מקומי)` (Foreign Cost)
+    *   **D:** `מטבע` (Currency - e.g., `ILS`, `EUR`, `CHF`)
+    *   **E:** `סכום (בשקלים)` (Cost in ILS - populate directly; if foreign, calculate `C * current_rate`)
+    *   **F:** `שולם ע"י` (Paid By - map user correctly to `אלון` or `ליאת`)
+    *   **G:** `סטטוס תשלום` (Status - e.g., `שולם`, `טרם שולם`, `לתשלום בחו"ל`)
+    *   **H:** `הערות` (Notes / context)
+*   **Quick Append Range:** `'💰 תקציב והוצאות'!A:H`
+*   *Note:* Row 1 represents headers. Append operations automatically write starting from Row 4 (under existing sample entries).
+
+### 2. Tab `📅 לו"ז יומי` (Daily Itinerary)
+*   **A/B/C/D/E/F/G/H Column Map:**
+    *   **A:** `תאריך` (Date in YYYY-MM-DD format, e.g., `2026-07-30`)
+    *   **B:** `יום` (Day - e.g., `חמישי`)
+    *   **C:** `אזור/יעד מרכזי` (Main Area/Region)
+    *   **D:** `פעילות בוקר` (Morning activity description)
+    *   **E:** `פעילות צהריים/אחר הצהריים` (Afternoon activity description)
+    *   **F:** `פעילות ערב` (Evening activity description)
+    *   **G:** `לינה` (Lodging location/hotel)
+    *   **H:** `הערות ולינקים חשובים` (Important notes, links, booking refs)
+*   **Direct Update Target:** `'📅 לו"ז יומי'!A:H` for daily schedule queries and modifications.
+
+### 3. Tab `🎭 אטרקציות ונקודות עניין` (Attractions Wishlist)
+*   **A/B/C/D/E/F/G Column Map:**
+    *   **A:** `שם המקום/אטרקציה` (Place Name)
+    *   **B:** `אזור/עיר` (Area/City)
+    *   **C:** `שעות פתיחה` (Opening Hours)
+    *   **D:** `מחיר לכרטיס` (Ticket Price info)
+    *   **E:** `סטטוס כרטיסים (הוזמן/נדרש מראש/חופשי)` (Booking status)
+    *   **F:** `לינק לרכישת כרטיסים` (Ticket purchase link)
+    *   **G:** `הערות/פרטים חשובים` (Crucial notes)
+*   **Quick Append Range:** `'🎭 אטרקציות ונקודות עניין'!A:G`
+
+### 4. User Identity Mapping (Telegram & WhatsApp)
+*   User **`Kaaadd` / `Alon`** -> Always write as **`אלון`** in matching fields.
+*   User **`Liat`** -> Always write as **`ליאת`** in matching fields.
+
