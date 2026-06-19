@@ -79,7 +79,11 @@ This skill provides structured workflows, conventions, and API references for or
 ### 7. `📝 משימות פתוחות` (Open Tasks / Checklist)
 - **Columns:** `משימה` (Task), `סטטוס` (Status - פתוח/בוצע), `אחראי` (Owner), `תאריך יעד` (Due Date), `הערות` (Notes).
 - **Usage:** Tracks preparatory vacation tasks like passport renewals, international driving permits, printing vouchers, purchasing road vignettes, etc.
+- **Durable Preference:** Hermes must proactively identify actionable tasks, required bookings, check-in actions, or missing documents when analyzing incoming travel bookings and record them here dynamically to maintain a clean checklist.
 
+### 8. `📍 נקודות למפה` (Map Locations)
+- **Columns:** `שם המקום` (Place Name), `כתובת` (Address), `קו רוחב (Latitude)` (Latitude), `קו אורך (Longitude)` (Longitude), `תיאור / מידע נוסף` (Notes/Info), `קטגוריה` (Category).
+- **Usage:** Used as the dynamic source of My Maps import which, as the first tab (index 0), gets parsed by My Maps directly.
 ---
 
 ## Technical Workflows for Hermes
@@ -91,18 +95,47 @@ To update/append spreadsheet rows, execute `google_api.py` from the shell wrappe
 python ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py sheets append "1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc" "'✈️ טיסות'!A:K" --values '[["2026-07-30", "El Al", "LY361", "TLV", "VIE", "06:15", "09:45", "ABCDEF", "Confirmed", "450 USD", ""]]'
 ```
 
+### Syncing with Google My Maps (The "First Tab Index" Workflow)
+Google My Maps has severe limitations for programmatic updates (no write API, and no longer supports importing via Web URLs / Network Links in newer consumer interfaces). The optimal, proven way to sync locations between Hermes and My Maps is directly via Google Sheets using a dedicated map tab:
+1. **Dedicated Map Tab:** Create a sheet tab named `📍 נקודות למפה` with these exact headers:
+   `שם המקום` (Place Name) | `כתובת` (Address) | `קו רוחב (Latitude)` | `קו אורך (Longitude)` | `תיאור / מידע נוסף` (Notes/info) | `קטגוריה` (Category)
+2. **The Index 0 Restriction:** Google My Maps strictly imports from the **first tab** of a multi-tab Spreadsheet. It does not allow selecting other tabs on import.
+   - Always programmatically move `📍 נקודות למפה` to **index 0** (the left-most tab) using `batchUpdate` with `updateSheetProperties`:
+     ```python
+     # Move sheet to index 0
+     req = {
+         'requests': [{
+             'updateSheetProperties': {
+                 'properties': {
+                     'sheetId': map_sheet_id,
+                     'index': 0
+                 },
+                 'fields': 'index'
+             }
+         }]
+     }
+     ```
+3. **User Import & Refresh Flow:**
+   - Direct the user to import the central Spreadsheet into their My Maps layer. Google My Maps will automatically read the first tab (`📍 נקודות למפה`).
+   - Instruct them to map location to `קו רוחב (Latitude)` and `קו אורך (Longitude)` columns, and title to `שם המקום`.
+   - When new locations are appended to this tab by Hermes, the user can instantly sync their map by clicking **Data -> Refresh table** within Google My Maps (or refreshing the browser page/re-opening the maps app).
+
 ### Dynamic Currency Conversion (Expenses Tab)
 When updating `💰 תקציב והוצאות`:
 1. If the amount is input in Euros (`EUR`) or Swiss Francs (`CHF`), calculate the approximate conversion to Israeli New Shekels (`ILS`) using current rates (fetch via web search if necessary) and populate `סכום (בשקלים)` automatically.
 
-### Automated Parsing of Email Bookings
-When the user indicates that bookings are in their Gmail:
-1. Search Gmail using:
-   ```bash
-   python ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py gmail search "booking OR flight OR reservation OR rental car" --max 10
-   ```
-2. Retrieve relevant emails via `get` and parse flight numbers, dates, hotel locations, check-in dates, and car pickup hours.
-3. Verify data parameters with the user, then automate insertion into Sheets.
+### Automated Parsing and Organization of Email Bookings
+To keep the mailbox clean and retrieve booking details efficiently:
+1. **Dedicated Gmail Label (`Austria2026`):** All vacation-related emails (flights, hotels, car rentals, vouchers, etc.) are organized under the Gmail label `Austria2026`.
+2. **Automated Labeling Loop:** A script at `~/.hermes/scripts/auto_label_austria_emails.py` runs regularly via a configured `cronjob` (typically `auto_label_austria_emails_job` running every 12 hours) to auto-detect vacation emails from Alon or Liat and tag them.
+3. **Retrieving & Parsing:**
+   - Instead of checking the full inbox, search directly using the label to fetch incoming booking details:
+     ```bash
+     python ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py gmail search "label:Austria2026" --max 10
+     ```
+   - Retrieve relevant emails via `get` and parse flight numbers, dates, hotel locations, check-in dates, and car pickup hours.
+   - Verify data parameters with the user, then automate insertion into Sheets.
+4. **Maintenance & Safety:** If changes to Gmail search keywords or script paths are necessary, do not kill background processes; instead run the custom Python logic directly, let the user manually execute the `/restart` command if needed to reset active timers on the Gateway, and document the flow.
 
 ### Geography-Aided Planning
 To determine geographic feasibility of daily schedules:

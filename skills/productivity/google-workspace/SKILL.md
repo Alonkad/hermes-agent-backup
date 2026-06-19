@@ -178,6 +178,7 @@ GAPI="python ${HERMES_HOME:-$HOME/.hermes}/skills/productivity/google-workspace/
 $GAPI gmail search "is:unread" --max 10
 $GAPI gmail search "from:boss@company.com newer_than:1d"
 $GAPI gmail search "has:attachment filename:pdf newer_than:7d"
+$GAPI gmail search "label:LabelName"
 
 # Read full message (returns JSON with body text)
 $GAPI gmail get MESSAGE_ID

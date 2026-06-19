@@ -4,8 +4,6 @@ Git hourly backup via systemd tracks config.yaml, SOUL.md, cron/, memories/, ski
 §
 VPS is intended as a long-running agent host.
 §
-The `web_search` tool uses the Tavily API.
-§
 משפחת כדורי מתגוררת בישראל. כל הפעולות והבקשות צריכות להתבצע לפי אזור הזמן של ישראל, אלא אם נאמר אחרת במפורש.
 §
 הדרך הנכונה לעבוד עם תזכורות ב-Hermes היא להשתמש במנגנון המובנה cronjob עם Gateway ל-WhatsApp, ללא צורך בסקריפטים חיצוניים.
@@ -20,4 +18,4 @@ Interactive English practice sheet for Eitan is located at ~/.hermes/hermes-agen
 §
 User prefers to manually run the restart command (/restart or hermes gateway restart) if a change requires restarting the gateway, rather than the agent using raw kill commands.
 §
-User wants the agent to proactively identify actionable tasks/reminders when analyzing travel documents and automatically maintain a dedicated open tasks list.
+מזהי הכלים המרכזיים לתכנון חופשת אוסטריה 2026: Spreadsheet ID: 1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc, Google My Maps ID: 1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks. אלו מוגדרים ב-fact_store בהרחבה.
