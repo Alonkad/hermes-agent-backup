@@ -327,22 +327,22 @@
       "context_from": null,
       "schedule": {
         "kind": "interval",
-        "minutes": 720,
-        "display": "every 720m"
+        "minutes": 10080,
+        "display": "every 10080m"
       },
-      "schedule_display": "every 720m",
+      "schedule_display": "every 10080m",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-19T18:54:50.760932+00:00",
-      "next_run_at": "2026-06-20T06:54:50.761045+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-06-27T07:01:41.496344+00:00",
+      "last_run_at": "2026-06-20T06:56:48.914306+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
@@ -355,8 +355,9 @@
       "enabled_toolsets": [
         "terminal"
       ],
-      "workdir": null
+      "workdir": null,
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-06-20T04:02:07.227495+00:00"
+  "updated_at": "2026-06-20T07:01:41.496970+00:00"
 }

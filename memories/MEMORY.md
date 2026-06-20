@@ -4,13 +4,9 @@ Git hourly backup via systemd tracks config.yaml, SOUL.md, cron/, memories/, ski
 §
 VPS is intended as a long-running agent host.
 §
-משפחת כדורי מתגוררת בישראל. כל הפעולות והבקשות צריכות להתבצע לפי אזור הזמן של ישראל, אלא אם נאמר אחרת במפורש.
-§
 הדרך הנכונה לעבוד עם תזכורות ב-Hermes היא להשתמש במנגנון המובנה cronjob עם Gateway ל-WhatsApp, ללא צורך בסקריפטים חיצוניים.
 §
-The main family Google calendar is identified by calendar ID family08415384193829322896@group.calendar.google.com. Interactions with this calendar use direct API event listing and patching by calendar ID due to limitations in the calendar list API call. This calendar is the default family calendar for all related actions.
-§
-The correct and efficient way to access events from the shared Google calendar ('Kaduri Family') using Hermes is through the built-in Google Workspace skill integrated with Hermes Gateway, using precise API queries that respect timezone settings (Asia/Jerusalem) and full access permissions. This avoids issues with filtering or token scopes and ensures reliable event retrieval.
+Google family calendar: family08415384193829322896@group.calendar.google.com. Actions use Google Workspace skill with Hermes Gateway, making direct event API queries under Asia/Jerusalem timezone to bypass scope, list, and filtering limits.
 §
 The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
 §
@@ -19,3 +15,5 @@ Interactive English practice sheet for Eitan is located at ~/.hermes/hermes-agen
 User prefers to manually run the restart command (/restart or hermes gateway restart) if a change requires restarting the gateway, rather than the agent using raw kill commands.
 §
 מזהי הכלים המרכזיים לתכנון חופשת אוסטריה 2026: Spreadsheet ID: 1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc, Google My Maps ID: 1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks. אלו מוגדרים ב-fact_store בהרחבה.
+§
+To prevent parsing failures in mixed Hebrew-English sessions, tool call generations must be strictly valid JSON blocks, completely free of surrounding Hebrew explanations or prose.
