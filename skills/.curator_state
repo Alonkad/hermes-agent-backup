@@ -3,7 +3,7 @@
   "last_run_at": "2026-06-13T21:33:56.140467+00:00",
   "last_run_duration_seconds": 722.890516,
   "last_run_summary": "auto: no changes; llm: I have successfully executed the **UMBRELLA-BUILDING consolidation pass** over the agent-created skills on this system. 10 narrow or platform-specific skills were absorbed as high-density subsections or reference subfiles under 7 class-leve…\narchived 7 skill(s):\n  • claude-code-workflows → claude-code\n  • heartmula → songwriting-and-ai-music\n  • llm-wiki → obsidian\n  • nano-pdf → ocr-and-documents\n  • node-inspect-debugger → systematic-debugging\n  • python-debugpy → systematic-debugging\n  • simplify-code → requesting-code-review\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin claude-code",
-  "last_run_summary_shown_at": "2026-06-06T21:28:11.302232+00:00",
+  "last_run_summary_shown_at": "2026-06-13T21:33:56.140467+00:00",
   "paused": false,
   "run_count": 2
 }
