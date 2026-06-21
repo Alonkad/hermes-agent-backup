@@ -17,3 +17,5 @@ User prefers to manually run the restart command (/restart or hermes gateway res
 מזהי הכלים המרכזיים לתכנון חופשת אוסטריה 2026: Spreadsheet ID: 1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc, Google My Maps ID: 1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks. אלו מוגדרים ב-fact_store בהרחבה.
 §
 To prevent parsing failures in mixed Hebrew-English sessions, tool call generations must be strictly valid JSON blocks, completely free of surrounding Hebrew explanations or prose.
+§
+בעת טיפול במיילים/מידע שקשור למלונות בחופשת אוסטריה 2026: לחלץ את הפרטים מהמייל, לעדכן את גיליון החופשה והטאב למפה, ליצור תזכורת ביטול חינמי יומיים קודם גם ביומן המשפחתי וגם ישירות לליאת, ולשאול ישירות אם פרט חסר.

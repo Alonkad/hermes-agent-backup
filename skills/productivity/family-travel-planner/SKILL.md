@@ -179,7 +179,8 @@ To keep the mailbox clean and retrieve booking details efficiently:
      ```
    - Retrieve relevant emails via `get` and parse flight numbers, dates, hotel locations, check-in dates, and car pickup hours.
    - Verify data parameters with the user, then automate insertion into Sheets.
-4. **Maintenance & Safety:** If changes to Gmail search keywords or script paths are necessary, do not kill background processes; instead run the custom Python logic directly, let the user manually execute the `/restart` command if needed to reset active timers on the Gateway, and document the flow.
+4. **Hotel / Accommodation Emails (Liat preference):** When Liat or Alon forwards hotel/accommodation emails, do not ask them to manually retype fields unless extraction fails. Read Gmail, extract the real property name and booking details, update the Spreadsheet and map tab, and create cancellation reminders two days before the free-cancellation deadline / before cancellation fees begin. See `references/hotel-email-processing.md` for the detailed checklist, pitfalls, and automation pattern.
+5. **Maintenance & Safety:** If changes to Gmail search keywords or script paths are necessary, do not kill background processes; instead run the custom Python logic directly, let the user manually execute the `/restart` command if needed to reset active timers on the Gateway, and document the flow.
 
 ### Geography-Aided Planning
 To determine geographic feasibility of daily schedules:
