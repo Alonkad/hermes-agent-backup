@@ -416,15 +416,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 9
+        "completed": 10
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-22T05:03:13.990748+00:00",
-      "last_run_at": "2026-06-22T03:03:13.990748+00:00",
+      "next_run_at": "2026-06-22T07:03:14.983678+00:00",
+      "last_run_at": "2026-06-22T05:03:14.983678+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -438,7 +438,91 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": null
+    },
+    {
+      "id": "b8b0b096c8b2",
+      "name": "\u05dc\u05d4\u05d3\u05e4\u05d9\u05e1 \u05dc\u05d0\u05d9\u05ea\u05df \u05d3\u05e3 \u05d0\u05e0\u05d2\u05dc\u05d9\u05ea",
+      "prompt": "\u200f\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d0\u05dc\u05d5\u05df: \u05dc\u05d4\u05d3\u05e4\u05d9\u05e1 \u05dc\u05d0\u05d9\u05ea\u05df \u05d3\u05e3 \u05d0\u05e0\u05d2\u05dc\u05d9\u05ea.\n\n\u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05d3\u05e3 \u05d4\u05ea\u05e8\u05d2\u05d5\u05dc \u05d4\u05e7\u05d9\u05d9\u05dd \u05e9\u05dc \u05d0\u05d9\u05ea\u05df \u05db\u05d0\u05df:\nhttps://62.238.18.137/assets/practice.html",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-06-22T11:30:00+03:00",
+        "display": "once at 2026-06-22 11:30"
+      },
+      "schedule_display": "once at 2026-06-22 11:30",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-22T05:23:20.904649+00:00",
+      "next_run_at": "2026-06-22T11:30:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "60000827396293@lid",
+        "chat_name": "Alon Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "273481ed724b",
+      "name": "\u05dc\u05e6\u05d0\u05ea \u05dc\u05d3\u05e8\u05da",
+      "prompt": "\u200f\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d0\u05dc\u05d5\u05df: \u05dc\u05e6\u05d0\u05ea \u05dc\u05d3\u05e8\u05da.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-06-22T10:00:00+03:00",
+        "display": "once at 2026-06-22 10:00"
+      },
+      "schedule_display": "once at 2026-06-22 10:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-22T05:26:28.729097+00:00",
+      "next_run_at": "2026-06-22T10:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "60000827396293@lid",
+        "chat_name": "Alon Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-06-22T04:30:20.587023+00:00"
+  "updated_at": "2026-06-22T05:26:28.730491+00:00"
 }
