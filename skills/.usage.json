@@ -849,13 +849,13 @@
     "created_at": "2026-06-03T17:43:45.279426+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-06-19T19:26:23.024971+00:00",
-    "last_used_at": "2026-06-22T18:05:06.512822+00:00",
-    "last_viewed_at": "2026-06-22T18:05:06.505200+00:00",
+    "last_used_at": "2026-06-23T04:10:30.256789+00:00",
+    "last_viewed_at": "2026-06-23T04:10:30.250683+00:00",
     "patch_count": 12,
     "pinned": false,
     "state": "active",
-    "use_count": 37,
-    "view_count": 37
+    "use_count": 38,
+    "view_count": 38
   },
   "requesting-code-review": {
     "archived_at": null,
