@@ -16,7 +16,7 @@ Use this reference when processing hotel/accommodation emails for the Kaduri fam
 6. Cancellation reminders:
    - Family Calendar event on `family08415384193829322896@group.calendar.google.com`.
    - Direct WhatsApp reminder to Liat via `cronjob` delivered to `origin`.
-   - Default timing: two days before the free-cancellation deadline / before cancellation fees start, 09:00 Israel time.
+   - Default timing: three days before the end of the free-cancellation window, 09:00 Israel time. Use the free-cancellation-until date/time as the source of truth; if cancellation fees start the next day, use the previous day at 23:59 as the free-cancellation deadline.
 
 ## Pitfalls learned
 - Do not invent placeholder hotel data, booking codes, prices, or cancellation dates. Search/read Gmail first; if not found, say what is missing.

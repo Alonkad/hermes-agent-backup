@@ -273,7 +273,7 @@
     {
       "id": "2cf169a38b85",
       "name": "liat_cancel_reminder_ferienhaus_astrid",
-      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Ferienhaus Astrid \u05d1\u05e4\u05dc\u05db\u05d0\u05d5. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5134615985. \u05d4\u05d3\u05d3\u05dc\u05d9\u05d9\u05df \u05dc\u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05d4\u05d5\u05d0 16/07/2026 23:59 \u05dc\u05e4\u05d9 \u05e9\u05e2\u05d5\u05df \u05de\u05e7\u05d5\u05de\u05d9 CEST. \u05d0\u05dd \u05e8\u05d5\u05e6\u05d9\u05dd \u05dc\u05d1\u05d8\u05dc/\u05dc\u05e9\u05e0\u05d5\u05ea \u2014 \u05dc\u05d4\u05d9\u05db\u05e0\u05e1 \u05dc-Booking.com.",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Ferienhaus Astrid \u05d1\u05e4\u05dc\u05db\u05d0\u05d5. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5134615985. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 16.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -284,10 +284,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-07-14T09:00:00+03:00",
-        "display": "once at 2026-07-14 09:00"
+        "run_at": "2026-07-13T09:00:00+03:00",
+        "display": "once at 2026-07-13 09:00"
       },
-      "schedule_display": "once at 2026-07-14 09:00",
+      "schedule_display": "once at 2026-07-13 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -297,7 +297,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:53:13.851255+00:00",
-      "next_run_at": "2026-07-14T09:00:00+03:00",
+      "next_run_at": "2026-07-13T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -315,7 +315,7 @@
     {
       "id": "f63d5c0c334a",
       "name": "liat_cancel_reminder_tauern_spa",
-      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc/\u05d3\u05de\u05d9 \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05e2\u05d1\u05d5\u05e8 TAUERN SPA Zell am See \u2013 Kaprun. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 95338735. \u05d3\u05de\u05d9 \u05d1\u05d9\u05d8\u05d5\u05dc \u05de\u05ea\u05d7\u05d9\u05dc\u05d9\u05dd \u05de-10/08/2026 15:00 \u05dc\u05e4\u05d9 \u05e9\u05e2\u05d5\u05df \u05de\u05e7\u05d5\u05de\u05d9 CEST. \u05d0\u05dd \u05e8\u05d5\u05e6\u05d9\u05dd \u05dc\u05d1\u05d8\u05dc/\u05dc\u05e9\u05e0\u05d5\u05ea \u2014 \u05dc\u05d8\u05e4\u05dc \u05d1\u05d6\u05d4 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05d3\u05d3\u05dc\u05d9\u05d9\u05df.",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 TAUERN SPA Zell am See \u2013 Kaprun. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 95338735. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 10.08.2026 \u05d1\u05e9\u05e2\u05d4 15:00 CEST.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -326,10 +326,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-08-08T09:00:00+03:00",
-        "display": "once at 2026-08-08 09:00"
+        "run_at": "2026-08-07T09:00:00+03:00",
+        "display": "once at 2026-08-07 09:00"
       },
-      "schedule_display": "once at 2026-08-08 09:00",
+      "schedule_display": "once at 2026-08-07 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -339,7 +339,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:53:14.867917+00:00",
-      "next_run_at": "2026-08-08T09:00:00+03:00",
+      "next_run_at": "2026-08-07T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -357,7 +357,7 @@
     {
       "id": "90c81fb53ac4",
       "name": "liat_cancel_reminder_novotel_last",
-      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5180885535. \u05d4\u05d3\u05d3\u05dc\u05d9\u05d9\u05df \u05dc\u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05d4\u05d5\u05d0 14/08/2026 23:59 \u05dc\u05e4\u05d9 \u05e9\u05e2\u05d5\u05df \u05de\u05e7\u05d5\u05de\u05d9 CEST. \u05d0\u05dd \u05e8\u05d5\u05e6\u05d9\u05dd \u05dc\u05d1\u05d8\u05dc/\u05dc\u05e9\u05e0\u05d5\u05ea \u2014 \u05dc\u05d4\u05d9\u05db\u05e0\u05e1 \u05dc-Booking.com.",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5180885535. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 14.08.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -368,10 +368,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-08-12T09:00:00+03:00",
-        "display": "once at 2026-08-12 09:00"
+        "run_at": "2026-08-11T09:00:00+03:00",
+        "display": "once at 2026-08-11 09:00"
       },
-      "schedule_display": "once at 2026-08-12 09:00",
+      "schedule_display": "once at 2026-08-11 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -381,7 +381,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:53:20.973781+00:00",
-      "next_run_at": "2026-08-12T09:00:00+03:00",
+      "next_run_at": "2026-08-11T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -416,15 +416,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 22
+        "completed": 23
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-23T07:11:33.167322+00:00",
-      "last_run_at": "2026-06-23T05:11:33.167322+00:00",
+      "next_run_at": "2026-06-23T09:12:28.427208+00:00",
+      "last_run_at": "2026-06-23T07:12:28.427208+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -482,9 +482,9 @@
       "workdir": null
     },
     {
-      "id": "96c1ab784396",
-      "name": "\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d0\u05e1\u05d5\u05e3 \u05d7\u05d1\u05d9\u05dc\u05d4",
-      "prompt": "\u05e9\u05dc\u05d7 \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05e7\u05e6\u05e8\u05d4 \u05d1\u05e2\u05d1\u05e8\u05d9\u05ea: \"\u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d0\u05e1\u05d5\u05e3 \u05d7\u05d1\u05d9\u05dc\u05d4\"",
+      "id": "37ce2d993fa6",
+      "name": "liat_cancel_reminder_novotel_first",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05e8\u05d0\u05e9\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5993338568. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 29.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -495,10 +495,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-06-23T10:30:00+03:00",
-        "display": "once at 2026-06-23 10:30"
+        "run_at": "2026-07-26T09:00:00+03:00",
+        "display": "once at 2026-07-26 09:00"
       },
-      "schedule_display": "once at 2026-06-23 10:30",
+      "schedule_display": "once at 2026-07-26 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -507,8 +507,8 @@
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-06-23T05:16:35.995657+00:00",
-      "next_run_at": "2026-06-23T10:30:00+03:00",
+      "created_at": "2026-06-23T07:19:43.585784+00:00",
+      "next_run_at": "2026-07-26T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -516,13 +516,265 @@
       "deliver": "origin",
       "origin": {
         "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "bf820ff52700",
+      "name": "liat_cancel_reminder_muehlradl_gosau",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 M\u00fchlradl Apartments Gosau. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 6028562712. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 02.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST. \u05de-03.07 \u05db\u05d1\u05e8 \u05d9\u05e9 \u05d3\u05de\u05d9 \u05d1\u05d9\u05d8\u05d5\u05dc \u05de\u05dc\u05d0\u05d9\u05dd.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-06-29T09:00:00+03:00",
+        "display": "once at 2026-06-29 09:00"
+      },
+      "schedule_display": "once at 2026-06-29 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T07:55:03.576750+00:00",
+      "next_run_at": "2026-06-29T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "b02d38b91201",
+      "name": "liat_cancel_reminder_muehlradl_gosau_1day_before",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 M\u00fchlradl Apartments Gosau. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 6028562712. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 02.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST. \u05de-03.07 \u05db\u05d1\u05e8 \u05d9\u05e9 \u05d3\u05de\u05d9 \u05d1\u05d9\u05d8\u05d5\u05dc \u05de\u05dc\u05d0\u05d9\u05dd.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-07-01T09:00:00+03:00",
+        "display": "once at 2026-07-01 09:00"
+      },
+      "schedule_display": "once at 2026-07-01 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T07:57:22.152317+00:00",
+      "next_run_at": "2026-07-01T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "faa3e67a09db",
+      "name": "liat_cancel_reminder_ferienhaus_astrid_1day_before",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Ferienhaus Astrid \u05d1\u05e4\u05dc\u05db\u05d0\u05d5. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5134615985. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 16.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-07-15T09:00:00+03:00",
+        "display": "once at 2026-07-15 09:00"
+      },
+      "schedule_display": "once at 2026-07-15 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T07:57:23.164933+00:00",
+      "next_run_at": "2026-07-15T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "b6fb991fed88",
+      "name": "liat_cancel_reminder_novotel_first_1day_before",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05e8\u05d0\u05e9\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5993338568. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 29.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-07-28T09:00:00+03:00",
+        "display": "once at 2026-07-28 09:00"
+      },
+      "schedule_display": "once at 2026-07-28 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T07:57:24.177854+00:00",
+      "next_run_at": "2026-07-28T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "08475344b013",
+      "name": "liat_cancel_reminder_tauern_spa_1day_before",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 TAUERN SPA Zell am See \u2013 Kaprun. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 95338735. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 10.08.2026 \u05d1\u05e9\u05e2\u05d4 15:00 CEST.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-09T09:00:00+03:00",
+        "display": "once at 2026-08-09 09:00"
+      },
+      "schedule_display": "once at 2026-08-09 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T07:57:25.187052+00:00",
+      "next_run_at": "2026-08-09T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "e50563facb88",
+      "name": "liat_cancel_reminder_novotel_last_1day_before",
+      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5180885535. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 14.08.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-13T09:00:00+03:00",
+        "display": "once at 2026-08-13 09:00"
+      },
+      "schedule_display": "once at 2026-08-13 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T07:57:26.204317+00:00",
+      "next_run_at": "2026-08-13T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
         "thread_id": null
       },
       "enabled_toolsets": null,
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-23T05:16:35.998633+00:00"
+  "updated_at": "2026-06-23T07:57:26.205515+00:00"
 }

@@ -18,4 +18,4 @@ User prefers to manually run the restart command (/restart or hermes gateway res
 §
 To prevent parsing failures in mixed Hebrew-English sessions, tool call generations must be strictly valid JSON blocks, completely free of surrounding Hebrew explanations or prose.
 §
-בעת טיפול במיילים/מידע שקשור למלונות בחופשת אוסטריה 2026: לחלץ את הפרטים מהמייל, לעדכן את גיליון החופשה והטאב למפה, ליצור תזכורת ביטול חינמי יומיים קודם גם ביומן המשפחתי וגם ישירות לליאת, ולשאול ישירות אם פרט חסר.
+בעת טיפול במיילים/מידע שקשור למלונות בחופשת אוסטריה 2026: לחלץ את הפרטים מהמייל, לעדכן את גיליון החופשה והטאב למפה, ליצור תזכורת ביטול חינמי שלושה ימים לפני מועד סיום הביטול החינמי (לא לפי יום תחילת דמי הביטול) גם ביומן המשפחתי וגם ישירות לליאת, ולשאול ישירות אם פרט חסר.
