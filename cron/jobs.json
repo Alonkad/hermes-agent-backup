@@ -136,51 +136,6 @@
       "workdir": null
     },
     {
-      "id": "2c960d6dff97",
-      "name": "liat_blood_test_evening_fasting",
-      "prompt": "\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05d7\u05e9\u05d5\u05d1\u05d4 \u05d1\u05de\u05d9\u05d5\u05d7\u05d3 \u05dc\u05e7\u05e8\u05d0\u05ea \u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05d4\u05de\u05e2\u05d1\u05d3\u05d4 \u05e9\u05dc\u05da \u05de\u05d7\u05e8 \u05d1\u05d1\u05d5\u05e7\u05e8: \u05e0\u05d0 \u05dc\u05e1\u05d9\u05d9\u05dd \u05dc\u05d0\u05db\u05d5\u05dc \u05d4\u05d9\u05d5\u05dd \u05e2\u05d3 \u05d4\u05e9\u05e2\u05d4 19:50 \u05d1\u05e2\u05e8\u05d1! \u23f1\ufe0f\ud83e\udd57 (\u05e6\u05d5\u05dd \u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05d1\u05d3\u05d9\u05e7\u05d4 \u05e9\u05dc \u05de\u05d7\u05e8 \u05d1-08:10).\n\n\u05e9\u05d9\u05de\u05d9 \u05dc\u05d1 \u05e9\u05d1\u05d9\u05e7\u05e9\u05ea \u05de\u05de\u05e0\u05d9 \u05dc\u05d4\u05d6\u05db\u05d9\u05e8 \u05dc\u05da \u05d0\u05ea \u05d6\u05d4 \u05d1-18:00 \u05d1\u05e2\u05e8\u05d1. \u05d4\u05de\u05e9\u05da \u05e2\u05e8\u05d1 \u05e0\u05e2\u05d9\u05dd!",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-24T18:00:00+03:00",
-        "display": "once at 2026-06-24 18:00"
-      },
-      "schedule_display": "once at 2026-06-24 18:00",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-18T16:34:57.004195+00:00",
-      "next_run_at": "2026-06-24T18:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": [
-        "terminal",
-        "web"
-      ],
-      "workdir": null
-    },
-    {
       "id": "2324011650c5",
       "name": "liat_blood_test_morning_reminder",
       "prompt": "\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05d1\u05d5\u05e7\u05e8 \u05d8\u05d5\u05d1! \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05d7\u05e9\u05d5\u05d1\u05d4: \u05d4\u05d9\u05d5\u05dd \u05d1-08:10 \u05d9\u05e9 \u05dc\u05da \u05ea\u05d5\u05e8 \u05dc\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05de\u05e2\u05d1\u05d3\u05d4 \u05d1\u05e7\u05d5\u05e4\"\u05d7 \u05de\u05d0\u05d5\u05d7\u05d3\u05ea (\u05e9\u05d3' \u05dc\u05e0\u05e6\u05d8 \u05d9\u05e2\u05e7\u05d1 6, \u05d4\u05e8\u05e6\u05dc\u05d9\u05d4). \ud83e\ude7a\ud83d\udc89\n\n\u05e9\u05d9\u05d4\u05d9\u05d4 \u05d4\u05de\u05d5\u05df \u05d1\u05d4\u05e6\u05dc\u05d7\u05d4 \u05d5\u05e9\u05d9\u05e2\u05d1\u05d5\u05e8 \u05d1\u05e7\u05dc\u05d5\u05ea!",
@@ -416,15 +371,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 38
+        "completed": 39
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-24T15:14:45.725677+00:00",
-      "last_run_at": "2026-06-24T13:14:45.725677+00:00",
+      "next_run_at": "2026-06-24T17:14:46.864870+00:00",
+      "last_run_at": "2026-06-24T15:14:46.864870+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -734,5 +689,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-24T13:14:45.726047+00:00"
+  "updated_at": "2026-06-24T15:14:46.865391+00:00"
 }
