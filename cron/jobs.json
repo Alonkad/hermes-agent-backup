@@ -136,51 +136,6 @@
       "workdir": null
     },
     {
-      "id": "2324011650c5",
-      "name": "liat_blood_test_morning_reminder",
-      "prompt": "\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05d1\u05d5\u05e7\u05e8 \u05d8\u05d5\u05d1! \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05d7\u05e9\u05d5\u05d1\u05d4: \u05d4\u05d9\u05d5\u05dd \u05d1-08:10 \u05d9\u05e9 \u05dc\u05da \u05ea\u05d5\u05e8 \u05dc\u05d1\u05d3\u05d9\u05e7\u05d5\u05ea \u05de\u05e2\u05d1\u05d3\u05d4 \u05d1\u05e7\u05d5\u05e4\"\u05d7 \u05de\u05d0\u05d5\u05d7\u05d3\u05ea (\u05e9\u05d3' \u05dc\u05e0\u05e6\u05d8 \u05d9\u05e2\u05e7\u05d1 6, \u05d4\u05e8\u05e6\u05dc\u05d9\u05d4). \ud83e\ude7a\ud83d\udc89\n\n\u05e9\u05d9\u05d4\u05d9\u05d4 \u05d4\u05de\u05d5\u05df \u05d1\u05d4\u05e6\u05dc\u05d7\u05d4 \u05d5\u05e9\u05d9\u05e2\u05d1\u05d5\u05e8 \u05d1\u05e7\u05dc\u05d5\u05ea!",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-25T07:15:00+03:00",
-        "display": "once at 2026-06-25 07:15"
-      },
-      "schedule_display": "once at 2026-06-25 07:15",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-18T16:35:00.065608+00:00",
-      "next_run_at": "2026-06-25T07:15:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": [
-        "terminal",
-        "web"
-      ],
-      "workdir": null
-    },
-    {
       "id": "21e3d70f6c0c",
       "name": "auto_label_austria_emails_job",
       "prompt": "\u05e0\u05d0 \u05dc\u05d4\u05e8\u05d9\u05e5 \u05d0\u05ea \u05e1\u05e7\u05e8\u05d9\u05e4\u05d8 \u05ea\u05d9\u05d5\u05d2 \u05d4\u05d0\u05d9\u05de\u05d9\u05d9\u05dc\u05d9\u05dd \u05e9\u05dc \u05d4\u05d7\u05d5\u05e4\u05e9\u05d4 \u05d1\u05d0\u05d5\u05e1\u05d8\u05e8\u05d9\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d5\u05d5\u05d3\u05d0 \u05e9\u05db\u05dc \u05d4\u05de\u05d9\u05d9\u05dc\u05d9\u05dd \u05d4\u05d7\u05d3\u05e9\u05d9\u05dd \u05de\u05d0\u05dc\u05d5\u05df \u05d5\u05de\u05dc\u05d9\u05d0\u05ea \u05de\u05ea\u05d5\u05d9\u05d9\u05d2\u05d9\u05dd \u05d0\u05d5\u05d8\u05d5\u05de\u05d8\u05d9\u05ea \u05ea\u05d7\u05ea \u05d4\u05ea\u05d5\u05d5\u05d9\u05ea Austria2026 \u05d1-Gmail.",
@@ -689,5 +644,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-25T03:14:53.775147+00:00"
+  "updated_at": "2026-06-25T04:15:59.403548+00:00"
 }
