@@ -326,15 +326,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 48
+        "completed": 49
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-25T11:14:57.015101+00:00",
-      "last_run_at": "2026-06-25T09:14:57.015101+00:00",
+      "next_run_at": "2026-06-25T13:14:58.043238+00:00",
+      "last_run_at": "2026-06-25T11:14:58.043238+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -642,49 +642,7 @@
       },
       "enabled_toolsets": null,
       "workdir": null
-    },
-    {
-      "id": "fc8c5665214a",
-      "name": "\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05e9\u05dc\u05d5\u05d7 \u05d4\u05d5\u05d3\u05e2\u05d4 \u05dc\u05e2\u05de\u05e8\u05d9",
-      "prompt": "\u05e9\u05dc\u05d7 \u05dc\u05d0\u05dc\u05d5\u05df \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05e7\u05e6\u05e8\u05d4 \u05d1\u05e2\u05d1\u05e8\u05d9\u05ea: \"\u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05e9\u05dc\u05d5\u05d7 \u05d4\u05d5\u05d3\u05e2\u05d4 \u05dc\u05e2\u05de\u05e8\u05d9\"",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-25T14:55:00+03:00",
-        "display": "once at 2026-06-25 14:55"
-      },
-      "schedule_display": "once at 2026-06-25 14:55",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-25T06:48:36.375177+00:00",
-      "next_run_at": "2026-06-25T14:55:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
     }
   ],
-  "updated_at": "2026-06-25T09:14:57.015501+00:00"
+  "updated_at": "2026-06-25T11:56:01.243967+00:00"
 }
