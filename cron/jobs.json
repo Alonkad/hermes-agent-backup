@@ -20,17 +20,17 @@
       "schedule_display": "0 4 * * 6",
       "repeat": {
         "times": null,
-        "completed": 2
+        "completed": 3
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-11T07:19:49.232445+00:00",
-      "next_run_at": "2026-06-27T04:00:00+00:00",
-      "last_run_at": "2026-06-20T04:02:07.223866+00:00",
-      "last_status": "error",
-      "last_error": "Script timed out after 120s: /home/agentuser/.hermes/scripts/hermes_weekly_auto_update.sh",
+      "next_run_at": "2026-07-04T04:00:00+00:00",
+      "last_run_at": "2026-06-27T04:01:30.243271+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "local",
       "origin": {
@@ -43,7 +43,8 @@
         "terminal"
       ],
       "workdir": null,
-      "profile": null
+      "profile": null,
+      "fire_claim": null
     },
     {
       "id": "385ffe2280a9",
@@ -281,15 +282,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 68
+        "completed": 69
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-27T03:18:17.201291+00:00",
-      "last_run_at": "2026-06-27T01:18:17.201291+00:00",
+      "next_run_at": "2026-06-27T05:19:18.120618+00:00",
+      "last_run_at": "2026-06-27T03:19:18.120618+00:00",
       "last_status": "error",
       "last_error": "Script exited with code 1\nstderr:\nTraceback (most recent call last):\n  File \"/home/agentuser/.hermes/scripts/process_austria_hotel_emails.py\", line 174, in <module>\n    main()\n  File \"/home/agentuser/.hermes/scripts/process_austria_hotel_emails.py\", line 137, in main\n    gmail=build_service('gmail','v1'); sheets=build_service('sheets','v4'); calendar=build_service('calendar','v3')\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/agentuser/.hermes/skills/productivity/google-workspace/scripts/google_api.py\", line 206, in build_service\n    return build(api, version, credentials=get_credentials())\n                                           ^^^^^^^^^^^^^^^^^\n  File \"/home/agentuser/.hermes/skills/productivity/google-workspace/scripts/google_api.py\", line 190, in get_credentials\n    creds.refresh(Request())\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/oauth2/credentials.py\", line 412, in refresh\n    ) = reauth.refresh_grant(\n        ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/oauth2/reauth.py\", line 370, in refresh_grant\n    _client._handle_error_response(response_data, retryable_error)\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/oauth2/_client.py\", line 69, in _handle_error_response\n    raise exceptions.RefreshError(\ngoogle.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
       "last_delivery_error": null,
@@ -687,5 +688,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-27T01:18:17.201660+00:00"
+  "updated_at": "2026-06-27T04:01:30.245810+00:00"
 }
