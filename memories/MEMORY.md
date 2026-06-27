@@ -10,8 +10,6 @@ Google family calendar: family08415384193829322896@group.calendar.google.com. Ac
 §
 The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
 §
-Interactive English practice sheet for Eitan is located at ~/.hermes/hermes-agent/hermes_cli/web_dist/assets/practice.html and live on https://62.238.18.137/assets/practice.html. Update this file on the VPS whenever Alon shares Niki's weekly English summaries.
-§
 User prefers to manually run the restart command (/restart or hermes gateway restart) if a change requires restarting the gateway, rather than the agent using raw kill commands.
 §
 מזהי הכלים המרכזיים לתכנון חופשת אוסטריה 2026: Spreadsheet ID: 1xjW_s4pjyXCEmsB02btq0_zCwI2odI8VazaOkrwiuBc, Google My Maps ID: 1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks. אלו מוגדרים ב-fact_store בהרחבה.
@@ -19,3 +17,7 @@ User prefers to manually run the restart command (/restart or hermes gateway res
 To prevent parsing failures in mixed Hebrew-English sessions, tool call generations must be strictly valid JSON blocks, completely free of surrounding Hebrew explanations or prose.
 §
 בעת טיפול במיילים/מידע שקשור למלונות בחופשת אוסטריה 2026: לחלץ את הפרטים מהמייל, לעדכן את גיליון החופשה והטאב למפה, ליצור תזכורת ביטול חינמי שלושה ימים לפני מועד סיום הביטול החינמי (לא לפי יום תחילת דמי הביטול) גם ביומן המשפחתי וגם ישירות לליאת, ולשאול ישירות אם פרט חסר.
+§
+Wasserwelt Amadé in Wagrain - Swimming fun & wellness https://www.wagrain-kleinarl.at/en/explore/wasserwelt-wagrain.html
+§
+The user wants to add 'Wasserwelt Amadé' to the 'Attractions' tab of the 'Austria 2026 vacation' sheet. The provided URL is https://share.google/dQoQyI1Gbh0eI21tJ. The location is Wagrain. The description is 'Swimming fun & wellness'.
