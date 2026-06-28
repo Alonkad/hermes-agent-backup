@@ -18,6 +18,4 @@ To prevent parsing failures in mixed Hebrew-English sessions, tool call generati
 §
 בעת טיפול במיילים/מידע שקשור למלונות בחופשת אוסטריה 2026: לחלץ את הפרטים מהמייל, לעדכן את גיליון החופשה והטאב למפה, ליצור תזכורת ביטול חינמי שלושה ימים לפני מועד סיום הביטול החינמי (לא לפי יום תחילת דמי הביטול) גם ביומן המשפחתי וגם ישירות לליאת, ולשאול ישירות אם פרט חסר.
 §
-Wasserwelt Amadé in Wagrain - Swimming fun & wellness https://www.wagrain-kleinarl.at/en/explore/wasserwelt-wagrain.html
-§
-The user wants to add 'Wasserwelt Amadé' to the 'Attractions' tab of the 'Austria 2026 vacation' sheet. The provided URL is https://share.google/dQoQyI1Gbh0eI21tJ. The location is Wagrain. The description is 'Swimming fun & wellness'.
+WhatsApp photo imports from Liat: save only to Google Drive (no local backup). Filename should use embedded photo date metadata when available; if WhatsApp stripped metadata, fall back to message/transfer time.
