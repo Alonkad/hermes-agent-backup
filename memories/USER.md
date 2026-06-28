@@ -11,3 +11,5 @@ User prefers not to be reminded about the Git hourly backup after making durable
 כאשר מדובר על זמנים במשפחת כדורי, יש לציין את השעה לפי שעון ישראל בלי צורך לציין את הזמן ב-UTC, אלא אם כן נאמר אחרת במפורש. הבהרה זו מיועדת לשימוש בעת הגדרת תזכורות והשיחה עם המשתמש.
 §
 User prefers Hebrew replies in Telegram/WhatsApp to be RTL-friendly/right-aligned: use RLM when helpful, prefer bullet lists/sections over Markdown tables for Hebrew-heavy content, and avoid layouts that depend on left-to-right alignment.
+§
+Liat uses Hermes for school/parent WhatsApp logistics and expects forwarded messages to be turned into actionable reminders in Israel time.
