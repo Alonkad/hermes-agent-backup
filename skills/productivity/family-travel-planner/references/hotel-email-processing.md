@@ -1,6 +1,6 @@
 # Hotel Email Processing Notes — Austria 2026
 
-Use this reference when processing hotel/accommodation emails for the Kaduri family vacation.
+Use this reference when processing hotel/accommodation emails for the Kaduri family vacation, including both adding new bookings and handling cancellations.
 
 ## Core user expectation
 - When Liat/Alon sends or forwards an email related to hotels/accommodation, extract the details from Gmail rather than asking for manual entry.
@@ -17,6 +17,24 @@ Use this reference when processing hotel/accommodation emails for the Kaduri fam
    - Family Calendar event on `family08415384193829322896@group.calendar.google.com`.
    - Direct WhatsApp reminder to Liat via `cronjob` delivered to `origin`.
    - Default timing: three days before the end of the free-cancellation window, 09:00 Israel time. Use the free-cancellation-until date/time as the source of truth; if cancellation fees start the next day, use the previous day at 23:59 as the free-cancellation deadline.
+
+## Cancellation cleanup workflow (when user says "ביטלתי את ההזמנה")
+When a family member (especially Liat) says they cancelled a reservation:
+
+1. **Confirm which property** — ask which property/booking code was cancelled if not specified.
+2. **Remove cron reminders** — search active cron jobs for the property name or booking code (cronjob action='list', grep by name). Remove ALL matching jobs.
+3. **Search every tab** — search ALL 8 tabs in the spreadsheet:
+   - `🏨 לינה` — clear the lodging row
+   - `📍 נקודות למפה` — clear the map point row
+   - `💰 תקציב והוצאות` — clear the expense row
+   - `📅 לו"ז יומי` — if dates overlap with schedule rows, clear the לינה column
+   - Check `✈️ טיסות`, `🚗 השכרת רכב`, `🎭 אטרקציות`, `📋 משימות פתוחות` too (usually clean but verify)
+4. **Clear rows** — use the Sheets API to update cells to empty strings (`[''] * column_count`) for the affected rows.
+5. **Check family calendar** — search `family08415384193829322896@group.calendar.google.com` for events mentioning the property. Delete any found.
+6. **Verify** — read back the cleared ranges to confirm no remnants remain.
+7. **Report** — explicitly tell the user every tab that was cleaned.
+
+**Pitfall:** A cancelled reservation leaves traces in 3+ tabs. Budget rows (💰 תקציב) and map points (📍 נקודות למפה) are independent entries — cleaning only 🏨 לינה is incomplete.
 
 ## Pitfalls learned
 - Do not invent placeholder hotel data, booking codes, prices, or cancellation dates. Search/read Gmail first; if not found, say what is missing.

@@ -168,6 +168,23 @@ Google My Maps has severe limitations for programmatic updates (no write API, an
 When updating `💰 תקציב והוצאות`:
 1. If the amount is input in Euros (`EUR`) or Swiss Francs (`CHF`), calculate the approximate conversion to Israeli New Shekels (`ILS`) using current rates (fetch via web search if necessary) and populate `סכום (בשקלים)` automatically.
 
+### Cancellation/Removal Workflow (Liat's Expectation)
+When a family member (especially Liat) says they cancelled a reservation, do NOT only remove it from one tab. The reservation may leave traces in multiple locations:
+
+1. **Identify the reservation** — confirm which property/booking code was cancelled.
+2. **Remove cron reminders** — list active cron jobs, identify all jobs referencing the property name or booking code, and remove them via `cronjob(action='remove', job_id='...')`.
+3. **Search ALL tabs** — check every tab in the Spreadsheet for mentions of the property name or booking code. Do not stop at `🏨 לינה`. In a real case, Mühlradl Gosau was found in:
+   - `🏨 לינה` (lodging details)
+   - `📍 נקודות למפה` (map locations)
+   - `💰 תקציב והוצאות` (expenses/budget)
+4. **Clear each row found** — clear cells (replace with empty strings in all columns) using the Sheets API. Do not leave blank remnants.
+5. **Check `📅 לו"ז יומי`** — if the cancelled dates overlap with itinerary date rows, clear the `לינה` column for those rows.
+6. **Search for any calendar events** in the family calendar related to the property and delete them.
+7. **Read-back verification** — after clearing, read the affected ranges to confirm no remnants remain.
+8. **Report the full scope** — tell the user every tab that was cleaned, so they know the job was thorough.
+
+**Pitfall:** Do not assume the reservation only lives in `🏨 לינה`. Budget rows (`💰 תקציב`) and map points (`📍 נקודות למפה`) are independent entries that must be cleaned separately.
+
 ### Automated Parsing and Organization of Email Bookings
 To keep the mailbox clean and retrieve booking details efficiently:
 1. **Dedicated Gmail Label (`Austria2026`):** All vacation-related emails (flights, hotels, car rentals, vouchers, etc.) are organized under the Gmail label `Austria2026`.
