@@ -282,15 +282,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 94
+        "completed": 95
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-29T05:26:43.429650+00:00",
-      "last_run_at": "2026-06-29T03:26:43.429650+00:00",
+      "next_run_at": "2026-06-29T07:26:44.442206+00:00",
+      "last_run_at": "2026-06-29T05:26:44.442206+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -730,50 +730,6 @@
       "workdir": null
     },
     {
-      "id": "3d5e1f54aa7b",
-      "name": "\u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d4\u05d3\u05e4\u05d9\u05e1 \u05e4\u05e2\u05e0\u05d5\u05d7 \u05d5\u05d3\u05e4\u05d9\u05dd \u05dc\u05e8\u05d0\u05d9\u05d5\u05df",
-      "prompt": "\u05e9\u05dc\u05d7 \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05e7\u05e6\u05e8\u05d4 \u05d1\u05e2\u05d1\u05e8\u05d9\u05ea \u05dc\u05d0\u05dc\u05d5\u05df: \"\u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d4\u05d3\u05e4\u05d9\u05e1 \u05e4\u05e2\u05e0\u05d5\u05d7 + \u05d3\u05e4\u05d9\u05dd \u05dc\u05e8\u05d0\u05d9\u05d5\u05df.\"",
-      "skills": [
-        "productivityreminder"
-      ],
-      "skill": "productivityreminder",
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-29T08:50:00+03:00",
-        "display": "once at 2026-06-29 08:50"
-      },
-      "schedule_display": "once at 2026-06-29 08:50",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-28T16:55:28.589209+00:00",
-      "next_run_at": "2026-06-29T08:50:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
       "id": "a40a33bf74c5",
       "name": "school_year_end_white_shirt_reminder_20260630_0700",
       "prompt": "\u200f\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d1\u05d5\u05e7\u05e8: \u05d4\u05d9\u05d5\u05dd \u05e1\u05d9\u05d5\u05dd \u05e9\u05e0\u05d4 \u05d5\u05d7\u05dc\u05d5\u05e7\u05ea \u05ea\u05e2\u05d5\u05d3\u05d5\u05ea \ud83c\udf93. \u05dc\u05e9\u05dc\u05d5\u05d7 \u05d0\u05ea \u05d4\u05d9\u05dc\u05d3\u05d9\u05dd \u05d1\u05d7\u05d5\u05dc\u05e6\u05d4 \u05dc\u05d1\u05e0\u05d4. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05d1\u05d9\u05d0 \u05de\u05e9\u05d7\u05e7\u05d9\u05dd \u2014 \u05de\u05e9\u05d7\u05e7\u05d9 \u05e7\u05d5\u05e4\u05e1\u05d4 \u05d0\u05d5 \u05e7\u05dc\u05e4\u05d9\u05dd \u2014 \u05d5\u05d4\u05d9\u05dc\u05d3\u05d9\u05dd \u05d9\u05d7\u05d6\u05d9\u05e8\u05d5 \u05d0\u05d5\u05ea\u05dd \u05d4\u05d1\u05d9\u05ea\u05d4 \u05d1\u05e1\u05d5\u05e3 \u05d4\u05d9\u05d5\u05dd. \u05e1\u05d9\u05d5\u05dd \u05d4\u05dc\u05d9\u05de\u05d5\u05d3\u05d9\u05dd \u05d4\u05d9\u05d5\u05dd \u05d1\u05e9\u05e2\u05d4 12:00.",
@@ -858,5 +814,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-29T04:00:54.474734+00:00"
+  "updated_at": "2026-06-29T05:51:48.151292+00:00"
 }
