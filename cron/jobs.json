@@ -282,15 +282,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 93
+        "completed": 94
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-29T03:26:42.433858+00:00",
-      "last_run_at": "2026-06-29T01:26:42.433858+00:00",
+      "next_run_at": "2026-06-29T05:26:43.429650+00:00",
+      "last_run_at": "2026-06-29T03:26:43.429650+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -688,90 +688,6 @@
       "workdir": null
     },
     {
-      "id": "19ecbf1c51d1",
-      "name": "school_wet_activity_and_tamar_foam_reminder_20260629_0700",
-      "prompt": "\u200f\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d1\u05d5\u05e7\u05e8: \u05dc\u05d9\u05dc\u05d3\u05d9\u05dd \u05d9\u05e9 \u05d4\u05d9\u05d5\u05dd \u05e4\u05e2\u05d9\u05dc\u05d5\u05ea \u05e7\u05d9\u05d9\u05e6\u05d9\u05ea \u05d5\u05e8\u05d8\u05d5\u05d1\u05d4 \ud83d\udca6. \u05dc\u05e9\u05dc\u05d5\u05d7 \u05d1\u05d2\u05d3\u05d9 \u05d4\u05d7\u05dc\u05e4\u05d4, \u05db\u05e4\u05db\u05e4\u05d9\u05dd \u05d1\u05ea\u05d9\u05e7 \u05d5\u05de\u05d2\u05d1\u05ea. \u05d1\u05e0\u05d5\u05e1\u05e3 \u05dc\u05d4\u05d2\u05d9\u05e2 \u05e2\u05dd \u05d9\u05dc\u05e7\u05d5\u05d8 \u05d5\u05e9\u05e7\u05d9\u05ea \u05d1\u05d3 \u05db\u05d3\u05d9 \u05e9\u05d9\u05d5\u05db\u05dc\u05d5 \u05dc\u05d0\u05e1\u05d5\u05e3 \u05d0\u05ea \u05d4\u05e6\u05d9\u05d5\u05d3 \u05de\u05d4\u05ea\u05d0 \u05d4\u05d0\u05d9\u05e9\u05d9. \u05dc\u05ea\u05de\u05e8 \u05d9\u05e9 \u05d2\u05dd \u05e4\u05e2\u05d9\u05dc\u05d5\u05ea \u05e7\u05e6\u05e3 \u2014 \u05dc\u05d4\u05d2\u05d9\u05e2 \u05e2\u05dd \u05e0\u05e2\u05dc\u05d9\u05d9\u05dd \u05e1\u05d2\u05d5\u05e8\u05d5\u05ea \u05d5\u05dc\u05d4\u05d1\u05d9\u05d0 \u05db\u05e4\u05db\u05e4\u05d9\u05dd \u05dc\u05d4\u05d7\u05dc\u05e4\u05d4 \u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05e4\u05e2\u05d9\u05dc\u05d5\u05ea. \ud83d\ude0a",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-29T07:00:00+03:00",
-        "display": "once at 2026-06-29 07:00"
-      },
-      "schedule_display": "once at 2026-06-29 07:00",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-28T09:14:17.712841+00:00",
-      "next_run_at": "2026-06-29T07:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
-      "id": "8d0cd0e7dd04",
-      "name": "liat_class_cancelled_reminder_20260629_0700",
-      "prompt": "\u200f\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05d4\u05e9\u05d9\u05e2\u05d5\u05e8 \u05d4\u05d9\u05d5\u05dd \u05dc\u05d0 \u05de\u05ea\u05e7\u05d9\u05d9\u05dd \u05d1\u05d2\u05dc\u05dc \u05de\u05d5\u05e4\u05e2 \u05e1\u05d5\u05e3 \u05d4\u05e9\u05e0\u05d4 \u05e9\u05dc \u05d4\u05e1\u05d8\u05d5\u05d3\u05d9\u05d5. \u05d4\u05e9\u05d9\u05e2\u05d5\u05e8 \u05d9\u05d5\u05e9\u05dc\u05dd \u05d1\u05de\u05d5\u05e2\u05d3 \u05d7\u05dc\u05d5\u05e4\u05d9 \u05e9\u05e2\u05dc\u05d9\u05d5 \u05d9\u05e2\u05d3\u05db\u05e0\u05d5 \u05d1\u05d4\u05de\u05e9\u05da.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-29T07:00:00+03:00",
-        "display": "once at 2026-06-29 07:00"
-      },
-      "schedule_display": "once at 2026-06-29 07:00",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-28T16:16:37.085226+00:00",
-      "next_run_at": "2026-06-29T07:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
       "id": "6cb29cb271b8",
       "name": "liat_class_cancelled_reminder_20260629_1400",
       "prompt": "\u200f\u05d4\u05d9\u05d9 \u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05d4\u05e9\u05d9\u05e2\u05d5\u05e8 \u05d4\u05d9\u05d5\u05dd \u05dc\u05d0 \u05de\u05ea\u05e7\u05d9\u05d9\u05dd \u05d1\u05d2\u05dc\u05dc \u05de\u05d5\u05e4\u05e2 \u05e1\u05d5\u05e3 \u05d4\u05e9\u05e0\u05d4 \u05e9\u05dc \u05d4\u05e1\u05d8\u05d5\u05d3\u05d9\u05d5. \u05d4\u05e9\u05d9\u05e2\u05d5\u05e8 \u05d9\u05d5\u05e9\u05dc\u05dd \u05d1\u05de\u05d5\u05e2\u05d3 \u05d7\u05dc\u05d5\u05e4\u05d9 \u05e9\u05e2\u05dc\u05d9\u05d5 \u05d9\u05e2\u05d3\u05db\u05e0\u05d5 \u05d1\u05d4\u05de\u05e9\u05da.",
@@ -942,5 +858,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-29T01:26:42.434478+00:00"
+  "updated_at": "2026-06-29T04:00:54.474734+00:00"
 }
