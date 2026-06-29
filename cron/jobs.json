@@ -282,15 +282,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 95
+        "completed": 96
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-06-29T07:26:44.442206+00:00",
-      "last_run_at": "2026-06-29T05:26:44.442206+00:00",
+      "next_run_at": "2026-06-29T09:26:45.488854+00:00",
+      "last_run_at": "2026-06-29T07:26:45.488854+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -333,48 +333,6 @@
       "paused_reason": null,
       "created_at": "2026-06-23T07:19:43.585784+00:00",
       "next_run_at": "2026-07-26T09:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
-      "id": "b02d38b91201",
-      "name": "liat_cancel_reminder_muehlradl_gosau_1day_before",
-      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 M\u00fchlradl Apartments Gosau. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 6028562712. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 02.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST. \u05de-03.07 \u05db\u05d1\u05e8 \u05d9\u05e9 \u05d3\u05de\u05d9 \u05d1\u05d9\u05d8\u05d5\u05dc \u05de\u05dc\u05d0\u05d9\u05dd.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-07-01T09:00:00+03:00",
-        "display": "once at 2026-07-01 09:00"
-      },
-      "schedule_display": "once at 2026-07-01 09:00",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-23T07:57:22.152317+00:00",
-      "next_run_at": "2026-07-01T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -772,5 +730,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-29T06:00:56.378286+00:00"
+  "updated_at": "2026-06-29T07:51:27.922271+00:00"
 }
