@@ -237,15 +237,15 @@
       "schedule_display": "every 120m",
       "repeat": {
         "times": null,
-        "completed": 158
+        "completed": 159
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-07-04T13:29:12.193796+00:00",
-      "last_run_at": "2026-07-04T11:29:12.193796+00:00",
+      "next_run_at": "2026-07-04T15:29:14.145119+00:00",
+      "last_run_at": "2026-07-04T13:29:14.145119+00:00",
       "last_status": "error",
       "last_error": "Script exited with code 1\nstderr:\nTraceback (most recent call last):\n  File \"/home/agentuser/.hermes/scripts/process_austria_hotel_emails.py\", line 174, in <module>\n    main()\n  File \"/home/agentuser/.hermes/scripts/process_austria_hotel_emails.py\", line 137, in main\n    gmail=build_service('gmail','v1'); sheets=build_service('sheets','v4'); calendar=build_service('calendar','v3')\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/agentuser/.hermes/skills/productivity/google-workspace/scripts/google_api.py\", line 206, in build_service\n    return build(api, version, credentials=get_credentials())\n                                           ^^^^^^^^^^^^^^^^^\n  File \"/home/agentuser/.hermes/skills/productivity/google-workspace/scripts/google_api.py\", line 190, in get_credentials\n    creds.refresh(Request())\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/auth/credentials.py\", line 517, in refresh\n    self._perform_refresh_token(request)\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/oauth2/credentials.py\", line 435, in _perform_refresh_token\n    ) = reauth.refresh_grant(\n        ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/oauth2/reauth.py\", line 370, in refresh_grant\n    _client._handle_error_response(response_data, retryable_error)\n  File \"/home/agentuser/.hermes/hermes-agent/venv/lib/python3.11/site-packages/google/oauth2/_client.py\", line 73, in _handle_error_response\n    raise exceptions.RefreshError(\ngoogle.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
       "last_delivery_error": null,
@@ -606,5 +606,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-07-04T11:29:12.194054+00:00"
+  "updated_at": "2026-07-04T13:29:14.145712+00:00"
 }
