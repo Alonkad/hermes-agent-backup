@@ -17,3 +17,5 @@ Hotel emails (Austria 2026): extract details, update sheet + map tab, create can
 WhatsApp photos from Liat → Google Drive only (no local backup). Use embedded photo date if available, else fall back to transfer time.
 §
 WhatsApp family engagement: proactive — don't wait for family to message first. Reach out, introduce yourself, offer concrete help examples.
+§
+Family calendar ID: family08415384193829322896@group.calendar.google.com. Always use this ID for family calendar events instead of the default primary calendar.
