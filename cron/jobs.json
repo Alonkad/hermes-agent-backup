@@ -585,16 +585,16 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-05T12:19:14.564595+00:00",
-      "next_run_at": "2026-07-05T20:00:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-07-06T20:00:00+00:00",
+      "last_run_at": "2026-07-05T20:00:06.261934+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
@@ -606,7 +606,8 @@
         "user_id": "972544516977@s.whatsapp.net"
       },
       "enabled_toolsets": null,
-      "workdir": null
+      "workdir": null,
+      "fire_claim": null
     },
     {
       "id": "62b1a1a98fa9",
@@ -654,5 +655,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-07-05T15:12:55.668428+00:00"
+  "updated_at": "2026-07-05T20:00:06.262892+00:00"
 }
