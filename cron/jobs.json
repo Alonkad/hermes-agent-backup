@@ -218,49 +218,6 @@
       "workdir": null
     },
     {
-      "id": "10dac9947dd5",
-      "name": "austria_hotel_email_processor_watchdog",
-      "prompt": "",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": "process_austria_hotel_emails.py",
-      "no_agent": true,
-      "context_from": null,
-      "schedule": {
-        "kind": "interval",
-        "minutes": 120,
-        "display": "every 120m"
-      },
-      "schedule_display": "every 120m",
-      "repeat": {
-        "times": null,
-        "completed": 166
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-21T08:55:44.811382+00:00",
-      "next_run_at": "2026-07-05T05:29:49.230769+00:00",
-      "last_run_at": "2026-07-05T03:29:49.230769+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "fire_claim": null
-    },
-    {
       "id": "37ce2d993fa6",
       "name": "liat_cancel_reminder_novotel_first",
       "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05e8\u05d0\u05e9\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5993338568. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 29.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
@@ -316,10 +273,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-07-15T09:00:00+03:00",
-        "display": "once at 2026-07-15 09:00"
+        "run_at": "2026-07-12T09:00:00+03:00",
+        "display": "once at 2026-07-12 09:00"
       },
-      "schedule_display": "once at 2026-07-15 09:00",
+      "schedule_display": "once at 2026-07-12 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -329,7 +286,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-23T07:57:23.164933+00:00",
-      "next_run_at": "2026-07-15T09:00:00+03:00",
+      "next_run_at": "2026-07-12T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -358,10 +315,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-07-28T09:00:00+03:00",
-        "display": "once at 2026-07-28 09:00"
+        "run_at": "2026-07-25T09:00:00+03:00",
+        "display": "once at 2026-07-25 09:00"
       },
-      "schedule_display": "once at 2026-07-28 09:00",
+      "schedule_display": "once at 2026-07-25 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -371,7 +328,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-23T07:57:24.177854+00:00",
-      "next_run_at": "2026-07-28T09:00:00+03:00",
+      "next_run_at": "2026-07-25T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -400,10 +357,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-08-09T09:00:00+03:00",
-        "display": "once at 2026-08-09 09:00"
+        "run_at": "2026-08-06T09:00:00+03:00",
+        "display": "once at 2026-08-06 09:00"
       },
-      "schedule_display": "once at 2026-08-09 09:00",
+      "schedule_display": "once at 2026-08-06 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -413,7 +370,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-23T07:57:25.187052+00:00",
-      "next_run_at": "2026-08-09T09:00:00+03:00",
+      "next_run_at": "2026-08-06T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -442,10 +399,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-08-13T09:00:00+03:00",
-        "display": "once at 2026-08-13 09:00"
+        "run_at": "2026-08-10T09:00:00+03:00",
+        "display": "once at 2026-08-10 09:00"
       },
-      "schedule_display": "once at 2026-08-13 09:00",
+      "schedule_display": "once at 2026-08-10 09:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -455,7 +412,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-23T07:57:26.204317+00:00",
-      "next_run_at": "2026-08-13T09:00:00+03:00",
+      "next_run_at": "2026-08-10T09:00:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -576,10 +533,10 @@
       "context_from": null,
       "schedule": {
         "kind": "cron",
-        "expr": "0 15 * * 6",
-        "display": "0 15 * * 6"
+        "expr": "0 18 * * 6",
+        "display": "0 18 * * 6"
       },
-      "schedule_display": "0 15 * * 6",
+      "schedule_display": "0 18 * * 6",
       "repeat": {
         "times": null,
         "completed": 1
@@ -589,7 +546,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-01T18:01:40.089996+00:00",
-      "next_run_at": "2026-07-11T15:00:00+00:00",
+      "next_run_at": "2026-07-11T18:00:00+00:00",
       "last_run_at": "2026-07-04T15:00:21.963045+00:00",
       "last_status": "ok",
       "last_error": null,
@@ -607,5 +564,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-07-05T03:29:49.231117+00:00"
+  "updated_at": "2026-07-05T04:26:52.710844+00:00"
 }
