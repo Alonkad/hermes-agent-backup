@@ -13,3 +13,5 @@ User prefers not to be reminded about the Git hourly backup after making durable
 User prefers Hebrew replies in Telegram/WhatsApp to be RTL-friendly/right-aligned: use RLM when helpful, prefer bullet lists/sections over Markdown tables for Hebrew-heavy content, and avoid layouts that depend on left-to-right alignment.
 §
 Liat uses Hermes for school/parent WhatsApp logistics and expects forwarded messages to be turned into actionable reminders in Israel time.
+§
+User is highly sensitive to AI responses being delivered in raw JSON format in WhatsApp/Telegram and expects clean, formatted text.

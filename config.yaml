@@ -18,6 +18,7 @@ agent:
   environment_probe: true
   environment_hint: ''
   coding_context: auto
+  verify_on_stop: false
   gateway_timeout_warning: 900
   clarify_timeout: 600
   gateway_notify_interval: 180
@@ -63,7 +64,6 @@ agent:
       >w<
   reasoning_effort: medium
   verbose: false
-  verify_on_stop: false
 terminal:
   backend: local
   modal_mode: auto
