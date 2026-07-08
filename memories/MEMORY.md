@@ -6,7 +6,7 @@ VPS is intended as a long-running agent host.
 §
 הדרך הנכונה לעבוד עם תזכורות ב-Hermes היא להשתמש במנגנון המובנה cronjob עם Gateway ל-WhatsApp, ללא צורך בסקריפטים חיצוניים.
 §
-Family calendar: family08415...@group.calendar.google.com. Use Google Workspace skill + direct API under Asia/Jerusalem timezone.
+כל פעולה הקשורה לזמנים (תזכורות, יומן) חייבת להיות מותאמת לשעון ישראל (Asia/Jerusalem), כולל המרה מ-UTC במידת הצורך.
 §
 The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
 §
