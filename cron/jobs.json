@@ -625,10 +625,10 @@
       "context_from": null,
       "schedule": {
         "kind": "once",
-        "run_at": "2026-07-07T14:00:00+00:00",
-        "display": "once at 2026-07-07 14:00"
+        "run_at": "2026-07-07T21:00:00+03:00",
+        "display": "once at 2026-07-07 21:00"
       },
-      "schedule_display": "once at 2026-07-07 14:00",
+      "schedule_display": "once at 2026-07-07 21:00",
       "repeat": {
         "times": 1,
         "completed": 0
@@ -655,5 +655,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-07-09T08:30:17.520344+00:00"
+  "updated_at": "2026-07-09T15:39:33.874759+00:00"
 }
