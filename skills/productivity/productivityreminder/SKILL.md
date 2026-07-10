@@ -31,7 +31,9 @@ Hermes Agent uses an integrated cron subsystem capable of handling both one-shot
 
 - Misusing commands like `hermes send_message` instead of `hermes send` will cause failures.
 - Running reminders outside of Hermes Gateway context leads to delivery failures.
-- **Specifying timezone in cron schedules:** When calling `cron` (especially with the `create` action), always parse or specify the date/time using an explicit RFC 3339/ISO 8601 offset (e.g. `2026-06-05T09:05:00+03:00`). This ensures the cron engine maps the scheduled run precisely to local family time, avoiding offset drift or UTC-conversion errors.
+- **Specifying timezone in cron schedules is mandatory, not optional.** The server runs on UTC. Without an explicit offset, `2026-07-07T14:00:00` is interpreted as UTC (17:00 Israel), not Israel time. Always use the `+03:00` suffix (or `+02:00` in winter) for one-shot ISO timestamps.
+- **Always verify `next_run_at` is non-null after create/update.** If the API returns `"next_run_at": null`, the job will NEVER fire. This happens when the scheduled datetime has already passed relative to the server's clock. Treat `next_run_at: null` as immediate failure.
+- **Do NOT use `schedule` update on a broken one-shot job.** Updating `schedule` on a `once at` job that has `next_run_at: null` silently fails — the job stays dead. The reliable recovery pattern is: `remove` the broken job, then `create` a new one with the correct timestamp and timezone offset.
 - Ensure PATH and environment context are appropriate if using any scripting.
 - **Passive posture trap:** Do not wait for family members to message you first. If WhatsApp is configured with family numbers and a member has never contacted you, proactively reach out, introduce yourself, and offer concrete examples of how you can help. The default is proactive, not reactive.
 
@@ -50,3 +52,4 @@ Hermes Agent uses an integrated cron subsystem capable of handling both one-shot
 ## References
 
 - See `references/whatsapp-cron-integration.md` for detailed guidance and troubleshooting for WhatsApp reminders via Hermes cron.
+- See `references/cron-debugging.md` for diagnostic commands and common failure patterns (null next_run_at, timezone mismatches, dead one-shot jobs).
