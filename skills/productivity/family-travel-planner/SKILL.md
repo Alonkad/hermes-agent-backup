@@ -76,10 +76,11 @@ This skill provides structured workflows, conventions, and API references for or
 ### 6. `💰 תקציב והוצאות` (Expenses & Budget)
 - **Columns:** `קטגוריה` (Category), `פירוט/פריט` (Item), `סכום (במטבע מקומי)` (Foreign Cost), `מטבע` (Currency), `סכום (בשקלים)` (Cost in ILS), `שולם ע"י` (Paid By), `סטטוס תשלום` (Status), `הערות` (Notes).
 
-### 7. `📝 משימות פתוחות` (Open Tasks / Checklist)
-- **Columns:** `משימה` (Task), `סטטוס` (Status - פתוח/בוצע), `אחראי` (Owner), `תאריך יעד` (Due Date), `הערות` (Notes).
-- **Usage:** Tracks preparatory vacation tasks like passport renewals, international driving permits, printing vouchers, purchasing road vignettes, etc.
-- **Durable Preference:** Hermes must proactively identify actionable tasks, required bookings, check-in actions, or missing documents when analyzing incoming travel bookings and record them here dynamically to maintain a clean checklist.
+### 7. 📝 משימות פתוחות & 🎒 דברים לארוז (Checklists)
+- **`📋 משימות פתוחות`:** עוקב אחרי משימות הכנה לוגיסטיות (דרכונים, ויזות/מדבקות, רישיונות, הזמנות). 
+  - **הנחיה:** כשתזכורת או הזמנה מופיעה, יש להוסיף משימה לכאן או לעדכן סטטוס.
+- **`דברים לארוז`:** טאב לרשימת הציוד האישי והמשפחתי.
+  - **הנחיה:** כשפריט נדרש עולה בשיחה (כמו רישיון נהיגה בינלאומי), יש להוסיפו אוטומטית לטאב זה.
 
 ### 8. `📍 נקודות למפה` (Map Locations)
 - **Columns:** `שם המקום` (Place Name), `כתובת` (Address), `קו רוחב (Latitude)` (Latitude), `קו אורך (Longitude)` (Longitude), `תיאור / מידע נוסף` (Notes/Info), `קטגוריה` (Category).

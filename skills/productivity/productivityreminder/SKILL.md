@@ -23,9 +23,12 @@ Hermes Agent uses an integrated cron subsystem capable of handling both one-shot
 - **WhatsApp Bridge Session Loss:** When the WhatsApp bridge disconnects or loses authentication, it will transition into a logged-out crash loop. Address this promptly using the troubleshooting guide in references.
 - **Explicit Family Context in Multi-User Environments:** In shared family environments (like a family WhatsApp), always draft reminders with explicit context. Clearly state who the reminder is addressed to (e.g., 'היי ליאת') and which family member is the subject of the reminder (e.g., 'מסיבת הסיום של תמר'). Avoid generic pronouns ("you", "your") to prevent identity confusion.
 - **Proactive Context Resolution:** When executing interactive or action-based reminders (e.g., "print documents about X" or "review form Y"), do not just repeat the text of the reminder. Actively scan for the referenced materials in Google Drive, Gmail, local directories, or past conversation threads (via `session_search`) using bilingual keywords and synonyms. If the documents are found, present them; if not, state clearly where you searched and offer exact instructions on how the user can share them with you (e.g. forwarding to the agent's email address).
-- Ensure the Hermes CLI cron commands use `hermes cron create` with accurate parameters.
-- Avoid shell wrappers like `echo` or `sleep` for reminder logic as they do not interface with Hermes Gateway.
-- Always test cron commands interactively before scheduling.
+## Proactive WhatsApp Integration for Family (New!)
+In multi-user family settings, WhatsApp group connectivity can be volatile. To ensure critical notifications (like the 'סיכום שבועי משפחתי') aren't missed:
+- **Redundancy:** Always configure critical cronjob reminders to deliver to both the `origin` (Hermes chat thread) AND explicit individual WhatsApp DM numbers for key family members (e.g., `whatsapp:972523321092`, `whatsapp:972544516977`).
+- **Target Formatting:** When updating cron deliveries, format the targets explicitly: `deliver: "origin,whatsapp:<num1>,whatsapp:<num2>"`. 
+- **Verification:** After updating, always run `list` to verify the `deliver` field contains the expanded list of explicit WhatsApp endpoints.
+
 
 ## Pitfalls
 
