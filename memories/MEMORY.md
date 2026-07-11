@@ -4,8 +4,6 @@ Git hourly backup via systemd tracks config.yaml, SOUL.md, cron/, memories/, ski
 §
 VPS is intended as a long-running agent host.
 §
-הדרך הנכונה לעבוד עם תזכורות ב-Hermes היא להשתמש במנגנון המובנה cronjob עם Gateway ל-WhatsApp, ללא צורך בסקריפטים חיצוניים.
-§
 כל פעולה הקשורה לזמנים (תזכורות, יומן) חייבת להיות מותאמת לשעון ישראל (Asia/Jerusalem), כולל המרה מ-UTC במידת הצורך.
 §
 The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
@@ -24,4 +22,4 @@ Family calendar ID: family08415384193829322896@group.calendar.google.com. Always
 §
 When troubleshooting WhatsApp connectivity or gateway issues, check for missing Node.js dependencies in the bridge directory (e.g., link-preview-js) and monitor for 'AwaitingInitialSync' timeouts in bridge.log, as these often block group chat functionality.
 §
-להוסיף ליומן המשפחתי: סרט מואנה בסינמטק הרצליה, 10.7 ב-14:00 (כרטיסים כבר נקנו).
+משפחת כדורי מתכננת טיול לאוסטריה בקיץ 2026. ליאת מעדיפה לבנות רשימות אריזה ע"י הגהה של טיוטות שלי, עם מעבר מתוכנן לקובץ מנוהל בהמשך. יש תזכורת פעילה ב-14.7.2026 לפניה לד"ר שליט.
