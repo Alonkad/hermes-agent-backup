@@ -6,10 +6,6 @@ VPS is intended as a long-running agent host.
 §
 כל פעולה הקשורה לזמנים (תזכורות, יומן) חייבת להיות מותאמת לשעון ישראל (Asia/Jerusalem), כולל המרה מ-UTC במידת הצורך.
 §
-The user sends voice messages in Hebrew, so the speech-to-text (STT) configuration should be forced/locked to Hebrew to prevent incorrect language auto-detection on short audio recordings.
-§
-User prefers to manually run the restart command (/restart or hermes gateway restart) if a change requires restarting the gateway, rather than the agent using raw kill commands.
-§
 Hotel emails (Austria 2026): extract details, update sheet + map tab, create cancellation reminder 3 days before free-cancellation deadline (not when fees start), also add to family calendar and message Liat directly.
 §
 WhatsApp photos from Liat → Google Drive only (no local backup). Use embedded photo date if available, else fall back to transfer time.
@@ -23,3 +19,5 @@ Family calendar ID: family08415384193829322896@group.calendar.google.com. Always
 When troubleshooting WhatsApp connectivity or gateway issues, check for missing Node.js dependencies in the bridge directory (e.g., link-preview-js) and monitor for 'AwaitingInitialSync' timeouts in bridge.log, as these often block group chat functionality.
 §
 משפחת כדורי מתכננת טיול לאוסטריה בקיץ 2026. ליאת מעדיפה לבנות רשימות אריזה ע"י הגהה של טיוטות שלי, עם מעבר מתוכנן לקובץ מנוהל בהמשך. יש תזכורת פעילה ב-14.7.2026 לפניה לד"ר שליט.
+§
+כל אינטראקציה עם יומן חייבת להתבצע אך ורק מול היומן המשפחתי: family08415384193829322896@group.calendar.google.com. לעולם לא להשתמש ביומן פרטי.
