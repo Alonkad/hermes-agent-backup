@@ -1,7 +1,7 @@
 ---
 name: kaduri-family-calendar
 description: "Management of the Kaduri family shared calendar to ensure events are never posted to the agent's private calendar."
-version: 1.0.0
+version: 1.0.1
 author: Hermes
 ---
 
@@ -19,6 +19,7 @@ author: Hermes
    *   *Create:* `python .../google_api.py calendar create --summary "..." --start "..." --end "..." --calendar "family08415384193829322896@group.calendar.google.com"`
    *   *Delete:* `python .../google_api.py calendar delete --calendar "family08415384193829322896@group.calendar.google.com" EVENT_ID`
 3. **Verification:** Report the `htmlLink` or status output (e.g., `{"status": "deleted"}`) to the user so they can verify the action was performed on the shared calendar.
+4. **Swimming Lesson Convention:** Always register swimming lessons in the format: `שעור שחייה (שם המלווה)`. Note: regardless of the specific chaperone name entered in parentheses, these events are tracked as Tamar's lessons; never duplicate or create separate "Tamar" events.
 
 ## Pitfalls
 - **Default Calendar:** The Google API defaults to the primary account calendar if no ID is provided. This is a failure.
