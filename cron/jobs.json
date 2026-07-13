@@ -501,15 +501,15 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 9
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-05T12:19:14.564595+00:00",
-      "next_run_at": "2026-07-13T20:00:00+00:00",
-      "last_run_at": "2026-07-12T20:00:54.206246+00:00",
+      "next_run_at": "2026-07-14T20:00:00+00:00",
+      "last_run_at": "2026-07-13T20:00:13.958413+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -571,5 +571,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-07-13T14:00:39.439430+00:00"
+  "updated_at": "2026-07-13T20:00:13.959101+00:00"
 }
