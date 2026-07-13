@@ -92,48 +92,6 @@
       "fire_claim": null
     },
     {
-      "id": "2cf169a38b85",
-      "name": "liat_cancel_reminder_ferienhaus_astrid",
-      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Ferienhaus Astrid \u05d1\u05e4\u05dc\u05db\u05d0\u05d5. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5134615985. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 16.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-07-13T09:00:00+03:00",
-        "display": "once at 2026-07-13 09:00"
-      },
-      "schedule_display": "once at 2026-07-13 09:00",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-21T08:53:13.851255+00:00",
-      "next_run_at": "2026-07-13T09:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
       "id": "f63d5c0c334a",
       "name": "liat_cancel_reminder_tauern_spa",
       "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 TAUERN SPA Zell am See \u2013 Kaprun. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 95338735. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 10.08.2026 \u05d1\u05e9\u05e2\u05d4 15:00 CEST.",
@@ -613,5 +571,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-07-13T04:31:11.525706+00:00"
+  "updated_at": "2026-07-13T06:00:06.891219+00:00"
 }
