@@ -18,10 +18,6 @@ Family calendar ID: family08415384193829322896@group.calendar.google.com. Always
 §
 When troubleshooting WhatsApp connectivity or gateway issues, check for missing Node.js dependencies in the bridge directory (e.g., link-preview-js) and monitor for 'AwaitingInitialSync' timeouts in bridge.log, as these often block group chat functionality.
 §
-משפחת כדורי מתכננת טיול לאוסטריה בקיץ 2026. ליאת מעדיפה לבנות רשימות אריזה ע"י הגהה של טיוטות שלי, עם מעבר מתוכנן לקובץ מנוהל בהמשך. יש תזכורת פעילה ב-14.7.2026 לפניה לד"ר שליט.
-§
-כל אינטראקציה עם יומן חייבת להתבצע אך ורק מול היומן המשפחתי: family08415384193829322896@group.calendar.google.com. לעולם לא להשתמש ביומן פרטי.
-§
 אלון מעדיף שתזכורות ושירותים יתבצעו לפי שעון ישראל (IDT/IST), ועבור הקפדה על כך, עליי לאמת תמיד את השעה באמצעות פקודת date בטרמינל לפני קביעת תזמון.
 §
-בנושא שיעורי שחייה, הפורמט "שעור שחייה (שם המלווה)" מתייחס תמיד לשיעורים של תמר.
+Vacation 2026: Liat's family (Eitan 10, Tamar 7) trip to Germany/Austria (July 31 - Aug 16). Bookings: Novotel Munich (x2), Schlader, Unterfischergut, Tauern Spa. Liat manages logistics/reminders via Hermes. Use Family Calendar ID: family08415384193829322896@group.calendar.google.com. Liat prefers iterative packing list building.
