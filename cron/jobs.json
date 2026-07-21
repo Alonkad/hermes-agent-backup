@@ -478,52 +478,7 @@
       "enabled_toolsets": null,
       "workdir": null,
       "fire_claim": null
-    },
-    {
-      "id": "e9904d3f8975",
-      "name": "Reminder: Water Day - Departure",
-      "prompt": "\u05d1\u05d5\u05e7\u05e8 \u05d8\u05d5\u05d1 \u05dc\u05d9\u05d0\u05ea, \u05d9\u05d5\u05dd \u05d4\u05de\u05d9\u05dd \u05d4\u05d9\u05d5\u05dd \u05d1\u05e7\u05d9\u05d9\u05d8\u05e0\u05d4! \u05d1\u05d4\u05e6\u05dc\u05d7\u05d4 \u05dc\u05d9\u05dc\u05d3\u05d9\u05dd.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-07-21T06:45:00+00:00",
-        "display": "once at 2026-07-21 06:45"
-      },
-      "schedule_display": "once at 2026-07-21 06:45",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-07-19T17:49:32.691078+00:00",
-      "next_run_at": "2026-07-21T06:45:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null,
-        "user_id": "134419625070604@lid"
-      },
-      "enabled_toolsets": null,
-      "workdir": null
     }
   ],
-  "updated_at": "2026-07-20T18:30:26.825332+00:00"
+  "updated_at": "2026-07-21T06:45:38.908737+00:00"
 }
