@@ -20,4 +20,4 @@ When troubleshooting WhatsApp connectivity or gateway issues, check for missing 
 §
 אלון מעדיף שתזכורות ושירותים יתבצעו לפי שעון ישראל (IDT/IST), ועבור הקפדה על כך, עליי לאמת תמיד את השעה באמצעות פקודת date בטרמינל לפני קביעת תזמון.
 §
-Vacation 2026: Liat's family (Eitan 10, Tamar 7) trip to Germany/Austria (July 31 - Aug 16). Bookings: Novotel Munich (x2), Schlader, Unterfischergut, Tauern Spa. Liat manages logistics/reminders via Hermes. Use Family Calendar ID: family08415384193829322896@group.calendar.google.com. Liat prefers iterative packing list building.
+Vacation 2026: Liat's family (Eitan 10, Tamar 7) trip to Germany/Austria (July 31 - Aug 16). Bookings: Novotel Munich (x2), Schlader, Unterfischergut, Tauern Spa. Liat manages logistics/reminders via Hermes. Use Family Calendar ID: family08415384193829322896@group.calendar.google.com. Map: 1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks. Liat prefers iterative packing list building. Reminder strategy: 3 days before free-cancellation deadline.
