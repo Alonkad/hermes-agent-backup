@@ -2,8 +2,6 @@ Hermes Agent runs under user 'agentuser'. Active systemd services: hermes-gatewa
 §
 Git hourly backup via systemd tracks config.yaml, SOUL.md, cron/, memories/, skills/ to private repo Alonkad/hermes-agent-backup; ignores env/logs/caches/secrets.
 §
-VPS is intended as a long-running agent host.
-§
 כל פעולה הקשורה לזמנים (תזכורות, יומן) חייבת להיות מותאמת לשעון ישראל (Asia/Jerusalem), כולל המרה מ-UTC במידת הצורך.
 §
 Hotel emails (Austria 2026): extract details, update sheet + map tab, create cancellation reminder 3 days before free-cancellation deadline (not when fees start), also add to family calendar and message Liat directly.
@@ -20,4 +18,4 @@ When troubleshooting WhatsApp connectivity or gateway issues, check for missing 
 §
 אלון מעדיף שתזכורות ושירותים יתבצעו לפי שעון ישראל (IDT/IST), ועבור הקפדה על כך, עליי לאמת תמיד את השעה באמצעות פקודת date בטרמינל לפני קביעת תזמון.
 §
-Vacation 2026: Liat's family (Eitan 10, Tamar 7) trip to Germany/Austria (July 31 - Aug 16). Bookings: Novotel Munich (x2), Schlader, Unterfischergut, Tauern Spa. Liat manages logistics/reminders via Hermes. Use Family Calendar ID: family08415384193829322896@group.calendar.google.com. Map: 1e4ljHcgsR0wQI5kxJvGeN4FFkPaG7ks. Liat prefers iterative packing list building. Reminder strategy: 3 days before free-cancellation deadline.
+Vacation 2026: Germany/Austria, Jul 31–Aug 16; hotels: Novotel Munich x2, Schlader, Unterfischergut, Tauern Spa. Daily-itinerary tab is stale—ignore until updated. Map-points tab was intentionally removed. Packing tab is only for non-obvious items.
