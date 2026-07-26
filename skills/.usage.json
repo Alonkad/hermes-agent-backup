@@ -272,6 +272,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "docx": {
+    "archived_at": null,
+    "created_at": "2026-07-25T23:05:39.634354+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "dogfood": {
     "archived_at": null,
     "created_at": "2026-06-06T21:28:12.054299+00:00",
@@ -870,6 +883,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "pdf": {
+    "archived_at": null,
+    "created_at": "2026-07-25T23:05:39.643660+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "petdex": {
     "archived_at": null,
     "created_at": "2026-06-27T22:27:32.750711+00:00",
@@ -1270,6 +1296,19 @@
     "patch_count": 0,
     "pinned": false,
     "state": "stale",
+    "use_count": 0,
+    "view_count": 0
+  },
+  "xlsx": {
+    "archived_at": null,
+    "created_at": "2026-07-25T23:05:39.654965+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
     "use_count": 0,
     "view_count": 0
   },
