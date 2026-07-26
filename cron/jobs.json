@@ -176,48 +176,6 @@
       "workdir": null
     },
     {
-      "id": "37ce2d993fa6",
-      "name": "liat_cancel_reminder_novotel_first",
-      "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 Novotel M\u00fcnchen Airport \u2013 \u05d4\u05dc\u05d9\u05dc\u05d4 \u05d4\u05e8\u05d0\u05e9\u05d5\u05df. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 5993338568. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 29.07.2026 \u05d1\u05e9\u05e2\u05d4 23:59 CEST.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-07-26T09:00:00+03:00",
-        "display": "once at 2026-07-26 09:00"
-      },
-      "schedule_display": "once at 2026-07-26 09:00",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-23T07:19:43.585784+00:00",
-      "next_run_at": "2026-07-26T09:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
       "id": "08475344b013",
       "name": "liat_cancel_reminder_tauern_spa_1day_before",
       "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05dc\u05d9\u05d5\u05dd \u05e9\u05dc\u05e4\u05e0\u05d9 \u05e1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9: \u05de\u05d7\u05e8 \u05de\u05e1\u05ea\u05d9\u05d9\u05dd \u05d7\u05dc\u05d5\u05df \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 TAUERN SPA Zell am See \u2013 Kaprun. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 95338735. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 10.08.2026 \u05d1\u05e9\u05e2\u05d4 15:00 CEST.",
@@ -395,5 +353,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-07-25T15:01:06.634795+00:00"
+  "updated_at": "2026-07-26T06:01:00.771528+00:00"
 }
