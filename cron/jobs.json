@@ -397,52 +397,7 @@
       },
       "enabled_toolsets": null,
       "workdir": null
-    },
-    {
-      "id": "a7f5df584398",
-      "name": "\u05dc\u05d4\u05d8\u05e2\u05d9\u05df \u05d0\u05ea \u05de\u05d1\u05e8\u05e9\u05d5\u05ea \u05d4\u05e9\u05d9\u05e0\u05d9\u05d9\u05dd \u05e9\u05dc \u05d4\u05d9\u05dc\u05d3\u05d9\u05dd",
-      "prompt": "\u05e9\u05dc\u05d7 \u05dc\u05d0\u05dc\u05d5\u05df \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05e7\u05e6\u05e8\u05d4 \u05d1\u05e2\u05d1\u05e8\u05d9\u05ea: \ud83e\udea5 \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d4\u05d8\u05e2\u05d9\u05df \u05d0\u05ea \u05de\u05d1\u05e8\u05e9\u05d5\u05ea \u05d4\u05e9\u05d9\u05e0\u05d9\u05d9\u05dd \u05e9\u05dc \u05d4\u05d9\u05dc\u05d3\u05d9\u05dd.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-07-29T20:30:00+03:00",
-        "display": "once at 2026-07-29 20:30"
-      },
-      "schedule_display": "once at 2026-07-29 20:30",
-      "repeat": {
-        "times": 1,
-        "completed": 0
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-07-28T20:35:15.177986+00:00",
-      "next_run_at": "2026-07-29T20:30:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null,
-        "user_id": "60000827396293@lid"
-      },
-      "enabled_toolsets": null,
-      "workdir": null
     }
   ],
-  "updated_at": "2026-07-29T04:46:01.813684+00:00"
+  "updated_at": "2026-07-29T17:30:14.136178+00:00"
 }
