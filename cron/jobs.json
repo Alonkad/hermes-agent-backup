@@ -47,51 +47,6 @@
       "fire_claim": null
     },
     {
-      "id": "21e3d70f6c0c",
-      "name": "auto_label_austria_emails_job",
-      "prompt": "\u05e0\u05d0 \u05dc\u05d4\u05e8\u05d9\u05e5 \u05d0\u05ea \u05e1\u05e7\u05e8\u05d9\u05e4\u05d8 \u05ea\u05d9\u05d5\u05d2 \u05d4\u05d0\u05d9\u05de\u05d9\u05d9\u05dc\u05d9\u05dd \u05e9\u05dc \u05d4\u05d7\u05d5\u05e4\u05e9\u05d4 \u05d1\u05d0\u05d5\u05e1\u05d8\u05e8\u05d9\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d5\u05d5\u05d3\u05d0 \u05e9\u05db\u05dc \u05d4\u05de\u05d9\u05d9\u05dc\u05d9\u05dd \u05d4\u05d7\u05d3\u05e9\u05d9\u05dd \u05de\u05d0\u05dc\u05d5\u05df \u05d5\u05de\u05dc\u05d9\u05d0\u05ea \u05de\u05ea\u05d5\u05d9\u05d9\u05d2\u05d9\u05dd \u05d0\u05d5\u05d8\u05d5\u05de\u05d8\u05d9\u05ea \u05ea\u05d7\u05ea \u05d4\u05ea\u05d5\u05d5\u05d9\u05ea Austria2026 \u05d1-Gmail.",
-      "skills": [],
-      "skill": null,
-      "model": "google/gemini-3.5-flash",
-      "provider": "openrouter",
-      "base_url": null,
-      "script": "auto_label_austria_emails.py",
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "interval",
-        "minutes": 10080,
-        "display": "every 10080m"
-      },
-      "schedule_display": "every 10080m",
-      "repeat": {
-        "times": null,
-        "completed": 8
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-06-19T18:54:50.760932+00:00",
-      "next_run_at": "2026-08-01T07:19:56.395779+00:00",
-      "last_run_at": "2026-07-25T07:19:56.395779+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "origin",
-      "origin": {
-        "platform": "telegram",
-        "chat_id": "739997290",
-        "chat_name": "Kaaadd",
-        "thread_id": null
-      },
-      "enabled_toolsets": [
-        "terminal"
-      ],
-      "workdir": null,
-      "fire_claim": null
-    },
-    {
       "id": "f63d5c0c334a",
       "name": "liat_cancel_reminder_tauern_spa",
       "prompt": "\u200f\u05dc\u05d9\u05d0\u05ea, \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d7\u05d9\u05e0\u05de\u05d9 \u05e2\u05d1\u05d5\u05e8 TAUERN SPA Zell am See \u2013 Kaprun. \u05e7\u05d5\u05d3 \u05d4\u05d6\u05de\u05e0\u05d4: 95338735. \u05d1\u05d9\u05d8\u05d5\u05dc \u05d7\u05d9\u05e0\u05dd \u05e2\u05d3: 10.08.2026 \u05d1\u05e9\u05e2\u05d4 15:00 CEST.",
@@ -399,5 +354,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-01T04:06:07.613026+00:00"
+  "updated_at": "2026-08-01T07:25:20.370624+00:00"
 }

@@ -186,11 +186,10 @@ When a family member (especially Liat) says they cancelled a reservation, do NOT
 
 **Pitfall:** Do not assume the reservation only lives in `🏨 לינה`. Budget rows (`💰 תקציב`) and map points (`📍 נקודות למפה`) are independent entries that must be cleaned separately.
 
-### Automated Parsing and Organization of Email Bookings
-To keep the mailbox clean and retrieve booking details efficiently:
-1. **Dedicated Gmail Label (`Austria2026`):** All vacation-related emails (flights, hotels, car rentals, vouchers, etc.) are organized under the Gmail label `Austria2026`.
-2. **Automated Labeling Loop:** A script at `~/.hermes/scripts/auto_label_austria_emails.py` runs regularly via a configured `cronjob` (typically `auto_label_austria_emails_job` running every 12 hours) to auto-detect vacation emails from Alon or Liat and tag them.
-3. **Retrieving & Parsing:**
+### Parsing and Organization of Existing Email Bookings
+The automatic Austria-email labeling workflow has been retired at Alon's request because no more relevant emails are expected. The cron job and `~/.hermes/scripts/auto_label_austria_emails.py` were removed. The existing Gmail label `Austria2026` may still be searched manually when historical booking details are needed.
+
+1. **Retrieving & Parsing:**
    - Instead of checking the full inbox, search directly using the label to fetch incoming booking details:
      ```bash
      python ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py gmail search "label:Austria2026" --max 10
