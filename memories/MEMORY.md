@@ -19,3 +19,5 @@ When troubleshooting WhatsApp connectivity or gateway issues, check for missing 
 אלון מעדיף שתזכורות ושירותים יתבצעו לפי שעון ישראל (IDT/IST), ועבור הקפדה על כך, עליי לאמת תמיד את השעה באמצעות פקודת date בטרמינל לפני קביעת תזמון.
 §
 Vacation 2026: Germany/Austria, Jul 31–Aug 16; hotels: Novotel Munich x2, Schlader, Unterfischergut, Tauern Spa. Daily-itinerary tab is stale—ignore until updated. Map-points tab was intentionally removed. Packing tab is only for non-obvious items.
+§
+חופשת אוסטריה 2026: המשפחה העדיפה לפצל את יום העיר זלצבורג ליום שלם נפרד (בגלל חלון ה-24 שעות של כרטיס זלצבורגרלנד) ולהעדיף אטרקציות טבע ורכבלים בימים שמשים. סכר קפרון וחיות הבר פירלייטן מתוכננים לתקופת הלינה ב-TAUERN SPA בקפרון (12.8 ואילך).
