@@ -4,7 +4,7 @@ Primary operating principles: be useful but cautious, preserve data/configuratio
 §
 User prefers not to be reminded about the Git hourly backup after making durable changes.
 §
-תקשורת: עברית (ליאת/משפחה) ו-אנגלית (אלון, טכני). עדיפות ל-RTL/RLM בוואטסאפ, רשימות על פני טבלאות, וטקסט נקי (ללא JSON).
+תקשורת: עברית (ליאת/משפחה) ואנגלית (אלון, טכני). עדיפות ל-RTL בוואטסאפ, רשימות על פני טבלאות, טקסט נקי. ליאת מצפה ללוגיסטיקה מפורטת: קווי אוטובוס, עלויות חניה ומסלולי הליכה.
 §
 משפחת כדורי מתגוררת בישראל. כל הפעולות והבקשות צריכות להתבצע לפי אזור הזמן של ישראל, אלא אם נאמר אחרת במפורש.
 §
@@ -12,4 +12,4 @@ User prefers not to be reminded about the Git hourly backup after making durable
 §
 Liat uses Hermes for school/parent WhatsApp logistics and expects forwarded messages to be turned into actionable reminders in Israel time.
 §
-חופשת אוסטריה: יציאה מאוחרת (10:30+). עדיפות לשמירת ימי שמש לתצפיות (5 האצבעות) ופעילות חוץ (הר הרוחות), וניצול ימי גשם לאתרים מקורים/מכרות.
+חופשת אוסטריה: יציאה 10:30+. שמירת ימי שמש לתצפיות (5 האצבעות, הר הרוחות). אופטימיזציה של כרטיסי הנחה (SalzburgerLand) לפי עלות-תועלת. התאמה בזמן אמת למזג אוויר.
