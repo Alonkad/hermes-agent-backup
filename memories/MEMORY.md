@@ -16,6 +16,4 @@ Family calendar ID: family08415384193829322896@group.calendar.google.com. Always
 §
 When troubleshooting WhatsApp connectivity or gateway issues, check for missing Node.js dependencies in the bridge directory (e.g., link-preview-js) and monitor for 'AwaitingInitialSync' timeouts in bridge.log, as these often block group chat functionality.
 §
-אלון מעדיף שתזכורות ושירותים יתבצעו לפי שעון ישראל (IDT/IST), ועבור הקפדה על כך, עליי לאמת תמיד את השעה באמצעות פקודת date בטרמינל לפני קביעת תזמון.
-§
-Vacation 2026 (Jul 31–Aug 16): Novotel Munich, Schlader, Unterfischergut (til Aug 12), Tauern Spa (Aug 12-15). SalzburgerLand Card: Choose 24h Salzburg City OR Grossglockner (~€43 toll). Use P+R Salzburg Süd + Bus 3/25 for city logistics (swap gear at car). Haus der Natur + Hellbrunn > €43 toll.
+Vacation 2026 (Jul 31–Aug 16): Novotel Munich, Schlader, Unterfischergut (Flachau, til Aug 12), Tauern Spa (Aug 12-15). Late starts preferred (~10:30). Salzburg: use P+R Süd + Bus 3/25. Hellbrunn + Haus der Natur > Grossglockner toll. Skip Ice Caves if too cold/intense for kids.
