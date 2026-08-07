@@ -4,14 +4,12 @@ Primary operating principles: be useful but cautious, preserve data/configuratio
 §
 User prefers not to be reminded about the Git hourly backup after making durable changes.
 §
-העדפות תקשורת: עברית. אלון: אנגלית לנושאים טכניים.
+תקשורת: עברית (ליאת/משפחה) ו-אנגלית (אלון, טכני). עדיפות ל-RTL/RLM בוואטסאפ, רשימות על פני טבלאות, וטקסט נקי (ללא JSON).
 §
 משפחת כדורי מתגוררת בישראל. כל הפעולות והבקשות צריכות להתבצע לפי אזור הזמן של ישראל, אלא אם נאמר אחרת במפורש.
 §
 כאשר מדובר על זמנים במשפחת כדורי, יש לציין את השעה לפי שעון ישראל בלי צורך לציין את הזמן ב-UTC, אלא אם כן נאמר אחרת במפורש. הבהרה זו מיועדת לשימוש בעת הגדרת תזכורות והשיחה עם המשתמש.
 §
-User prefers Hebrew replies in Telegram/WhatsApp to be RTL-friendly/right-aligned: use RLM when helpful, prefer bullet lists/sections over Markdown tables for Hebrew-heavy content, and avoid layouts that depend on left-to-right alignment.
-§
 Liat uses Hermes for school/parent WhatsApp logistics and expects forwarded messages to be turned into actionable reminders in Israel time.
 §
-User is highly sensitive to AI responses being delivered in raw JSON format in WhatsApp/Telegram and expects clean, formatted text.
+חופשת אוסטריה: יציאה מאוחרת (10:30+). עדיפות לשמירת ימי שמש לתצפיות (5 האצבעות) ופעילות חוץ (הר הרוחות), וניצול ימי גשם לאתרים מקורים/מכרות.

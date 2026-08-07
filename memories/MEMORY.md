@@ -18,4 +18,4 @@ When troubleshooting WhatsApp connectivity or gateway issues, check for missing 
 §
 אלון מעדיף שתזכורות ושירותים יתבצעו לפי שעון ישראל (IDT/IST), ועבור הקפדה על כך, עליי לאמת תמיד את השעה באמצעות פקודת date בטרמינל לפני קביעת תזמון.
 §
-Vacation 2026 (Jul 31–Aug 16): Novotel Munich, Schlader, Unterfischergut (Flachau til Aug 12), Tauern Spa (Kaprun Aug 12-15). Slow mornings (10:30+ departure; e.g. Hallstatt late PM). SalzburgerLand Card: 24h Salzburg City OR Grossglockner. Salzwelten code SLTCard25. Kaprun reservoirs & 5-Fingers not included.
+Vacation 2026 (Jul 31–Aug 16): Novotel Munich, Schlader, Unterfischergut (til Aug 12), Tauern Spa (Aug 12-15). SalzburgerLand Card: Choose 24h Salzburg City OR Grossglockner (~€43 toll). Use P+R Salzburg Süd + Bus 3/25 for city logistics (swap gear at car). Haus der Natur + Hellbrunn > €43 toll.
