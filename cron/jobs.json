@@ -154,18 +154,18 @@
       "schedule_display": "0 15 * * 6",
       "repeat": {
         "times": null,
-        "completed": 5
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-01T18:01:40.089996+00:00",
-      "next_run_at": "2026-08-08T15:00:00+00:00",
-      "last_run_at": "2026-08-01T15:01:25.851043+00:00",
+      "next_run_at": "2026-08-15T15:00:00+00:00",
+      "last_run_at": "2026-08-08T15:01:10.379936+00:00",
       "last_status": "ok",
       "last_error": null,
-      "last_delivery_error": null,
+      "last_delivery_error": "delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)]; delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)]",
       "deliver": "origin,all",
       "origin": {
         "platform": "whatsapp",
@@ -270,5 +270,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-08T04:02:21.951484+00:00"
+  "updated_at": "2026-08-08T15:01:10.381835+00:00"
 }
