@@ -272,6 +272,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "document-to-action-items": {
+    "archived_at": null,
+    "created_at": "2026-08-08T23:10:10.164438+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "docx": {
     "archived_at": null,
     "created_at": "2026-07-25T23:05:39.634354+00:00",
@@ -479,6 +492,19 @@
     "state": "active",
     "use_count": 2,
     "view_count": 2
+  },
+  "grounded-citations": {
+    "archived_at": null,
+    "created_at": "2026-08-08T23:10:10.178051+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
   },
   "heartmula": {
     "archived_at": null,
