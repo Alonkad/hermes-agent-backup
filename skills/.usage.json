@@ -472,13 +472,13 @@
     "created_at": "2026-06-03T19:00:32.487926+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-19T18:55:13.046284+00:00",
-    "last_used_at": "2026-08-08T15:00:38.948132+00:00",
-    "last_viewed_at": "2026-08-08T15:00:38.943232+00:00",
+    "last_used_at": "2026-08-10T06:00:14.755915+00:00",
+    "last_viewed_at": "2026-08-10T06:00:14.746123+00:00",
     "patch_count": 12,
     "pinned": false,
     "state": "active",
-    "use_count": 90,
-    "view_count": 81
+    "use_count": 91,
+    "view_count": 82
   },
   "google-workspace-oauth-refresh": {
     "archived_at": null,
@@ -1044,13 +1044,13 @@
     "created_at": "2026-06-03T17:43:45.279426+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-07-11T13:39:31.668732+00:00",
-    "last_used_at": "2026-07-28T20:37:17.254466+00:00",
-    "last_viewed_at": "2026-07-28T20:37:17.239352+00:00",
+    "last_used_at": "2026-08-10T06:00:14.771041+00:00",
+    "last_viewed_at": "2026-08-10T06:00:14.763805+00:00",
     "patch_count": 17,
     "pinned": false,
     "state": "active",
-    "use_count": 66,
-    "view_count": 64
+    "use_count": 67,
+    "view_count": 65
   },
   "python-debugpy": {
     "archived_at": null,
