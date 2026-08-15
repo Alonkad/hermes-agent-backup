@@ -48,8 +48,8 @@
     },
     {
       "id": "559a7fed278f",
-      "name": "\u05e1\u05d9\u05db\u05d5\u05dd \u05e9\u05d1\u05d5\u05e2\u05d9 \u05de\u05e9\u05e4\u05d7\u05ea\u05d9",
-      "prompt": "\u05d6\u05d4\u05d5 \u05e1\u05d9\u05db\u05d5\u05dd \u05e9\u05d1\u05d5\u05e2\u05d9 \u05d4\u05de\u05e9\u05e4\u05d7\u05ea\u05d9. \u05e1\u05e8\u05d5\u05e7 \u05d0\u05ea \u05d4\u05d9\u05d5\u05de\u05df \u05d4\u05de\u05e9\u05e4\u05d7\u05ea\u05d9 (ID: family08415384193829322896@group.calendar.google.com) \u05dc\u05e9\u05d1\u05d5\u05e2 \u05d4\u05e7\u05e8\u05d5\u05d1, \u05e1\u05db\u05dd \u05d0\u05ea \u05db\u05dc \u05d4\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d4\u05d7\u05e9\u05d5\u05d1\u05d9\u05dd \u05dc\u05db\u05dc \u05d1\u05e0\u05d9 \u05d4\u05de\u05e9\u05e4\u05d7\u05d4 \u05d1\u05e6\u05d5\u05e8\u05d4 \u05d1\u05e8\u05d5\u05e8\u05d4, \u05ea\u05de\u05e6\u05d9\u05ea\u05d9\u05ea \u05d5\u05e0\u05e2\u05d9\u05de\u05d4, \u05d5\u05d4\u05e6\u05d2 \u05d0\u05d5\u05ea\u05dd \u05d1\u05e6\u05d5\u05e8\u05d4 RTL-friendly (\u05e8\u05e9\u05d9\u05de\u05d5\u05ea \u05d1\u05d5\u05dc\u05d8\u05d9\u05dd). \u05e9\u05dc\u05d7 \u05d0\u05ea \u05d4\u05e1\u05d9\u05db\u05d5\u05dd \u05dc\u05e7\u05d1\u05d5\u05e6\u05d4 \u05d4\u05de\u05e9\u05d5\u05ea\u05e4\u05ea \u05e9\u05dc \u05dc\u05d9\u05d0\u05ea \u05d5\u05d0\u05d9\u05ea\u05d9. (\u05e9\u05d9\u05dd \u05dc\u05d1: \u05d0\u05dc \u05ea\u05db\u05dc\u05d5\u05dc \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05de\u05d9\u05d5\u05de\u05e0\u05d9\u05dd \u05e4\u05e8\u05d8\u05d9\u05d9\u05dd).",
+      "name": "סיכום שבועי משפחתי",
+      "prompt": "זהו סיכום שבועי המשפחתי. סרוק את היומן המשפחתי (ID: family08415384193829322896@group.calendar.google.com) לשבוע הקרוב, סכם את כל האירועים החשובים לכל בני המשפחה בצורה ברורה, תמציתית ונעימה, והצג אותם בצורה RTL-friendly (רשימות בולטים). שלח את הסיכום לקבוצה המשותפת של ליאת ואיתי. (שים לב: אל תכלול אירועים מיומנים פרטיים).",
       "skills": [
         "google-workspace"
       ],
@@ -77,7 +77,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-01T18:01:40.089996+00:00",
-      "next_run_at": "2026-08-15T15:00:00+00:00",
+      "next_run_at": "2026-08-22T15:00:00+00:00",
       "last_run_at": "2026-08-08T15:01:10.379936+00:00",
       "last_status": "ok",
       "last_error": null,
@@ -92,12 +92,15 @@
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": null
+      "fire_claim": {
+        "at": "2026-08-15T15:00:45.811378+00:00",
+        "by": "hermes-agent-ubuntu-4gb-hel1-1:203197:0918bb0d28b44832bcc87ffaebb82a68"
+      }
     },
     {
       "id": "50480c0cb798",
       "name": "charge-toothbrushes-reminder",
-      "prompt": "\u05e9\u05dc\u05d7 \u05d4\u05d5\u05d3\u05e2\u05d4 \u05d1\u05d5\u05d5\u05d0\u05d8\u05e1\u05d0\u05e4 \u05dc\u05dc\u05d9\u05d0\u05ea \u05d5\u05d0\u05dc\u05d5\u05df \u05e2\u05dd \u05d4\u05ea\u05d6\u05db\u05d5\u05e8\u05ea: '\u05d4\u05d9\u05d9, \u05d4\u05d2\u05d9\u05e2 \u05d4\u05d6\u05de\u05df \u05dc\u05d4\u05d8\u05e2\u05d9\u05df \u05d0\u05ea \u05de\u05d1\u05e8\u05e9\u05d5\u05ea \u05d4\u05e9\u05d9\u05e0\u05d9\u05d9\u05dd \u05e9\u05dc \u05d4\u05d9\u05dc\u05d3\u05d9\u05dd.'",
+      "prompt": "שלח הודעה בוואטסאפ לליאת ואלון עם התזכורת: 'היי, הגיע הזמן להטעין את מברשות השיניים של הילדים.'",
       "skills": [],
       "skill": null,
       "model": null,
@@ -142,8 +145,8 @@
     },
     {
       "id": "ee92d44bc7a1",
-      "name": "\u05dc\u05e9\u05dc\u05d5\u05d7 \u05d4\u05d5\u05d3\u05e2\u05d4 \u05dc\u05d4\u05d9\u05d9\u05d8\u05e7\u05d6\u05d5\u05df",
-      "prompt": "\u05e9\u05dc\u05d7 \u05dc\u05d0\u05dc\u05d5\u05df \u05ea\u05d6\u05db\u05d5\u05e8\u05ea \u05e7\u05e6\u05e8\u05d4 \u05d1\u05e2\u05d1\u05e8\u05d9\u05ea: \ud83d\udce9 \u05ea\u05d6\u05db\u05d5\u05e8\u05ea: \u05dc\u05e9\u05dc\u05d5\u05d7 \u05d4\u05d5\u05d3\u05e2\u05d4 \u05dc\u05d4\u05d9\u05d9\u05d8\u05e7\u05d6\u05d5\u05df.",
+      "name": "לשלוח הודעה להייטקזון",
+      "prompt": "שלח לאלון תזכורת קצרה בעברית: 📩 תזכורת: לשלוח הודעה להייטקזון.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -186,5 +189,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-15T05:00:59.256558+00:00"
+  "updated_at": "2026-08-15T15:00:45.811849+00:00"
 }
