@@ -70,7 +70,7 @@
       "schedule_display": "0 15 * * 6",
       "repeat": {
         "times": null,
-        "completed": 6
+        "completed": 7
       },
       "enabled": true,
       "state": "scheduled",
@@ -78,10 +78,10 @@
       "paused_reason": null,
       "created_at": "2026-07-01T18:01:40.089996+00:00",
       "next_run_at": "2026-08-22T15:00:00+00:00",
-      "last_run_at": "2026-08-08T15:01:10.379936+00:00",
+      "last_run_at": "2026-08-15T15:01:22.431040+00:00",
       "last_status": "ok",
       "last_error": null,
-      "last_delivery_error": "delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)]; delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)]",
+      "last_delivery_error": "delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)] (target whatsapp:120363408497728861@g.us); delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)] (target whatsapp:60000827396293@lid)",
       "deliver": "origin,all",
       "origin": {
         "platform": "whatsapp",
@@ -92,10 +92,7 @@
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": {
-        "at": "2026-08-15T15:00:45.811378+00:00",
-        "by": "hermes-agent-ubuntu-4gb-hel1-1:203197:0918bb0d28b44832bcc87ffaebb82a68"
-      }
+      "fire_claim": null
     },
     {
       "id": "50480c0cb798",
@@ -189,5 +186,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-15T15:00:45.811849+00:00"
+  "updated_at": "2026-08-15T15:01:22.433447+00:00"
 }

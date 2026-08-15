@@ -473,14 +473,14 @@
     "created_by": null,
     "last_patched_at": "2026-06-19T18:55:13.046284+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-08-15T15:00:46.214750+00:00",
-    "last_viewed_at": "2026-08-10T08:31:22.864511+00:00",
+    "last_used_at": "2026-08-15T15:01:02.958172+00:00",
+    "last_viewed_at": "2026-08-15T15:01:02.942433+00:00",
     "patch_count": 12,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 94,
-    "view_count": 84
+    "use_count": 95,
+    "view_count": 85
   },
   "google-workspace-oauth-refresh": {
     "archived_at": null,

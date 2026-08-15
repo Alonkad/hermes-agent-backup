@@ -1,0 +1,1 @@
+{"ts": "2026-08-15T15:01:17.681Z", "job_id": "559a7fed278f", "fire_id": "c1616a79dc5a47e68cbf884f183d0c39", "prompt_tokens": 127133, "completion_tokens": 540, "total_tokens": 127673, "response_silent": false, "deliver_target": "origin,all", "model": "openrouter/auto", "duration_ms": 24603, "error": null}
