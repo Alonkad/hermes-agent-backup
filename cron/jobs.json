@@ -20,7 +20,7 @@
       "schedule_display": "0 4 * * 6",
       "repeat": {
         "times": null,
-        "completed": 12
+        "completed": 13
       },
       "enabled": true,
       "state": "scheduled",
@@ -28,9 +28,9 @@
       "paused_reason": null,
       "created_at": "2026-06-11T07:19:49.232445+00:00",
       "next_run_at": "2026-08-22T04:00:00+00:00",
-      "last_run_at": "2026-08-08T04:02:21.947790+00:00",
-      "last_status": "ok",
-      "last_error": null,
+      "last_run_at": "2026-08-15T05:00:59.255479+00:00",
+      "last_status": "error",
+      "last_error": "Script timed out after 3600s: /home/agentuser/.hermes/scripts/hermes_weekly_auto_update.sh",
       "last_delivery_error": null,
       "deliver": "local",
       "origin": {
@@ -186,5 +186,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-15T04:00:59.099247+00:00"
+  "updated_at": "2026-08-15T05:00:59.256558+00:00"
 }
