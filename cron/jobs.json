@@ -212,16 +212,16 @@
       "schedule_display": "once at 2026-08-20 07:45",
       "repeat": {
         "times": 1,
-        "completed": 0
+        "completed": 1
       },
-      "enabled": true,
-      "state": "scheduled",
+      "enabled": false,
+      "state": "completed",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-19T22:21:35.480996+00:00",
-      "next_run_at": "2026-08-20T07:45:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": null,
+      "last_run_at": "2026-08-20T04:47:05.249086+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
@@ -233,8 +233,10 @@
         "user_id": "739997290"
       },
       "enabled_toolsets": null,
-      "workdir": null
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-19T22:21:35.513465+00:00"
+  "updated_at": "2026-08-20T04:47:05.249485+00:00"
 }
