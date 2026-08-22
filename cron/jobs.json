@@ -71,7 +71,7 @@
       "schedule_display": "0 15 * * 6",
       "repeat": {
         "times": null,
-        "completed": 7
+        "completed": 8
       },
       "enabled": true,
       "state": "scheduled",
@@ -79,10 +79,10 @@
       "paused_reason": null,
       "created_at": "2026-07-01T18:01:40.089996+00:00",
       "next_run_at": "2026-08-29T15:00:00+00:00",
-      "last_run_at": "2026-08-15T15:01:22.431040+00:00",
+      "last_run_at": "2026-08-22T15:01:36.851918+00:00",
       "last_status": "ok",
       "last_error": null,
-      "last_delivery_error": "delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)] (target whatsapp:120363408497728861@g.us); delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)] (target whatsapp:60000827396293@lid)",
+      "last_delivery_error": null,
       "deliver": "origin,all",
       "origin": {
         "platform": "whatsapp",
@@ -93,10 +93,8 @@
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": {
-        "at": "2026-08-22T15:00:21.649016+00:00",
-        "by": "hermes-agent-ubuntu-4gb-hel1-1:275518:59aacb9aa1ca44388e8366ad8e62c32a"
-      }
+      "fire_claim": null,
+      "failure_streak": 0
     },
     {
       "id": "50480c0cb798",
@@ -294,5 +292,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-22T15:00:21.650101+00:00"
+  "updated_at": "2026-08-22T15:01:36.853019+00:00"
 }
