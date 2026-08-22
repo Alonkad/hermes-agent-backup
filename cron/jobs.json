@@ -263,16 +263,16 @@
       "schedule_display": "once at 2026-08-22 10:30",
       "repeat": {
         "times": 1,
-        "completed": 0
+        "completed": 1
       },
-      "enabled": true,
-      "state": "scheduled",
+      "enabled": false,
+      "state": "completed",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-21T19:51:07.189886+00:00",
-      "next_run_at": "2026-08-22T10:30:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": null,
+      "last_run_at": "2026-08-22T07:31:28.649765+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "failure_streak": 0,
@@ -286,8 +286,10 @@
         "scope_id": null
       },
       "enabled_toolsets": null,
-      "workdir": null
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-22T04:35:41.356728+00:00"
+  "updated_at": "2026-08-22T07:31:28.650379+00:00"
 }
