@@ -548,14 +548,14 @@
     "created_by": null,
     "last_patched_at": "2026-06-19T18:55:13.046284+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-08-22T15:00:21.779022+00:00",
-    "last_viewed_at": "2026-08-22T07:30:34.081889+00:00",
+    "last_used_at": "2026-08-24T15:45:42.170829+00:00",
+    "last_viewed_at": "2026-08-24T15:45:42.163543+00:00",
     "patch_count": 12,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 101,
-    "view_count": 90
+    "use_count": 102,
+    "view_count": 91
   },
   "google-workspace-oauth-refresh": {
     "archived_at": null,
@@ -747,14 +747,14 @@
     "created_by": null,
     "last_patched_at": "2026-07-11T20:20:49.905227+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-08-22T07:30:31.382518+00:00",
-    "last_viewed_at": "2026-08-22T07:30:31.370597+00:00",
+    "last_used_at": "2026-08-24T15:46:10.256935+00:00",
+    "last_viewed_at": "2026-08-24T15:46:10.248120+00:00",
     "patch_count": 2,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 21,
-    "view_count": 21
+    "use_count": 22,
+    "view_count": 22
   },
   "kanban-orchestrator": {
     "archived_at": null,
