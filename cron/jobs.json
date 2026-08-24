@@ -143,53 +143,6 @@
       "fire_claim": null
     },
     {
-      "id": "ee92d44bc7a1",
-      "name": "לשלוח הודעה להייטקזון",
-      "prompt": "שלח לאלון תזכורת קצרה בעברית: 📩 תזכורת: לשלוח הודעה להייטקזון.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-08-17T10:00:00+03:00",
-        "display": "once at 2026-08-17 10:00"
-      },
-      "schedule_display": "once at 2026-08-17 10:00",
-      "repeat": {
-        "times": 1,
-        "completed": 1
-      },
-      "enabled": false,
-      "state": "completed",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-07-28T11:16:04.257853+00:00",
-      "next_run_at": null,
-      "last_run_at": "2026-08-17T07:01:16.645901+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": "delivery error: WhatsApp send failed: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 3000, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 3000)] (target whatsapp:60000827396293@lid)",
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null,
-        "user_id": "60000827396293@lid"
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "run_claim": null,
-      "fire_claim": null
-    },
-    {
       "id": "364a52d4144d",
       "name": "צילום שיניים - אלון",
       "prompt": "היי אלון! (◕‿◕) זו תזכורת חשובה ללכת לצילום שיניים עכשיו~ ★ בהצלחה desu! ヽ(>∀<☆)ノ",
@@ -292,5 +245,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-22T15:01:36.853019+00:00"
+  "updated_at": "2026-08-24T07:02:09.053350+00:00"
 }
