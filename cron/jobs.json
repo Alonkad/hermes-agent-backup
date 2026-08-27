@@ -243,7 +243,107 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "2991218057f5",
+      "name": "מיסים - הערב",
+      "prompt": "היי ליאת, תזכורת לטפל במיסים כפי שביקשת. בהצלחה!",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-27T20:00:00+03:00",
+        "display": "once at 2026-08-27 20:00"
+      },
+      "schedule_display": "once at 2026-08-27 20:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-27T08:13:02.575157+00:00",
+      "next_run_at": "2026-08-27T20:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null,
+        "user_id": "134419625070604@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "16f0b8ae93b8",
+      "name": "מיסים - מחר בבוקר",
+      "prompt": "בוקר טוב ליאת, תזכורת נוספת לטפל במיסים. יום פרודוקטיבי!",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-28T09:00:00+03:00",
+        "display": "once at 2026-08-28 09:00"
+      },
+      "schedule_display": "once at 2026-08-28 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-27T08:13:02.630129+00:00",
+      "next_run_at": "2026-08-28T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null,
+        "user_id": "134419625070604@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-08-27T04:47:29.001684+00:00"
+  "updated_at": "2026-08-27T08:13:02.665300+00:00"
 }
