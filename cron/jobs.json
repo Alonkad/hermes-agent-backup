@@ -143,58 +143,6 @@
       "fire_claim": null
     },
     {
-      "id": "67ab0b411928",
-      "name": "אריזת תיק תרופות לילדים",
-      "prompt": "היי אלון, תזכורת: לארוז תיק תרופות לילדים לחופשה. 🩺💊",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-08-22T10:30:00+03:00",
-        "display": "once at 2026-08-22 10:30"
-      },
-      "schedule_display": "once at 2026-08-22 10:30",
-      "repeat": {
-        "times": 1,
-        "completed": 1
-      },
-      "enabled": false,
-      "state": "completed",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-08-21T19:51:07.189886+00:00",
-      "next_run_at": null,
-      "last_run_at": "2026-08-22T07:31:28.649765+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null,
-        "user_id": "60000827396293@lid",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "run_claim": null,
-      "fire_claim": null
-    },
-    {
       "id": "5f2a96ca2150",
       "name": "היי ליאת, תזכורת למחר ליום הראשון ללימודים של הילד",
       "prompt": "היי ליאת, תזכורת למחר ליום הראשון ללימודים של הילדים!\n\nאל תשכחי להכין לתמר את הדברים הנוספים שהמורה ביקשה:\n- תיקיית דפים\n- קלמר\n- מחברת עברית (10 שורות)\n- מחברת חשבון (פוליו גדולה)\n\nשיהיה להם המון בהצלחה ושנה מוצלחת! ❤️",
@@ -349,5 +297,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-29T04:36:19.688123+00:00"
+  "updated_at": "2026-08-29T07:31:50.589480+00:00"
 }
