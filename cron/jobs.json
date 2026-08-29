@@ -20,15 +20,15 @@
       "schedule_display": "0 4 * * 6",
       "repeat": {
         "times": null,
-        "completed": 14
+        "completed": 15
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-11T07:19:49.232445+00:00",
-      "next_run_at": "2026-08-29T04:00:00+00:00",
-      "last_run_at": "2026-08-22T04:35:41.355570+00:00",
+      "next_run_at": "2026-09-05T04:00:00+00:00",
+      "last_run_at": "2026-08-29T04:36:19.687043+00:00",
       "last_status": "error",
       "last_error": "Gateway shutdown (post-interrupt) killed the job's tool subprocess before the run finished.",
       "last_delivery_error": null,
@@ -45,7 +45,7 @@
       "workdir": null,
       "profile": null,
       "fire_claim": null,
-      "failure_streak": 1
+      "failure_streak": 2
     },
     {
       "id": "559a7fed278f",
@@ -349,5 +349,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-28T06:01:46.599778+00:00"
+  "updated_at": "2026-08-29T04:36:19.688123+00:00"
 }
