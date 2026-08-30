@@ -321,16 +321,16 @@
       "schedule_display": "once at 2026-08-30 10:00",
       "repeat": {
         "times": 1,
-        "completed": 0
+        "completed": 1
       },
-      "enabled": true,
-      "state": "scheduled",
+      "enabled": false,
+      "state": "completed",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-29T16:46:20.820517+00:00",
-      "next_run_at": "2026-08-30T10:00:00+03:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": null,
+      "last_run_at": "2026-08-30T07:01:31.598298+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "failure_streak": 0,
@@ -344,8 +344,53 @@
         "scope_id": null
       },
       "enabled_toolsets": null,
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
+    },
+    {
+      "id": "c2816947d01a",
+      "name": "רישום לסולדנס",
+      "prompt": "היי אלון וליאת, תזכורת להירשם או להתקשר לסולדנס (ליעוז 054-6141013 / טלי 052-3771908) לשיעור הניסיון הערב. לינק להרשמה: https://cmptweb.com/Ts_Fml_Login.aspx?cid=771",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-08-31T09:30:00+03:00",
+        "display": "once at 2026-08-31 09:30"
+      },
+      "schedule_display": "once at 2026-08-31 09:30",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-30T07:01:21.442488+00:00",
+      "next_run_at": "2026-08-31T09:30:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "whatsapp:134419625070604@lid,whatsapp:60000827396293@lid",
+      "origin": null,
+      "enabled_toolsets": null,
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-29T16:46:20.865463+00:00"
+  "updated_at": "2026-08-30T07:01:31.599877+00:00"
 }
