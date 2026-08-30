@@ -415,13 +415,15 @@
     "created_at": "2026-06-19T16:17:02.342151+00:00",
     "created_by": null,
     "last_patched_at": "2026-08-01T07:25:36.805990+00:00",
-    "last_used_at": "2026-08-10T07:38:32.617381+00:00",
-    "last_viewed_at": "2026-08-10T07:38:32.608769+00:00",
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-08-30T20:03:28.541146+00:00",
+    "last_viewed_at": "2026-08-30T20:03:28.524265+00:00",
     "patch_count": 20,
+    "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 43,
-    "view_count": 43
+    "use_count": 44,
+    "view_count": 44
   },
   "findmy": {
     "archived_at": null,
@@ -1169,16 +1171,16 @@
     "archived_at": null,
     "created_at": "2026-06-03T17:43:45.279426+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-07-11T13:39:31.668732+00:00",
+    "last_patched_at": "2026-08-30T20:03:32.646116+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-08-30T07:00:26.054835+00:00",
-    "last_viewed_at": "2026-08-30T07:00:26.036911+00:00",
-    "patch_count": 17,
-    "patch_generation": 0,
+    "last_used_at": "2026-08-30T20:03:28.561604+00:00",
+    "last_viewed_at": "2026-08-30T20:03:28.532668+00:00",
+    "patch_count": 18,
+    "patch_generation": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 77,
-    "view_count": 75
+    "use_count": 78,
+    "view_count": 76
   },
   "python-debugpy": {
     "archived_at": null,
