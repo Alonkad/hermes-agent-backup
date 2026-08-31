@@ -167,7 +167,7 @@
       "schedule_display": "once at 2026-08-31 17:00",
       "repeat": {
         "times": 1,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
@@ -190,7 +190,15 @@
         "scope_id": null
       },
       "enabled_toolsets": null,
-      "workdir": null
+      "workdir": null,
+      "run_claim": {
+        "at": "2026-08-31T14:00:57.872205+00:00",
+        "by": "hermes-agent-ubuntu-4gb-hel1-1:329146"
+      },
+      "fire_claim": {
+        "at": "2026-08-31T14:00:57.916712+00:00",
+        "by": "hermes-agent-ubuntu-4gb-hel1-1:329146:4eb26842700e4f9f9a61c0fb589dbb4b"
+      }
     },
     {
       "id": "2991218057f5",
@@ -541,5 +549,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-31T13:01:14.062424+00:00"
+  "updated_at": "2026-08-31T14:00:57.923816+00:00"
 }
