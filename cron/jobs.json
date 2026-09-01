@@ -647,7 +647,109 @@
       "attach_to_session": true,
       "run_claim": null,
       "fire_claim": null
+    },
+    {
+      "id": "e60b796521ed",
+      "name": "תזכורת תמר - משימת אמת או שקר (17:10)",
+      "prompt": "היי ליאת, תזכורת לבדוק עם תמר את המשימה \"אמת או שקר\" (שלוש סיטואציות מהחופש - שתיים אמיתיות ואחת שקרית). המורה תבדוק את זה מחר בכיתה. 🌷",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-09-01T14:10:00+00:00",
+        "display": "once at 2026-09-01 14:10"
+      },
+      "schedule_display": "once at 2026-09-01 14:10",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-01T08:16:29.909715+00:00",
+      "next_run_at": "2026-09-01T14:10:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null,
+        "user_id": "134419625070604@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "attach_to_session": true
+    },
+    {
+      "id": "b1a60c2c4cdf",
+      "name": "תזכורת תמר - משימת אמת או שקר (18:00)",
+      "prompt": "ליאת, תזכורת נוספת לבדוק אם תמר סיימה את משימת הבית \"אמת או שקר\". חשוב שזה יהיה מוכן למחר! ❤️",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-09-01T15:00:00+00:00",
+        "display": "once at 2026-09-01 15:00"
+      },
+      "schedule_display": "once at 2026-09-01 15:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-01T08:16:29.979398+00:00",
+      "next_run_at": "2026-09-01T15:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null,
+        "user_id": "134419625070604@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-01T06:30:59.328838+00:00"
+  "updated_at": "2026-09-01T08:16:30.020435+00:00"
 }
