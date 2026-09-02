@@ -427,7 +427,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-30T20:03:18.786986+00:00",
-      "next_run_at": "2026-09-02T12:00:00+00:00",
+      "next_run_at": "2026-09-02T20:00:00+00:00",
       "last_run_at": "2026-09-02T04:01:01.104459+00:00",
       "last_status": "ok",
       "last_error": null,
@@ -444,7 +444,10 @@
       },
       "enabled_toolsets": null,
       "workdir": null,
-      "fire_claim": null
+      "fire_claim": {
+        "at": "2026-09-02T12:00:06.903973+00:00",
+        "by": "hermes-agent-ubuntu-4gb-hel1-1:329146:aeb05c95ca894ce380a7ec0fbc9f097b"
+      }
     },
     {
       "id": "b1711994a326",
@@ -755,5 +758,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-09-02T06:31:32.389798+00:00"
+  "updated_at": "2026-09-02T12:00:06.904979+00:00"
 }
