@@ -11,5 +11,3 @@ User prefers not to be reminded about the Git hourly backup after making durable
 כאשר מדובר על זמנים במשפחת כדורי, יש לציין את השעה לפי שעון ישראל בלי צורך לציין את הזמן ב-UTC, אלא אם כן נאמר אחרת במפורש. הבהרה זו מיועדת לשימוש בעת הגדרת תזכורות והשיחה עם המשתמש.
 §
 Liat uses Hermes for school/parent WhatsApp logistics and expects forwarded messages to be turned into actionable reminders in Israel time.
-§
-חופשת אוסטריה: יציאה 10:30+. שמירת ימי שמש לתצפיות (5 האצבעות, הר הרוחות). אופטימיזציה של כרטיסי הנחה (SalzburgerLand) לפי עלות-תועלת. התאמה בזמן אמת למזג אוויר.

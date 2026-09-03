@@ -4,8 +4,6 @@ Git hourly backup via systemd tracks config.yaml, SOUL.md, cron/, memories/, ski
 §
 כל פעולה הקשורה לזמנים (תזכורות, יומן) חייבת להיות מותאמת לשעון ישראל (Asia/Jerusalem), כולל המרה מ-UTC במידת הצורך.
 §
-Hotel emails (Austria 2026): extract details, update sheet + map tab, create cancellation reminder 3 days before free-cancellation deadline (not when fees start), also add to family calendar and message Liat directly.
-§
 WhatsApp photos from Liat → Google Drive only (no local backup). Use embedded photo date if available, else fall back to transfer time.
 §
 WhatsApp family engagement: proactive — don't wait for family to message first. Reach out, introduce yourself, offer concrete help examples.
@@ -15,5 +13,3 @@ Family calendar ID: family08415384193829322896@group.calendar.google.com. Always
 בעבודה עם שירותי Google (Sheets, Docs, Gmail, Calendar), יש לבדוק גם את יכולות ה-CLI וגם את ה-API כדי להבטיח שימוש בפונקציונליות המלאה, שכן ה-CLI עשוי להיות מוגבל.
 §
 When troubleshooting WhatsApp connectivity or gateway issues, check for missing Node.js dependencies in the bridge directory (e.g., link-preview-js) and monitor for 'AwaitingInitialSync' timeouts in bridge.log, as these often block group chat functionality.
-§
-Vacation 2026 (Jul 31–Aug 16): Novotel Munich, Schlader, Unterfischergut (Flachau, til Aug 12), Tauern Spa (Aug 12-15). Late starts preferred (~10:30). Salzburg: use P+R Süd + Bus 3/25. Hellbrunn + Haus der Natur > Grossglockner toll. Skip Ice Caves if too cold/intense for kids.
