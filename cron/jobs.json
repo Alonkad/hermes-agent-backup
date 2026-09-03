@@ -753,7 +753,109 @@
       "attach_to_session": true,
       "run_claim": null,
       "fire_claim": null
+    },
+    {
+      "id": "bf12d12cec4d",
+      "name": "‏תזכורת עבור תמר: הגיע סוף פברואר! הגיע הזמן להתחי",
+      "prompt": "‏תזכורת עבור תמר: הגיע סוף פברואר! הגיע הזמן להתחיל להכין את מצגת יום ההולדת האישית לכיתה.\n\nמצורפת המצגת לדוגמה ששותפה בקבוצה: /home/agentuser/.hermes/cache/documents/doc_4ab8cce64825_______________.pptx\n\nהמצגת כוללת שקפים על:\n- איך נראיתי כשהייתי תינוקת\n- המשפחה שלי\n- מילים מצחיקות שאמרתי\n- מקרה מצחיק שקרה לי\n- התחביבים שלי\n- שיר שאני אוהבת\n- מה אני רוצה להיות כשאהיה גדולה\n\nצריך להכין תמונות וסיפורים ולהתחיל לעבוד על המצגת. בהצלחה! 🎂😊",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2027-02-21T09:00:00+02:00",
+        "display": "once at 2027-02-21 09:00"
+      },
+      "schedule_display": "once at 2027-02-21 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-03T08:06:38.683128+00:00",
+      "next_run_at": "2027-02-21T09:00:00+02:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "origin,whatsapp:60000827396293@lid",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null,
+        "user_id": "134419625070604@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "attach_to_session": true
+    },
+    {
+      "id": "009829eaf6f6",
+      "name": "‏תזכורת לליאת: לממש הטבת חוג חינם (180 ש\"ח החזר בח",
+      "prompt": "‏תזכורת לליאת: לממש הטבת חוג חינם (180 ש\"ח החזר בחודש) עבור הילדים בשכבה ב'.\n\n‏**שלבי המימוש:**\n1. לוודא הרשמה לחוג בבני הרצליה / מרכזים קהילתיים.\n2. להירשם בלינק לקבלת ההטבה: https://www.easyform.co.il/?formId=0020108d-4fa1-f111-ad42-d4f5ef253abe\n\n‏ההחזר האוטומטי מתחיל מהחודש השני לחוג. בהצלחה! 💸👏",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-09-10T09:00:00+03:00",
+        "display": "once at 2026-09-10 09:00"
+      },
+      "schedule_display": "once at 2026-09-10 09:00",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-03T08:59:33.831109+00:00",
+      "next_run_at": "2026-09-10T09:00:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "failure_streak": 0,
+      "deliver": "origin,whatsapp:60000827396293@lid",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "134419625070604@lid",
+        "chat_name": "Liat Soriano-Kaduri",
+        "thread_id": null,
+        "user_id": "134419625070604@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-03T06:30:38.079746+00:00"
+  "updated_at": "2026-09-03T08:59:33.859558+00:00"
 }
