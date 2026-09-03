@@ -195,58 +195,6 @@
       "fire_claim": null
     },
     {
-      "id": "2991218057f5",
-      "name": "מיסים - הערב",
-      "prompt": "היי ליאת, תזכורת לטפל במיסים כפי שביקשת. בהצלחה!",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-08-27T20:00:00+03:00",
-        "display": "once at 2026-08-27 20:00"
-      },
-      "schedule_display": "once at 2026-08-27 20:00",
-      "repeat": {
-        "times": 1,
-        "completed": 1
-      },
-      "enabled": false,
-      "state": "completed",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-08-27T08:13:02.575157+00:00",
-      "next_run_at": null,
-      "last_run_at": "2026-08-27T17:01:57.678862+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null,
-        "user_id": "134419625070604@lid",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "run_claim": null,
-      "fire_claim": null
-    },
-    {
       "id": "16f0b8ae93b8",
       "name": "מיסים - מחר בבוקר",
       "prompt": "בוקר טוב ליאת, תזכורת נוספת לטפל במיסים. יום פרודוקטיבי!",
@@ -857,5 +805,5 @@
       "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-03T12:00:57.760050+00:00"
+  "updated_at": "2026-09-03T17:02:33.249006+00:00"
 }
