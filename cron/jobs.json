@@ -292,108 +292,6 @@
       "fire_claim": null
     },
     {
-      "id": "4683f2852c72",
-      "name": "antibiotics-reminder",
-      "prompt": "היי אלון, תזכורת: הגיע הזמן לקחת את האנטיביוטיקה (תזכורת מחזורית של כל 8 שעות). רפואה שלמה! 💊",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 4,12,20 * * *",
-        "display": "0 4,12,20 * * *"
-      },
-      "schedule_display": "0 4,12,20 * * *",
-      "repeat": {
-        "times": null,
-        "completed": 13
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-08-30T20:03:18.786986+00:00",
-      "next_run_at": "2026-09-04T12:00:00+00:00",
-      "last_run_at": "2026-09-04T04:01:19.333771+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "whatsapp",
-      "origin": {
-        "platform": "telegram",
-        "chat_id": "739997290",
-        "chat_name": "Kaaadd",
-        "thread_id": null,
-        "user_id": "739997290",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "fire_claim": null
-    },
-    {
-      "id": "b1711994a326",
-      "name": "probiotics-reminder",
-      "prompt": "אלון, הגיע הזמן לקחת פרוביוטיקה (ביחד עם ארוחת הבוקר). בתאבון ורפואה שלמה! 🥛💊",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "cron",
-        "expr": "30 6 * * *",
-        "display": "30 6 * * *"
-      },
-      "schedule_display": "30 6 * * *",
-      "repeat": {
-        "times": null,
-        "completed": 5
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-08-30T20:06:22.090326+00:00",
-      "next_run_at": "2026-09-05T06:30:00+00:00",
-      "last_run_at": "2026-09-04T06:31:03.480388+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "whatsapp",
-      "origin": {
-        "platform": "telegram",
-        "chat_id": "739997290",
-        "chat_name": "Kaaadd",
-        "thread_id": null,
-        "user_id": "739997290",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "fire_claim": null
-    },
-    {
       "id": "1d66f8bc5d32",
       "name": "Soldance-Reminder",
       "prompt": "תזכורת לאלון וליאת: להירשם או להתקשר לסולדנס (ליעוז 054-6141013 / טלי 052-3771908) לשיעור הניסיון הערב. לינק: https://cmptweb.com/Ts_Fml_Login.aspx?cid=771",
@@ -753,5 +651,5 @@
       "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-04T06:31:03.482673+00:00"
+  "updated_at": "2026-09-04T08:14:58.478241+00:00"
 }
