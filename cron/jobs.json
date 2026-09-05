@@ -20,7 +20,7 @@
       "schedule_display": "0 4 * * 6",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 16
       },
       "enabled": true,
       "state": "scheduled",
@@ -28,7 +28,7 @@
       "paused_reason": null,
       "created_at": "2026-06-11T07:19:49.232445+00:00",
       "next_run_at": "2026-09-12T04:00:00+00:00",
-      "last_run_at": "2026-08-29T04:36:19.687043+00:00",
+      "last_run_at": "2026-09-05T04:36:05.278282+00:00",
       "last_status": "error",
       "last_error": "Gateway shutdown (post-interrupt) killed the job's tool subprocess before the run finished.",
       "last_delivery_error": null,
@@ -44,11 +44,8 @@
       ],
       "workdir": null,
       "profile": null,
-      "fire_claim": {
-        "at": "2026-09-05T04:01:22.589195+00:00",
-        "by": "hermes-agent-ubuntu-4gb-hel1-1:361893:b8de1a890c2e4838ba0118af719e45b8"
-      },
-      "failure_streak": 2
+      "fire_claim": null,
+      "failure_streak": 3
     },
     {
       "id": "559a7fed278f",
@@ -654,5 +651,5 @@
       "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-05T04:01:22.595967+00:00"
+  "updated_at": "2026-09-05T04:36:05.280649+00:00"
 }
