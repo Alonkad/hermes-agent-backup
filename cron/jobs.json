@@ -201,58 +201,6 @@
       "fire_claim": null
     },
     {
-      "id": "d5e471b5bd00",
-      "name": "הזכרת לי: לשאול את סולדנס איך עושים שיעור ניסיון ב",
-      "prompt": "הזכרת לי: לשאול את סולדנס איך עושים שיעור ניסיון ביום שני. \nהנה הפרטים שמצאתי: \n- טלפונים: ליעוז (054-6141013), טלי (052-3771908).\n- ביום שני יש מסלולי בצ'אטה: מתחילים ב-19:15, מתקדמים ב-21:00.\n- יש מערכת רישום לשיעורי ניסיון: https://cmptweb.com/Ts_Fml_Login.aspx?cid=771",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-08-30T10:00:00+03:00",
-        "display": "once at 2026-08-30 10:00"
-      },
-      "schedule_display": "once at 2026-08-30 10:00",
-      "repeat": {
-        "times": 1,
-        "completed": 1
-      },
-      "enabled": false,
-      "state": "completed",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-08-29T16:46:20.820517+00:00",
-      "next_run_at": null,
-      "last_run_at": "2026-08-30T07:01:31.598298+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null,
-        "user_id": "134419625070604@lid",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "run_claim": null,
-      "fire_claim": null
-    },
-    {
       "id": "c2816947d01a",
       "name": "רישום לסולדנס",
       "prompt": "היי אלון וליאת, תזכורת להירשם או להתקשר לסולדנס (ליעוז 054-6141013 / טלי 052-3771908) לשיעור הניסיון הערב. לינק להרשמה: https://cmptweb.com/Ts_Fml_Login.aspx?cid=771",
@@ -657,5 +605,5 @@
       "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-05T15:00:32.311004+00:00"
+  "updated_at": "2026-09-06T07:01:37.837553+00:00"
 }
