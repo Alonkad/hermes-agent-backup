@@ -149,59 +149,6 @@
       "fire_claim": null
     },
     {
-      "id": "b1a60c2c4cdf",
-      "name": "תזכורת תמר - משימת אמת או שקר (18:00)",
-      "prompt": "ליאת, תזכורת נוספת לבדוק אם תמר סיימה את משימת הבית \"אמת או שקר\". חשוב שזה יהיה מוכן למחר! ❤️",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-09-01T15:00:00+00:00",
-        "display": "once at 2026-09-01 15:00"
-      },
-      "schedule_display": "once at 2026-09-01 15:00",
-      "repeat": {
-        "times": 1,
-        "completed": 1
-      },
-      "enabled": false,
-      "state": "completed",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-09-01T08:16:29.979398+00:00",
-      "next_run_at": null,
-      "last_run_at": "2026-09-01T15:00:42.349589+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "134419625070604@lid",
-        "chat_name": "Liat Soriano-Kaduri",
-        "thread_id": null,
-        "user_id": "134419625070604@lid",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "attach_to_session": true,
-      "run_claim": null,
-      "fire_claim": null
-    },
-    {
       "id": "bf12d12cec4d",
       "name": "‏תזכורת עבור תמר: הגיע סוף פברואר! הגיע הזמן להתחי",
       "prompt": "‏תזכורת עבור תמר: הגיע סוף פברואר! הגיע הזמן להתחיל להכין את מצגת יום ההולדת האישית לכיתה.\n\nמצורפת המצגת לדוגמה ששותפה בקבוצה: /home/agentuser/.hermes/cache/documents/doc_4ab8cce64825_______________.pptx\n\nהמצגת כוללת שקפים על:\n- איך נראיתי כשהייתי תינוקת\n- המשפחה שלי\n- מילים מצחיקות שאמרתי\n- מקרה מצחיק שקרה לי\n- התחביבים שלי\n- שיר שאני אוהבת\n- מה אני רוצה להיות כשאהיה גדולה\n\nצריך להכין תמונות וסיפורים ולהתחיל לעבוד על המצגת. בהצלחה! 🎂😊",
@@ -357,5 +304,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-09-08T14:11:05.948509+00:00"
+  "updated_at": "2026-09-08T15:01:06.964141+00:00"
 }
