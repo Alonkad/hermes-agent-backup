@@ -149,59 +149,6 @@
       "fire_claim": null
     },
     {
-      "id": "6d15f13a2632",
-      "name": "send_regulations_to_lawyer_alon",
-      "prompt": "היי אלון, תזכורת: לשלוח את התקנון לעורך הדין.",
-      "skills": [],
-      "skill": null,
-      "model": null,
-      "provider": null,
-      "provider_snapshot": "openrouter",
-      "model_snapshot": "openrouter/auto",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "monitor_script": null,
-      "monitor_url": null,
-      "monitor_state": null,
-      "context_from": null,
-      "schedule": {
-        "kind": "once",
-        "run_at": "2026-09-01T08:55:00+03:00",
-        "display": "once at 2026-09-01 08:55"
-      },
-      "schedule_display": "once at 2026-09-01 08:55",
-      "repeat": {
-        "times": 1,
-        "completed": 1
-      },
-      "enabled": false,
-      "state": "completed",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-08-31T20:48:14.087567+00:00",
-      "next_run_at": null,
-      "last_run_at": "2026-09-01T05:55:29.285925+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "failure_streak": 0,
-      "deliver": "origin",
-      "origin": {
-        "platform": "whatsapp",
-        "chat_id": "60000827396293@lid",
-        "chat_name": "Alon Kaduri",
-        "thread_id": null,
-        "user_id": "60000827396293@lid",
-        "scope_id": null
-      },
-      "enabled_toolsets": null,
-      "workdir": null,
-      "attach_to_session": true,
-      "run_claim": null,
-      "fire_claim": null
-    },
-    {
       "id": "e60b796521ed",
       "name": "תזכורת תמר - משימת אמת או שקר (17:10)",
       "prompt": "היי ליאת, תזכורת לבדוק עם תמר את המשימה \"אמת או שקר\" (שלוש סיטואציות מהחופש - שתיים אמיתיות ואחת שקרית). המורה תבדוק את זה מחר בכיתה. 🌷",
@@ -410,5 +357,5 @@
       "attach_to_session": true
     }
   ],
-  "updated_at": "2026-09-08T04:33:16.507476+00:00"
+  "updated_at": "2026-09-08T05:56:18.207426+00:00"
 }
