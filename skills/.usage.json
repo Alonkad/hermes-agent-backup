@@ -565,27 +565,29 @@
     "created_by": null,
     "last_patched_at": "2026-06-19T18:55:13.046284+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-09-04T04:00:58.819720+00:00",
-    "last_viewed_at": "2026-09-04T04:00:58.807992+00:00",
+    "last_used_at": "2026-09-11T13:47:19.498434+00:00",
+    "last_viewed_at": "2026-09-11T13:47:19.491447+00:00",
     "patch_count": 12,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 128,
-    "view_count": 116
+    "use_count": 129,
+    "view_count": 117
   },
   "google-workspace-oauth-refresh": {
     "archived_at": null,
     "created_at": "2026-06-27T09:24:28.135150+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-07-11T20:17:21.641797+00:00",
-    "last_viewed_at": "2026-07-11T20:17:21.635194+00:00",
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-09-11T13:47:17.036816+00:00",
+    "last_viewed_at": "2026-09-11T13:47:17.030331+00:00",
     "patch_count": 0,
+    "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 2,
-    "view_count": 2
+    "use_count": 3,
+    "view_count": 3
   },
   "grounded-citations": {
     "archived_at": null,

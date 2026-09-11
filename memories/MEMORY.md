@@ -13,3 +13,7 @@ Family calendar ID: family08415384193829322896@group.calendar.google.com. Always
 בעבודה עם שירותי Google (Sheets, Docs, Gmail, Calendar), יש לבדוק גם את יכולות ה-CLI וגם את ה-API כדי להבטיח שימוש בפונקציונליות המלאה, שכן ה-CLI עשוי להיות מוגבל.
 §
 When troubleshooting WhatsApp connectivity or gateway issues, check for missing Node.js dependencies in the bridge directory (e.g., link-preview-js) and monitor for 'AwaitingInitialSync' timeouts in bridge.log, as these often block group chat functionality.
+§
+When providing QR codes for platform linking (like WhatsApp), always send them as a PNG file attachment (MEDIA:/path/to/qr.png) rather than ASCII/text-based blocks, as text formatting often breaks the scan ability.
+§
+The Kaduri family agent email address is kaduri.agent@gmail.com.
