@@ -389,14 +389,67 @@
       "schedule_display": "once at 2026-09-13 14:40",
       "repeat": {
         "times": 1,
+        "completed": 1
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-13T09:13:05.646848+00:00",
+      "next_run_at": null,
+      "last_run_at": "2026-09-13T11:41:32.188460+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "60000827396293@lid",
+        "chat_name": "Alon Kaduri",
+        "thread_id": null,
+        "user_id": "60000827396293@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "run_claim": null,
+      "fire_claim": null
+    },
+    {
+      "id": "9bdb7e71b573",
+      "name": "תזכורת קופסת אוכל - אלון",
+      "prompt": "שלח הודעת תזכורת לאלון:\n‏בוקר טוב אלון, תזכורת: לא לשכוח לקחת את קופסת האוכל 🍱",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-09-14T07:30:00+03:00",
+        "display": "once at 2026-09-14 07:30"
+      },
+      "schedule_display": "once at 2026-09-14 07:30",
+      "repeat": {
+        "times": 1,
         "completed": 0
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-09-13T09:13:05.646848+00:00",
-      "next_run_at": "2026-09-13T14:40:00+03:00",
+      "created_at": "2026-09-13T11:56:47.839317+00:00",
+      "next_run_at": "2026-09-14T07:30:00+03:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -416,5 +469,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-09-13T09:13:05.696373+00:00"
+  "updated_at": "2026-09-13T11:56:47.872535+00:00"
 }
