@@ -363,7 +363,58 @@
       "workdir": null,
       "run_claim": null,
       "fire_claim": null
+    },
+    {
+      "id": "48eee0dd12d4",
+      "name": "תזכורת כדורים - אלון",
+      "prompt": "שלח הודעת תזכורת לאלון:\n‏היי אלון, תזכורת: הגיע הזמן לקחת כדורים 💊",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "openrouter",
+      "model_snapshot": "openrouter/auto",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-09-13T14:40:00+03:00",
+        "display": "once at 2026-09-13 14:40"
+      },
+      "schedule_display": "once at 2026-09-13 14:40",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-13T09:13:05.646848+00:00",
+      "next_run_at": "2026-09-13T14:40:00+03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "whatsapp",
+        "chat_id": "60000827396293@lid",
+        "chat_name": "Alon Kaduri",
+        "thread_id": null,
+        "user_id": "60000827396293@lid",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-09-12T15:02:20.486604+00:00"
+  "updated_at": "2026-09-13T09:13:05.696373+00:00"
 }
